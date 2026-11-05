@@ -2,7 +2,9 @@
 
 - Repository **privato** `definis95/murettostudio-etsy` su GitHub, creato il 05/11/2026. Contiene tutto il
   progetto, immagini comprese: fa anche da backup di grafiche e originali ChatGPT.
-- Accesso: GitHub CLI `gh` collegato all'account definis95 (`gh auth status`). Protocollo https.
+- Accesso: GitHub CLI `gh` collegato all'account definis95 (`gh auth status`). Protocollo https con i
+  certificati di Windows (`git config http.sslBackend schannel`, gia' impostato nel repository): senza, il push
+  fallisce con "SSL certificate problem" (stesso motivo per cui gli script Python usano `truststore`).
 - Esclusi da `.gitignore`: `.env*` (tranne `.env.example`), file `*_tokens.json`, `.venv/`, `__pycache__/`.
 - Limite GitHub: 100 MB per file. Prima di aggiungere file grandi (es. stampe di carta/sciarpe) controlla le
   dimensioni; sopra i 50 MB GitHub avvisa, sopra i 100 MB rifiuta il push.
