@@ -1,0 +1,61 @@
+{
+  "title": "Dear Santa Define Good Mug, Funny Christmas Coffee Mug, Secret Santa Gift, Naughty List Mug, Coworker Christmas Gift",
+  "description": "Define \"good\"... A cheeky Christmas mug for anyone who's not entirely sure they made the nice list. Hand-lettered \"DEAR SANTA, DEFINE 'GOOD'\" in festive red and green with a little Santa hat and golden sparkles.<br><br>A fun Secret Santa, office exchange or stocking stuffer gift for friends, coworkers and family.<br><br>DETAILS<br>- White glossy ceramic mug<br>- Two sizes: 330 ml (11 oz) or 440 ml (15 oz)<br>- Printed on both sides: the design shows whether you hold the mug in your right or left hand<br>- Dishwasher and microwave safe<br><br>PRODUCTION AND SHIPPING<br>Printed on demand by our production partner in the EU (Czech Republic) and shipped with tracking. Production takes 2-5 business days. This item ships within Europe and the UK.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "dear santa define",
+    "funny christmas mug",
+    "christmas mug",
+    "secret santa gift",
+    "coworker gift",
+    "naughty list mug",
+    "christmas coffee mug",
+    "stocking stuffer",
+    "office gift",
+    "funny mug gift",
+    "holiday mug",
+    "xmas gift for her",
+    "xmas gift for him"
+  ],
+  "blueprint_id": 441,
+  "print_provider_id": 30,
+  "variants": {
+    "11oz": 1790,
+    "15oz": 2190
+  },
+  "variant_images": {
+    "11oz": {
+      "front": "stampa/12_441/design_tazza_2717x1146.png"
+    },
+    "15oz": {
+      "front": "stampa/12_441/design_tazza_2811x1276.png"
+    }
+  },
+  "printify_product_id": "6ae717f72555372ad702e3cb",
+  "etsy": {
+    "sezione": "Mugs",
+    "zona": "europa",
+    "foto": "stampa/foto_etsy/12.jpg",
+    "attributi": {
+      "Holiday": "Christmas",
+      "Graphic": "Humorous saying",
+      "Materials": [
+        "Ceramic"
+      ],
+      "Primary color": "White",
+      "Dishwasher safe": "Yes",
+      "Microwave safe": "Yes",
+      "Handle": "Yes"
+    },
+    "foto_extra": [
+      "stampa/foto_etsy/12_mug_stampa.jpg",
+      "stampa/foto_etsy/12_mug_scheda.jpg"
+    ]
+  },
+  "etsy_listing_id": 4607484350,
+  "etsy_immagini": {
+    "stampa/foto_etsy/12.jpg": 8827662193,
+    "stampa/foto_etsy/12_mug_stampa.jpg": 8827662367,
+    "stampa/foto_etsy/12_mug_scheda.jpg": 8827662515
+  },
+  "etsy_video_id": 851476291
+}

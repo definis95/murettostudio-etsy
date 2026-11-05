@@ -1,0 +1,53 @@
+{
+  "title": "Sun and Moon Cotton Beanie, Celestial Boho Beanie, Minimalist Gold Sun Moon Hat, Celestial Gift for Her",
+  "description": "A golden sun and a crescent moon locked together in one round symbol, with three tiny stars, printed on a soft 100% cotton beanie. A minimal celestial design with a boho touch.<br><br>DETAILS<br>- 100% cotton knit beanie, soft and breathable<br>- Small printed design on the front<br>- One size fits most adults<br>- Colours: Black, Navy, Graphite<br><br>CARE<br>Hand wash cold, inside out, lay flat to dry. Do not iron the print.<br><br>PRODUCTION AND SHIPPING<br>Printed on demand by our production partner in the USA and shipped with tracking. Production takes 2-5 business days. Free shipping within the USA; this item ships to the USA and Canada only.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "cotton beanie",
+    "sun and moon",
+    "celestial beanie",
+    "boho beanie",
+    "moon beanie",
+    "sun beanie",
+    "minimalist beanie",
+    "celestial gift",
+    "winter hat",
+    "gift for her",
+    "mystical beanie",
+    "unisex beanie",
+    "star beanie"
+  ],
+  "blueprint_id": 5254,
+  "print_provider_id": 217,
+  "variants": {
+    "*": 2990
+  },
+  "images": {
+    "front_dtf": "stampa/18d_5254/design_1500x900.png"
+  },
+  "etsy": {
+    "sezione": "Beanies",
+    "zona": "usa",
+    "foto": "stampa/foto_etsy/18d.jpg",
+    "foto_extra": [
+      "stampa/foto_etsy/scheda_beanie_cotone.jpg"
+    ],
+    "attributi": {
+      "Hat type": "Beanie",
+      "Materials": [
+        "Cotton"
+      ],
+      "Recipient": [
+        "Adult"
+      ],
+      "Pattern": "Stars & celestial",
+      "Style": "Minimalist"
+    }
+  },
+  "printify_product_id": "6aea057e76d5aa73820200b2",
+  "etsy_listing_id": 4609200068,
+  "etsy_immagini": {
+    "stampa/foto_etsy/18d.jpg": 8793770544,
+    "stampa/foto_etsy/scheda_beanie_cotone.jpg": 8841689419
+  },
+  "etsy_video_id": 852046577
+}

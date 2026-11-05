@@ -1,0 +1,13 @@
+# segreti: mai nel repository (vedi CHIAVI_API.md)
+.env
+.env.*
+!.env.example
+.etsy_tokens.json
+*_tokens.json
+
+# ambiente Python e cache
+__pycache__/
+.venv/
+
+# impostazioni locali di Claude Code (permessi di questo PC)
+.claude/settings.local.json

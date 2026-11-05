@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="brand.css">
+<style>body{width:1500px;height:500px;background:transparent}</style>
+</head><body>
+<svg id="s" width="1500" height="500" viewBox="0 0 1500 500"></svg>
+<script src="brand_lib.js"></script>
+<script src="sigillo.js"></script>
+<script>
+// Logo orizzontale: sigillo + wordmark (banner, packaging, fatture). Sfondo trasparente.
+window.__ready = false;
+const INK = '#153F62', ACC = '#C8683E';
+const svg = document.getElementById('s');
+const { el, star4 } = BR;
+const SC = 0.66;   // medaglione r=353 -> diametro ~466
+const sealG = el('g', { transform: `translate(${250 - 500 * SC},${250 - 500 * SC}) scale(${SC})` }, svg);
+const sealSvg = el('svg', { width: 1000, height: 1000, viewBox: '0 0 1000 1000', overflow: 'visible' }, sealG);
+buildSeal(sealSvg, { ink: INK, accent: ACC, paper: '#FCFAF6', ring: false });
+
+Promise.all([document.fonts.load("600 80px Cinzel"), document.fonts.load("400 26px Jost")]).then(() => {
+  const X = 548, W = 900;                 // colonna del testo
+  const t1 = el('text', { x: X, y: 236, fill: INK, 'font-family': 'Cinzel', 'font-weight': 600, 'font-size': 80, 'letter-spacing': '0.1em' }, svg);
+  t1.textContent = 'MURETTO STUDIO';
+  // adatta la dimensione per occupare esattamente W (spaziatura finale esclusa)
+  let fs = 80;
+  for (let i = 0; i < 4; i++) {
+    const w = t1.getComputedTextLength() - fs * 0.1;
+    fs = fs * W / w;
+    t1.setAttribute('font-size', fs.toFixed(2));
+  }
+  // filetto con stella centrale
+  const yR = 270, cx = X + W / 2;
+  el('line', { x1: X, y1: yR, x2: cx - 26, y2: yR, stroke: INK, 'stroke-width': 1.6 }, svg);
+  el('line', { x1: cx + 26, y1: yR, x2: X + W, y2: yR, stroke: INK, 'stroke-width': 1.6 }, svg);
+  el('path', { d: star4(cx, yR, 12, 3), fill: ACC }, svg);
+  el('circle', { cx: cx - 19, cy: yR, r: 2.2, fill: INK }, svg);
+  el('circle', { cx: cx + 19, cy: yR, r: 2.2, fill: INK }, svg);
+  // seconda riga giustificata sulla stessa larghezza
+  const t2 = el('text', { x: X, y: 322, fill: INK, 'font-family': 'Jost', 'font-weight': 400, 'font-size': 31 }, svg);
+  t2.textContent = 'POLIGNANO A MARE · PUGLIA';
+  const n = t2.textContent.length;
+  const w0 = t2.getComputedTextLength();
+  t2.setAttribute('letter-spacing', ((W - w0) / (n - 1)).toFixed(3));
+  window.__ready = true;
+});
+</script>
+</body></html>

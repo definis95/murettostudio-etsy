@@ -1,0 +1,2976 @@
+[
+  {
+    "id": 68,
+    "title": "Mug 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 70,
+    "title": "Stainless Steel Travel Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 289,
+    "title": "Latte Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 425,
+    "title": "Mug 15oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 441,
+    "title": "Ceramic Mug (EU)",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 30,
+        "title": "OPT OnDemand",
+        "location": {
+          "address1": "Korytna 1538/4 ",
+          "city": "Prague",
+          "country": "CZ",
+          "region": "",
+          "zip": "CZ 100 00"
+        },
+        "variants": [
+          {
+            "id": 62327,
+            "title": "11oz",
+            "options": {
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2717,
+                "height": 1146
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 62328,
+            "title": "15oz",
+            "options": {
+              "size": "15oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2811,
+                "height": 1276
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "LV",
+                "FI",
+                "NO",
+                "IS",
+                "CH",
+                "SE",
+                "DK",
+                "EE",
+                "LT",
+                "LI"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "FO",
+                "FR",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IM",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 2289,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 559,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 819,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 169,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 1769,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "CA",
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                62327,
+                62328
+              ],
+              "first_item": {
+                "cost": 609,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "CZ"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "title": "Ceramic Mug, (11oz, 15oz)",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 479,
+    "title": "Black Mug (11oz, 15oz)",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 94,
+        "title": "Harrier",
+        "location": {
+          "address1": "Harrier LLC, Brunel Road",
+          "city": "Newton Abbot",
+          "country": "GB",
+          "region": "Devon",
+          "zip": "TQ12 4UH"
+        },
+        "variants": [
+          {
+            "id": 65217,
+            "title": "11oz",
+            "options": {
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2327,
+                "height": 1086
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 104470,
+            "title": "15oz",
+            "options": {
+              "size": "15oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2448,
+                "height": 1266
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "FO",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IE",
+                "IM",
+                "JE",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK",
+                "NL",
+                "BE",
+                "FR",
+                "IT"
+              ]
+            },
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 4159,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "CZ",
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "EE",
+                "LV",
+                "NO",
+                "LU",
+                "FI",
+                "LI",
+                "DK",
+                "CH",
+                "IS",
+                "LT",
+                "SE"
+              ]
+            },
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 389,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB"
+              ]
+            },
+            {
+              "variant_ids": [
+                65217,
+                104470
+              ],
+              "first_item": {
+                "cost": 3119,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "title": "Enamel Camping Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 503,
+    "title": "White Ceramic Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 535,
+    "title": "11oz White Mug",
+    "brand": "ORCA Coatings",
+    "providers": [
+      {
+        "id": 6,
+        "title": "T Shirt and Sons",
+        "location": {
+          "address1": "6 - 9 Falcon Park, West Wilts Trading Estate",
+          "city": "Westbury",
+          "country": "GB",
+          "region": "",
+          "zip": "BA13 4GZ"
+        },
+        "variants": [
+          {
+            "id": 69010,
+            "title": "11oz",
+            "options": {
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2582,
+                "height": 1120
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                69010
+              ],
+              "first_item": {
+                "cost": 1549,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AT",
+                "BE",
+                "BG",
+                "HR",
+                "CY",
+                "CZ",
+                "FR",
+                "GR",
+                "HU",
+                "IT",
+                "LU",
+                "MT",
+                "PT",
+                "RO",
+                "SK",
+                "SI",
+                "ES",
+                "DE",
+                "NL",
+                "PL",
+                "DK",
+                "FI",
+                "LT",
+                "LV",
+                "EE",
+                "SE",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                69010
+              ],
+              "first_item": {
+                "cost": 3419,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                69010
+              ],
+              "first_item": {
+                "cost": 389,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 249,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB"
+              ]
+            },
+            {
+              "variant_ids": [
+                69010
+              ],
+              "first_item": {
+                "cost": 2379,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "title": "11oz Accent Mug",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 595,
+    "title": "Accent Mugs",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 612,
+    "title": "Metallic Mug (Silver\\Gold)",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 618,
+    "title": "Ceramic Mugs (11oz\\15oz\\20oz)",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 628,
+    "title": "Black Coffee Mug, 11oz",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 635,
+    "title": "Accent Coffee Mug (11, 15oz)",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 94,
+        "title": "Harrier",
+        "location": {
+          "address1": "Harrier LLC, Brunel Road",
+          "city": "Newton Abbot",
+          "country": "GB",
+          "region": "Devon",
+          "zip": "TQ12 4UH"
+        },
+        "variants": [
+          {
+            "id": 72180,
+            "title": "11oz / Black",
+            "options": {
+              "size": "11oz",
+              "color": "Black"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 72182,
+            "title": "11oz / Navy",
+            "options": {
+              "size": "11oz",
+              "color": "Navy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 72183,
+            "title": "11oz / Pink",
+            "options": {
+              "size": "11oz",
+              "color": "Pink"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 72184,
+            "title": "11oz / Red",
+            "options": {
+              "size": "11oz",
+              "color": "Red"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 105888,
+            "title": "11oz / Light Blue",
+            "options": {
+              "size": "11oz",
+              "color": "Light Blue"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 108906,
+            "title": "11oz / Orange",
+            "options": {
+              "size": "11oz",
+              "color": "Orange"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 108907,
+            "title": "11oz / Purple",
+            "options": {
+              "size": "11oz",
+              "color": "Purple"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 108908,
+            "title": "11oz / Yellow",
+            "options": {
+              "size": "11oz",
+              "color": "Yellow"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 113942,
+            "title": "11oz / Light Green",
+            "options": {
+              "size": "11oz",
+              "color": "Light Green"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2475,
+                "height": 1155
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "FO",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IE",
+                "IM",
+                "JE",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK",
+                "NL",
+                "IT",
+                "BE",
+                "FR"
+              ]
+            },
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "CZ",
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "EE",
+                "LV",
+                "NO",
+                "LU",
+                "FI",
+                "LI",
+                "DK",
+                "CH",
+                "IS",
+                "LT",
+                "SE"
+              ]
+            },
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 389,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB"
+              ]
+            },
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 3119,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                72180,
+                72182,
+                72183,
+                72184,
+                105888,
+                108906,
+                108907,
+                108908,
+                113942
+              ],
+              "first_item": {
+                "cost": 4159,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 791,
+    "title": "Latte Mug, 12oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 891,
+    "title": "Stein Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 896,
+    "title": "Heart-Shaped Mug",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 30,
+        "title": "OPT OnDemand",
+        "location": {
+          "address1": "Korytna 1538/4 ",
+          "city": "Prague",
+          "country": "CZ",
+          "region": "",
+          "zip": "CZ 100 00"
+        },
+        "variants": [
+          {
+            "id": 77224,
+            "title": "11oz / White",
+            "options": {
+              "size": "11oz",
+              "color": "White"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2362,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "LV",
+                "FI",
+                "NO",
+                "IS",
+                "CH",
+                "SE",
+                "DK",
+                "EE",
+                "LT",
+                "LI"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "FO",
+                "FR",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IM",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 2289,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 559,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 819,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 169,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 1769,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "CA",
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                77224
+              ],
+              "first_item": {
+                "cost": 609,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "CZ"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "title": "Magic Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 985,
+    "title": "Colorful Accent Mugs, 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1016,
+    "title": "Standard Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 26,
+        "title": "Textildruck Europa",
+        "location": {
+          "address1": "Grenzstraße 15",
+          "city": "Halle (Saale)",
+          "country": "DE",
+          "region": "Loading... please wait.",
+          "zip": "06112"
+        },
+        "variants": [
+          {
+            "id": 79703,
+            "title": "11oz / White / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "White",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "DK",
+                "LV",
+                "FI",
+                "EE",
+                "IS",
+                "LI",
+                "CH",
+                "LT",
+                "SE",
+                "NO"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 549,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 2859,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "CZ",
+                "FO",
+                "FR",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IM",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 2289,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 809,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 169,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 1769,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                79703
+              ],
+              "first_item": {
+                "cost": 1819,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "CA"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "title": "Color-Changing Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 26,
+        "title": "Textildruck Europa",
+        "location": {
+          "address1": "Grenzstraße 15",
+          "city": "Halle (Saale)",
+          "country": "DE",
+          "region": "Loading... please wait.",
+          "zip": "06112"
+        },
+        "variants": [
+          {
+            "id": 79698,
+            "title": "11oz / Black / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Black",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "DK",
+                "LV",
+                "FI",
+                "EE",
+                "IS",
+                "LI",
+                "CH",
+                "LT",
+                "SE",
+                "NO"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 549,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 2859,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "CZ",
+                "FO",
+                "FR",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IM",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 2289,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 809,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 169,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 1769,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                79698
+              ],
+              "first_item": {
+                "cost": 1819,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "CA"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "title": "Two-Tone Coffee Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 26,
+        "title": "Textildruck Europa",
+        "location": {
+          "address1": "Grenzstraße 15",
+          "city": "Halle (Saale)",
+          "country": "DE",
+          "region": "Loading... please wait.",
+          "zip": "06112"
+        },
+        "variants": [
+          {
+            "id": 79701,
+            "title": "11oz / Black / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Black",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 79702,
+            "title": "11oz / Pink / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Pink",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80021,
+            "title": "11oz / Gold / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Gold",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80022,
+            "title": "11oz / Red / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Red",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80023,
+            "title": "11oz / Cambridge Blue / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Cambridge Blue",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80024,
+            "title": "11oz / Dark Green / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Dark Green",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80025,
+            "title": "11oz / Light Blue / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Light Blue",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80026,
+            "title": "11oz / Light Green / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Light Green",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80027,
+            "title": "11oz / Maroon / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Maroon",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80028,
+            "title": "11oz / Orange / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Orange",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80029,
+            "title": "11oz / Yellow / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Yellow",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 80030,
+            "title": "11oz / Dark Blue / Glossy",
+            "options": {
+              "size": "11oz",
+              "color": "Dark Blue",
+              "finish": "Glossy"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2244,
+                "height": 945
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "DK",
+                "LV",
+                "FI",
+                "EE",
+                "IS",
+                "LI",
+                "CH",
+                "LT",
+                "SE",
+                "NO"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 549,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 2859,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "CZ",
+                "FO",
+                "FR",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IM",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 2289,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 809,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 169,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 1769,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                79701,
+                79702,
+                80021,
+                80022,
+                80023,
+                80024,
+                80025,
+                80026,
+                80027,
+                80028,
+                80029,
+                80030
+              ],
+              "first_item": {
+                "cost": 1819,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 1399,
+                "currency": "USD"
+              },
+              "countries": [
+                "CA"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1088,
+    "title": "Beer Stein Mug",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 1126,
+    "title": "Jumbo Mug, 20oz",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 1131,
+    "title": "Frosted Glass Beer Mug",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1151,
+    "title": "Colorful Mugs (11oz, 15oz)",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 1152,
+    "title": "Black Mug, 15oz",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 94,
+        "title": "Harrier",
+        "location": {
+          "address1": "Harrier LLC, Brunel Road",
+          "city": "Newton Abbot",
+          "country": "GB",
+          "region": "Devon",
+          "zip": "TQ12 4UH"
+        },
+        "variants": [
+          {
+            "id": 88132,
+            "title": "15oz",
+            "options": {
+              "size": "15oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2448,
+                "height": 1266
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 689,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "FO",
+                "GE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IE",
+                "IM",
+                "JE",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK",
+                "NL",
+                "BE",
+                "FR",
+                "IT"
+              ]
+            },
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 4159,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "CZ",
+                "DE"
+              ]
+            },
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 1039,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 239,
+                "currency": "USD"
+              },
+              "countries": [
+                "EE",
+                "LV",
+                "NO",
+                "LU",
+                "FI",
+                "LI",
+                "DK",
+                "CH",
+                "IS",
+                "LT",
+                "SE"
+              ]
+            },
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 389,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 129,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB"
+              ]
+            },
+            {
+              "variant_ids": [
+                88132
+              ],
+              "first_item": {
+                "cost": 3119,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 359,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1154,
+    "title": "Insulated Coffee Mug, 10oz ",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1156,
+    "title": "Color Morphing Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1160,
+    "title": "Stainless Steel Travel Mug with Handle, 14oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1244,
+    "title": "White Ceramic Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1301,
+    "title": "Accent Mugs, 11oz",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 1302,
+    "title": "Two-Tone Coffee Mugs, 11oz",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 72,
+        "title": "Print Clever",
+        "location": {
+          "address1": "Unit 109 Cheney Manor Ind Est",
+          "city": "Swindon",
+          "country": "GB",
+          "region": "AB",
+          "zip": "SN2 2DS"
+        },
+        "variants": [
+          {
+            "id": 98602,
+            "title": "Pink / 11oz",
+            "options": {
+              "color": "Pink",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98603,
+            "title": "Yellow / 11oz",
+            "options": {
+              "color": "Yellow",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98604,
+            "title": "Red / 11oz",
+            "options": {
+              "color": "Red",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98605,
+            "title": "Light Green / 11oz",
+            "options": {
+              "color": "Light Green",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98606,
+            "title": "Blue / 11oz",
+            "options": {
+              "color": "Blue",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98607,
+            "title": "Dark Blue / 11oz",
+            "options": {
+              "color": "Dark Blue",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          },
+          {
+            "id": 98608,
+            "title": "Black / 11oz",
+            "options": {
+              "color": "Black",
+              "size": "11oz"
+            },
+            "placeholders": [
+              {
+                "position": "front",
+                "decoration_method": "dye-sublimation",
+                "width": 2409,
+                "height": 1181
+              }
+            ],
+            "decoration_methods": [
+              "dye-sublimation"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 1349,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "AX",
+                "AL",
+                "AD",
+                "AM",
+                "AT",
+                "BY",
+                "BE",
+                "BA",
+                "BV",
+                "BG",
+                "HR",
+                "CY",
+                "CZ",
+                "FO",
+                "FR",
+                "GE",
+                "DE",
+                "GI",
+                "GR",
+                "GL",
+                "GP",
+                "GG",
+                "VA",
+                "HU",
+                "IT",
+                "JE",
+                "LU",
+                "MK",
+                "MT",
+                "MD",
+                "MC",
+                "ME",
+                "NL",
+                "PL",
+                "PT",
+                "RE",
+                "RO",
+                "SM",
+                "RS",
+                "SK",
+                "SI",
+                "ES",
+                "TR",
+                "UA",
+                "XK",
+                "IE"
+              ]
+            },
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 1649,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "IS",
+                "LV",
+                "EE",
+                "DK",
+                "LT",
+                "NO",
+                "LI",
+                "SE",
+                "CH",
+                "FI"
+              ]
+            },
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 389,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 299,
+                "currency": "USD"
+              },
+              "countries": [
+                "GB",
+                "IM"
+              ]
+            },
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 1879,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 899,
+                "currency": "USD"
+              },
+              "countries": [
+                "AU",
+                "CA"
+              ]
+            },
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 1699,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD"
+              ]
+            },
+            {
+              "variant_ids": [
+                98602,
+                98603,
+                98604,
+                98605,
+                98606,
+                98607,
+                98608
+              ],
+              "first_item": {
+                "cost": 2599,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 999,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1498,
+    "title": "Insulated Travel Mug, 40oz",
+    "brand": "Polar Camel",
+    "providers": []
+  },
+  {
+    "id": 1511,
+    "title": "Coffee Mug Tumbler, 15oz",
+    "brand": "Polar Camel",
+    "providers": []
+  },
+  {
+    "id": 1513,
+    "title": "Travel Mug, 20oz",
+    "brand": "Polar Camel",
+    "providers": []
+  },
+  {
+    "id": 1680,
+    "title": "Clear Glass Mug with Handle, 10oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1682,
+    "title": "Glass Mug, 10oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1705,
+    "title": "Frosted Glass Coffee Mug, 11oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 1972,
+    "title": "Glass Coffee Mug, 12.25oz (Engraving)",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 2692,
+    "title": "Accent Rim & Handle Mug (11oz, 15oz)",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 2693,
+    "title": "Two-Tone Accent Mug (11oz, 15oz)",
+    "brand": "ORCA Coatings",
+    "providers": []
+  },
+  {
+    "id": 2762,
+    "title": "Tapered Glass Mug, 15.5 oz (Engraving)",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 5650,
+    "title": "White Ceramic Latte Mug, 25oz",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 10669,
+    "title": "Speckled Wayland Ceramic Mug, 13oz (Engraving)",
+    "brand": "Generic brand",
+    "providers": []
+  },
+  {
+    "id": 10725,
+    "title": "Traditional Ceramic Mug",
+    "brand": "Generic brand",
+    "providers": []
+  }
+]

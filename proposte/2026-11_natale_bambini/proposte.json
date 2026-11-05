@@ -1,0 +1,373 @@
+{
+  "titolo": "MurettoStudio - Proposte Natale e Bambini (novembre 2026)",
+  "sottotitolo": "Immagini di concetto disegnate da ChatGPT. Dimmi i numeri da approvare: realizzo solo quelli. Capi bambino tutti 100% cotone (colori melange esclusi).",
+  "idee": [
+    {
+      "id": "04",
+      "collezione": "Natale",
+      "titolo": "Santa's Little Helper - t-shirt bambino",
+      "prodotto": "T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)",
+      "tipo": "capo",
+      "colori": [
+        "Black",
+        "Navy",
+        "Red"
+      ],
+      "perche": "Frase natalizia per bambini tra le piu' vendute; su maglia rossa o blu e' perfetta per le foto di famiglia.",
+      "brief_design": "Use case: children's apparel illustration. Garments: RED, NAVY and BLACK kids long-sleeve t-shirts, so the design must read on dark/red fabric: NO black, NO dark lines, NO red; use cream and light colours.\nSubject: a cheerful little elf puppy (small dog) wearing a green elf hat with a bell, carrying a wrapped gift box with a bow.\nText (verbatim, exact spelling): \"SANTA'S\" on an arc above and \"LITTLE HELPER\" below, in a chunky retro varsity / collegiate font.\nStyle: bold retro Christmas illustration, cream outlines.\nPalette: cream #F6EBD5 (outlines and text), pine green #4E8A5A, gold #E2B04A, light caramel #D9A270, soft white.",
+      "mockup": "a red kids long-sleeve cotton t-shirt laid flat on a white wooden floor with candy canes, a small wrapped present and pine branches around it, festive and bright.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "difetti residui: trasparenza con artefatti, sfumature e dettagli troppo sottili; non pronto per stampa.",
+        "mockup": "lievi differenze nei dettagli e nelle proporzioni dell’illustrazione originale."
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Toddler Long Sleeve Tee 2T-6T",
+          "blueprint": 586,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "Red",
+            "Navy",
+            "Black"
+          ]
+        },
+        {
+          "nome": "Youth Long Sleeve Tee S-L (6-12 anni)",
+          "blueprint": 1702,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "Red",
+            "Navy",
+            "Black"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "collezione": "Natale",
+      "titolo": "Most Likely To Eat Santa's Cookies - t-shirt bambino",
+      "prodotto": "T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)",
+      "tipo": "capo",
+      "colori": [
+        "Natural",
+        "Pink",
+        "White"
+      ],
+      "perche": "La serie \"Most likely to...\" e' un trend natalizio fortissimo (magliette di famiglia): il bambino goloso di biscotti e' la frase piu' simpatica.",
+      "brief_design": "Use case: children's apparel illustration. Garments: WHITE and LIGHT PINK kids long-sleeve t-shirts.\nSubject: a gingerbread cookie with a big bite taken out of it next to a glass of milk with a striped straw, a few crumbs, a tiny Santa hat on the milk glass.\nText (verbatim, exact spelling): \"MOST LIKELY TO\" small on top, then \"EAT SANTA'S COOKIES\" large below, in a playful bold retro font.\nStyle: fun retro Christmas illustration, thick charcoal outlines.\nPalette: gingerbread brown #B5713E, icing white #FFFFFF with charcoal outline, Christmas red #C0392B, pine green #3F7A4E, charcoal #2B2B2B.",
+      "mockup": "a white kids long-sleeve cotton t-shirt laid flat on a kitchen table next to a plate of gingerbread cookies and a glass of milk, warm festive light.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Slight color variation remains; exact palette and 2 mm minimum details are not guaranteed.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Toddler Long Sleeve Tee 2T-6T",
+          "blueprint": 586,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White",
+            "Pink"
+          ]
+        },
+        {
+          "nome": "Youth Long Sleeve Tee S-L (6-12 anni)",
+          "blueprint": 1702,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White",
+            "Natural"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "collezione": "Natale",
+      "titolo": "Dear Santa, I Can Explain - t-shirt neonato",
+      "prodotto": "Body neonato MANICHE LUNGHE 100% cotone bio, bianco (Babybugz, prodotto in Germania)",
+      "tipo": "capo",
+      "colori": [
+        "White"
+      ],
+      "perche": "Frase ironica molto amata dai genitori, adatta a 0-24 mesi; fa ridere e si regala volentieri.",
+      "brief_design": "Use case: children's apparel illustration. Garment: WHITE long-sleeve baby bodysuit.\nSubject: a cute guilty-looking kitten tangled in a string of Christmas lights, one shiny bauble rolling away next to it, innocent big eyes.\nText (verbatim, exact spelling): \"DEAR SANTA,\" above and \"I CAN EXPLAIN\" below, in rounded bold hand-lettering.\nStyle: modern children's apparel illustration, thick charcoal outlines, flat colours.\nPalette: ginger orange #E0954F, cream #F5E6CC, pine green #3F7A4E, red #C0392B, gold #E2B04A, charcoal #2B2B2B.",
+      "mockup": "a white long-sleeve organic cotton baby bodysuit laid flat on a soft beige blanket with a small plush toy and a couple of Christmas baubles, gentle daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Restano lievi sfumature e alcuni dettagli inferiori a 2 mm.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Body bio maniche lunghe 0-18 mesi",
+          "blueprint": 974,
+          "provider": 26,
+          "colori": [
+            "White"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "collezione": "Bambini",
+      "titolo": "Little But Fierce - body neonato",
+      "prodotto": "Body neonato MANICHE LUNGHE 100% cotone bio, bianco (Babybugz, prodotto in Germania)",
+      "tipo": "capo",
+      "colori": [
+        "White"
+      ],
+      "perche": "Grafica gia' disegnata nella prova di oggi. Dinosauri + frase \"forte\" vendono tutto l'anno, per maschi e femmine.",
+      "brief_design": "Use case: children's apparel illustration. Garment: WHITE long-sleeve baby bodysuit.\nSubject: a tiny chubby cheerful baby dinosaur in a proud roar pose, no teeth.\nText (verbatim, exact spelling): \"LITTLE BUT FIERCE\" on an arc above.\nPalette: sage green #8DB596, cream #F3E3C3, terracotta #D9825B, charcoal #2B2B2B.",
+      "mockup": "a white long-sleeve organic cotton baby bodysuit laid flat on a white linen sheet with a small wooden dinosaur toy and a baby rattle, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Restano lievi sfumature e artefatti sui bordi.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Body bio maniche lunghe 0-18 mesi",
+          "blueprint": 974,
+          "provider": 26,
+          "colori": [
+            "White"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "collezione": "Bambini",
+      "titolo": "Promoted to Big Sister 2027 - t-shirt bambina",
+      "prodotto": "T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)",
+      "tipo": "capo",
+      "colori": [
+        "Natural",
+        "Pink",
+        "White"
+      ],
+      "perche": "Le magliette per annunciare la gravidanza (\"promossa a sorella maggiore\") sono un best seller costante, e Natale e' il momento tipico per l'annuncio in famiglia.",
+      "brief_design": "Use case: children's apparel illustration. Garments: WHITE and LIGHT PINK kids long-sleeve t-shirts.\nSubject: a cheerful rainbow with little stars and a few sparkles, a small heart on top.\nText (verbatim, exact spelling): \"PROMOTED TO\" small on top, \"BIG SISTER\" large in a bold rounded retro font in the middle, \"2027\" below.\nStyle: modern boho-retro kids illustration, thick charcoal outlines.\nPalette: dusty rose #D98C8C, mustard #E2B04A, terracotta #D9825B, sage #8DB596, charcoal #2B2B2B.",
+      "mockup": "a white kids long-sleeve cotton t-shirt laid flat on a light wooden floor next to a small pair of baby shoes and an ultrasound-style card without any readable text, tender family mood.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Toddler Long Sleeve Tee 2T-6T",
+          "blueprint": 586,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White",
+            "Pink"
+          ]
+        },
+        {
+          "nome": "Youth Long Sleeve Tee S-L (6-12 anni)",
+          "blueprint": 1702,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White",
+            "Natural"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "collezione": "Bambini",
+      "titolo": "Promoted to Big Brother 2027 - t-shirt bambino",
+      "prodotto": "T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)",
+      "tipo": "capo",
+      "colori": [
+        "Light Blue",
+        "White"
+      ],
+      "perche": "Versione maschile della 08: chi cerca l'una cerca anche l'altra (spesso le comprano insieme).",
+      "brief_design": "Use case: children's apparel illustration. Garment: WHITE kids long-sleeve t-shirt.\nSubject: a friendly little rocket ship blasting off with a few stars and a small planet with a ring.\nText (verbatim, exact spelling): \"PROMOTED TO\" small on top, \"BIG BROTHER\" large in a bold rounded retro font in the middle, \"2027\" below.\nStyle: modern retro kids illustration, thick charcoal outlines.\nPalette: navy #2D3A56, mustard #E2B04A, burnt orange #D9774B, sky blue #8BB8D9, charcoal #2B2B2B.",
+      "mockup": "a white kids long-sleeve cotton t-shirt laid flat on a light wooden floor next to a small toy rocket and a pair of tiny baby socks, bright cheerful daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Toddler Long Sleeve Tee 2T-6T",
+          "blueprint": 586,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White",
+            "Light Blue"
+          ]
+        },
+        {
+          "nome": "Youth Long Sleeve Tee S-L (6-12 anni)",
+          "blueprint": 1702,
+          "provider": "39 SwiftPOD o 99 Printify Choice (USA): scelgo il piu' conveniente in produzione",
+          "colori": [
+            "White"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "collezione": "Bambini",
+      "titolo": "Little Meatball - body neonato",
+      "prodotto": "Body neonato MANICHE LUNGHE 100% cotone bio, bianco (Babybugz, prodotto in Germania)",
+      "tipo": "capo",
+      "colori": [
+        "White"
+      ],
+      "perche": "Tocco italiano (coerente con MurettoStudio) e frase molto amata dagli italo-americani: \"Little Meatball\" e' un regalo nascita popolare.",
+      "brief_design": "Use case: children's apparel illustration. Garment: WHITE long-sleeve baby bodysuit.\nSubject: a cute smiling round meatball character with rosy cheeks, sitting in a little nest of spaghetti with a basil leaf on its head like a hat.\nText (verbatim, exact spelling): \"LITTLE MEATBALL\" in rounded bold hand-lettering on an arc above.\nStyle: modern children's apparel illustration, thick charcoal outlines, flat colours.\nPalette: warm brown #9C5B3B, tomato red #D2493A, pasta yellow #F2C86B, basil green #4E8A5A, charcoal #2B2B2B.",
+      "mockup": "a white long-sleeve organic cotton baby bodysuit laid flat on a red-and-white checkered tablecloth with a small bunch of basil and a wooden spoon, warm Italian kitchen light.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "lievi sfumature residue da uniformare in preparazione stampa.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Approvata in versione a MANICHE LUNGHE",
+      "prodotti_printify": [
+        {
+          "nome": "Body bio maniche lunghe 0-18 mesi",
+          "blueprint": 974,
+          "provider": 26,
+          "colori": [
+            "White"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "collezione": "Natale - tazze",
+      "titolo": "Dear Santa, Define 'Good' - tazza",
+      "prodotto": "Tazza in ceramica bianca 11 oz o 15 oz (OPT OnDemand, Repubblica Ceca)",
+      "blueprint": 441,
+      "provider": 30,
+      "tipo": "tazza",
+      "formato": "orizzontale",
+      "colori": [
+        "bianca"
+      ],
+      "perche": "Battuta da adulti molto amata come regalo per colleghi e amici (Secret Santa): prezzo basso, acquisto d'impulso.",
+      "brief_design": "Use case: mug wrap typographic design.\nSubject: hand-lettered quote with a tiny Santa hat on the first letter and a few small sparkles.\nText (verbatim, exact spelling): \"DEAR SANTA,\" on the first line and \"DEFINE 'GOOD'\" on the second line, with the word GOOD in quotes.\nStyle: modern bold hand-lettering, slightly playful.\nPalette: deep red #B23A3A, pine green #2F5D46, charcoal #2B2B2B, gold #D4A548 sparkles.",
+      "mockup": "a white ceramic mug on an office desk with a small wrapped Secret Santa gift and a sprig of pine, bright daylight. The mug is shown with its HANDLE ON THE RIGHT side of the image and the printed design facing the camera.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "lieve texture residua nei colori.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Stampa visibile a chi tiene la tazza con la mano destra (manico a destra guardando la tazza)",
+      "lato_stampa": "manico_a_destra"
+    },
+    {
+      "id": "13",
+      "collezione": "Natale - tazze",
+      "titolo": "Christmas Movie Watching Club - tazza",
+      "prodotto": "Tazza in ceramica bianca 11 oz o 15 oz (OPT OnDemand, Repubblica Ceca)",
+      "blueprint": 441,
+      "provider": 30,
+      "tipo": "tazza",
+      "formato": "orizzontale",
+      "colori": [
+        "bianca"
+      ],
+      "perche": "Le grafiche \"club\" retro sono un trend forte su Etsy; perfetta per chi ama i film di Natale sul divano.",
+      "brief_design": "Use case: mug wrap illustration.\nSubject: a retro round badge with a vintage TV set showing a snowy little house, popcorn bowl and a candy cane beside it.\nText (verbatim, exact spelling): \"CHRISTMAS MOVIE\" curved on top of the badge and \"WATCHING CLUB\" curved on the bottom.\nStyle: 70s retro badge illustration, clean bold shapes.\nPalette: burnt orange #D9774B, mustard #E2B04A, pine green #3F6B4F, cream #F3E3C3, brown #5A3A2A.",
+      "mockup": "a white ceramic mug held on a cosy sofa with a knitted blanket, a bowl of popcorn and a blurred TV with warm Christmas lights in the background. The mug is shown with its HANDLE ON THE RIGHT side of the image and the printed design facing the camera.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Lievi sfumature residue; palette non esattamente conforme ai codici HEX.",
+        "mockup": "ok"
+      },
+      "nota_dario": "Stampa visibile a chi tiene la tazza con la mano destra (manico a destra guardando la tazza)",
+      "lato_stampa": "manico_a_destra"
+    },
+    {
+      "id": "14",
+      "collezione": "Natale - borse",
+      "titolo": "North Pole Postal Service - borsa",
+      "prodotto": "Borsa tote 100% cotone bio, 38 x 42 cm (Textildruck, Germania)",
+      "blueprint": 731,
+      "provider": 26,
+      "tipo": "borsa",
+      "colori": [
+        "Black",
+        "Classic Red",
+        "French Navy"
+      ],
+      "perche": "La borsa \"per i regali\": stile francobollo vintage, piace agli adulti, utile per lo shopping natalizio e riutilizzabile tutto l'anno.",
+      "brief_design": "Use case: tote bag print design.\nSubject: a vintage postage-stamp style emblem with a reindeer pulling a small sleigh across a crescent moon, a postmark circle and stars.\nText (verbatim, exact spelling): \"NORTH POLE\" on top, \"POSTAL SERVICE\" below, and \"SPECIAL DELIVERY\" small in a ribbon banner.\nStyle: vintage engraved-look emblem with bold clean lines.\nPalette: cream #F4EBDD, gold #D4A548, light sage #A8C3A0.",
+      "mockup": "a black organic cotton tote bag hanging on a wooden chair, filled with wrapped Christmas presents peeking out, warm festive living room.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Restano artefatti attorno alle forme e dettagli sotto 2 mm; non pronto per la stampa.",
+        "mockup": "ok"
+      }
+    },
+    {
+      "id": "15",
+      "collezione": "Natale - borse",
+      "titolo": "Merry & Bright - borsa",
+      "prodotto": "Borsa tote 100% cotone bio, 38 x 42 cm (Textildruck, Germania)",
+      "blueprint": 731,
+      "provider": 26,
+      "tipo": "borsa",
+      "colori": [
+        "Classic Red",
+        "French Navy",
+        "Black"
+      ],
+      "perche": "Frase natalizia classica e senza eta': regalo facile, sta bene soprattutto sulla borsa rossa.",
+      "brief_design": "Use case: tote bag print design.\nSubject: a row of retro Christmas baubles and a string of lights framing the lettering, small stars.\nText (verbatim, exact spelling): \"MERRY\" on the first line, \"& BRIGHT\" on the second line, in a bold retro groovy font.\nStyle: 70s retro Christmas, clean bold shapes.\nPalette: cream #F4EBDD, gold #E2B04A, light pink #F2C6C2, light sage #A8C3A0.",
+      "mockup": "a classic red organic cotton tote bag on a white wooden floor next to a small Christmas tree and wrapped gifts, bright daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Restano aloni e pixel residui attorno alle forme; non ancora pronta per la stampa.",
+        "mockup": ""
+      }
+    },
+    {
+      "id": "16",
+      "collezione": "Natale - borse",
+      "titolo": "Buon Natale (moka e panettone) - borsa",
+      "prodotto": "Borsa tote 100% cotone bio, 38 x 42 cm (Textildruck, Germania)",
+      "blueprint": 731,
+      "provider": 26,
+      "tipo": "borsa",
+      "colori": [
+        "French Navy",
+        "Black",
+        "Classic Red"
+      ],
+      "perche": "Tocco italiano coerente con MurettoStudio: moka con cappello da Babbo Natale e panettone, regalo per chi ama l'Italia.",
+      "brief_design": "Use case: tote bag print design.\nSubject: a classic Italian moka coffee pot wearing a little Santa hat next to a panettone with a sprig of holly, a few stars.\nText (verbatim, exact spelling): \"BUON NATALE\" in elegant bold lettering on an arc above.\nStyle: charming modern illustration with clean bold shapes.\nPalette: cream #F4EBDD, gold #D4A548, light grey-silver #C9CED3, light sage #A8C3A0, light pink #F2C6C2.",
+      "mockup": "a French navy organic cotton tote bag on a marble kitchen counter next to a panettone box and an espresso cup, warm Italian morning light.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "residui chiari e dorati attorno ai contorni da pulire in preparazione stampa.",
+        "mockup": "lievi differenze nei dettagli della stampa rispetto all’originale."
+      }
+    }
+  ],
+  "scartate": [
+    "01 Baby's First Christmas body",
+    "02 Baby's First Christmas decorazione",
+    "03 Mr & Mrs decorazione",
+    "11 Most Likely To Drink All The Hot Cocoa tazza"
+  ]
+}

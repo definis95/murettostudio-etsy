@@ -1,0 +1,149 @@
+{
+  "beanie_ricamato": {
+    "titolo": "Embroidered cuffed beanie",
+    "per": [
+      "17a_beanie",
+      "17c_beanie"
+    ],
+    "punti": [
+      "**Embroidered** on the cuff, not printed",
+      "**100% soft acrylic** knit, hypoallergenic",
+      "One size fits most adults, 12 in (30 cm) tall",
+      "Hand wash cold, lay flat to dry",
+      "**Made to order** in the USA or in Europe in 2-5 days",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "beanie_nome": {
+    "titolo": "Personalized name beanie",
+    "per": [
+      "17d_beanie"
+    ],
+    "punti": [
+      "**Your name embroidered** on the cuff: max 8 letters, A-Z",
+      "Every name is checked by me before production",
+      "**100% soft acrylic** knit, one size fits most adults",
+      "Colours: black, navy or olive",
+      "**Made to order** in the USA or in Europe in 2-5 days",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "beanie_cotone": {
+    "titolo": "Cotton knit beanie",
+    "per": [
+      "18a_beanie",
+      "18b_beanie",
+      "18c_beanie",
+      "18d_beanie"
+    ],
+    "punti": [
+      "**100% cotton** knit, soft and breathable",
+      "Small printed design on the front, no cuff",
+      "One size fits most adults",
+      "Hand wash cold, inside out, lay flat to dry",
+      "**Made to order** in the USA in 2-5 days, **free shipping** in the USA (also ships to Canada)",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "sciarpa": {
+    "titolo": "Lightweight printed scarf",
+    "per": [
+      "19b_scarf",
+      "19c_scarf",
+      "19d_scarf",
+      "19e_scarf"
+    ],
+    "punti": [
+      "**100% polyester voile**, light and slightly sheer",
+      "One size: **69 x 180 cm** (27 x 71 in)",
+      "Printed on one side, softly visible on the back",
+      "Hand wash cold, hang to dry, cool iron if needed",
+      "**Made to order** in the USA in 2-5 days, **free shipping** in the USA (also ships to Canada)",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "calza_eu": {
+    "titolo": "Christmas stocking",
+    "per": [
+      "20_stocking"
+    ],
+    "punti": [
+      "**Soft faux suede**, 100% polyester",
+      "**33 x 49 cm** (13 x 19.3 in), with hanging loop",
+      "Design on the front, red snowflake pattern on the back",
+      "Spot clean or hand wash cold",
+      "**Made to order** in the UK in 2-5 days, ships within Europe and the UK",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "calza_us": {
+    "titolo": "Christmas stocking",
+    "per": [
+      "20u_stocking"
+    ],
+    "punti": [
+      "**Soft fleece**, 100% polyester",
+      "One size, with twill ribbon hanging loop",
+      "Design on the front, red snowflake pattern on the back",
+      "Spot clean or hand wash cold",
+      "**Made to order** in the USA in 1-3 days, **free shipping** in the USA (also ships to Canada)",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "carta_eu": {
+    "titolo": "Satin wrapping paper",
+    "per": [
+      "24_wrapping"
+    ],
+    "punti": [
+      "**Satin finish**, printed on one side",
+      "Two sizes: **70 x 100 cm** (28 x 39 in) or **70 x 200 cm** (28 x 79 in)",
+      "One continuous roll",
+      "**Made to order** in the UK in 2-5 days, ships within Europe and the UK",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "carta_us": {
+    "titolo": "Satin wrapping paper",
+    "per": [
+      "24u_wrapping"
+    ],
+    "punti": [
+      "**Satin finish**, printed on one side",
+      "Two sizes: **29 x 72 in** (74 x 183 cm) or **29 x 144 in** (74 x 366 cm)",
+      "One continuous roll",
+      "**Made to order** in the USA in 1-3 days, **free shipping** in the USA (also ships to Canada)",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "body_us": {
+    "titolo": "Long sleeve baby bodysuit",
+    "per": [
+      "27a_body",
+      "27b_body"
+    ],
+    "punti": [
+      "**100% combed ring-spun cotton**, soft and breathable",
+      "Lap shoulders and snaps for easy changes",
+      "Sizes Newborn, 6M, 12M and 18M",
+      "Machine wash cold, inside out, do not iron the print",
+      "**Made to order** in the USA in 2-5 days, **free shipping** in the USA (also ships to Canada)",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "body_eu": {
+    "titolo": "Organic baby bodysuit",
+    "per": [
+      "27c_body",
+      "27d_body"
+    ],
+    "punti": [
+      "**100% certified organic cotton**, gentle and breathable",
+      "Long sleeves, envelope neckline, poppers for easy changes",
+      "Sizes newborn to 18 months (see size options)",
+      "Machine wash cold, inside out, do not iron the print",
+      "**Made to order** in the EU (Germany) in 2-5 days, ships within Europe and the UK",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  }
+}

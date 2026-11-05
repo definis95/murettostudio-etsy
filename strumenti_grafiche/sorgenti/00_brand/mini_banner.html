@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="brand.css">
+<style>body{width:1200px;height:160px;background:#F4EFE5}</style>
+</head><body>
+<svg id="s" width="1200" height="160" viewBox="0 0 1200 160"></svg>
+<script src="brand_lib.js"></script>
+<script>
+// Mini banner Etsy 1200x160: solo wordmark, cornice sottile, fondo calce con grana
+window.__ready = false;
+const { el, star4 } = BR;
+const svg = document.getElementById('s');
+const defs = el('defs', {}, svg);
+const INK = '#153F62', ACC = '#C8683E';
+el('rect', { width: 1200, height: 160, fill: '#F4EFE5' }, svg);
+el('rect', { x: 10, y: 10, width: 1180, height: 140, fill: 'none', stroke: INK, 'stroke-width': 1.2, opacity: 0.55 }, svg);
+el('rect', { x: 15, y: 15, width: 1170, height: 130, fill: 'none', stroke: INK, 'stroke-width': 0.6, opacity: 0.4 }, svg);
+Promise.all([document.fonts.load('600 46px Cinzel'), document.fonts.load('500 14px Jost')]).then(() => {
+  const t1 = el('text', { x: 600, y: 88, 'text-anchor': 'middle', fill: INK, 'font-family': 'Cinzel', 'font-weight': 600, 'font-size': 46, 'letter-spacing': '0.12em' }, svg);
+  t1.textContent = 'MURETTO STUDIO';
+  // compensa la spaziatura finale per centrare otticamente
+  t1.setAttribute('dx', (46 * 0.12 / 2).toFixed(2));
+  const w = t1.getComputedTextLength() - 46 * 0.12;
+  const t2 = el('text', { x: 600, y: 120, 'text-anchor': 'middle', fill: ACC, 'font-family': 'Jost', 'font-weight': 500, 'font-size': 13.5, 'letter-spacing': '0.42em' }, svg);
+  t2.textContent = 'POLIGNANO A MARE · PUGLIA';
+  t2.setAttribute('dx', (13.5 * 0.42 / 2).toFixed(2));
+  // filetti con stella ai lati del wordmark
+  const y = 72, gap = 34, len = 150;
+  for (const sgn of [-1, 1]) {
+    const x0 = 600 + sgn * (w / 2 + gap);
+    el('line', { x1: x0, y1: y, x2: x0 + sgn * len, y2: y, stroke: INK, 'stroke-width': 1.1 }, svg);
+    el('path', { d: star4(x0 + sgn * (len + 16), y, 8, 2), fill: ACC }, svg);
+    el('circle', { cx: x0 + sgn * (len + 34), cy: y, r: 1.8, fill: INK }, svg);
+  }
+  el('rect', { width: 1200, height: 160, filter: BR.grainFilter(defs, { freq: 0.9, alpha: 0.9, bias: -0.38, r: 0.25, g: 0.2, b: 0.15 }), style: 'mix-blend-mode:multiply', opacity: 0.18 }, svg);
+  window.__ready = true;
+});
+</script>
+</body></html>

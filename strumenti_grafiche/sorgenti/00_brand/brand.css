@@ -1,0 +1,18 @@
+/* MurettoStudio - font e colori condivisi dai sorgenti del brand */
+@font-face { font-family: 'Cinzel'; src: url('../../../fonts/Cinzel_wght.ttf'); font-weight: 400 900; }
+@font-face { font-family: 'Cormorant'; src: url('../../../fonts/CormorantGaramond.ttf'); font-weight: 300 700; }
+@font-face { font-family: 'Marcellus'; src: url('../../../fonts/Marcellus-Regular.ttf'); }
+@font-face { font-family: 'Italiana'; src: url('../../../fonts/Italiana-Regular.ttf'); }
+@font-face { font-family: 'Bodoni Moda'; src: url('../../../fonts/BodoniModa_opsz_wght.ttf'); font-weight: 400 900; }
+@font-face { font-family: 'Jost'; src: url('../../../fonts/Jost_wght.ttf'); font-weight: 100 900; }
+@font-face { font-family: 'Josefin Sans'; src: url('../../../fonts/JosefinSans.ttf'); font-weight: 100 700; }
+
+:root {
+  --calce: #F4EFE5; --bianco: #FCFAF6; --pietra: #D4C4A8; --pietra-scura: #9A8668;
+  --adriatico: #1F5E8A; --adriatico-profondo: #153F62; --turchese: #7EBEC4;
+  --terracotta: #C8683E; --ocra: #DEA852; --ulivo: #7A8452; --ulivo-scuro: #54603C; --inchiostro: #243039;
+}
+html, body { margin: 0; padding: 0; overflow: hidden; }
+svg { display: block; }
+@font-face { font-family: 'Bodoni Moda'; src: url('../../../fonts/BodoniModa-Italic_opsz_wght.ttf'); font-weight: 400 900; font-style: italic; }
+@font-face { font-family: 'Cormorant'; src: url('../../../fonts/CormorantGaramond-Italic.ttf'); font-weight: 300 700; font-style: italic; }

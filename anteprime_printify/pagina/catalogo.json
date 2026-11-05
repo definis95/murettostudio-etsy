@@ -1,0 +1,106 @@
+{
+  "aggiornato": "4 novembre 2026",
+  "novita": [
+    "<b>Foto complete su tutti i 19 annunci nuovi</b>: foto ambientata di ChatGPT (anche il 17d) + scheda informativa disegnata da ChatGPT nello stesso stile delle schede già online (materiale, misure, lavaggio, spedizione). Tutto approvato dall'art director, testi controllati lettera per lettera. Le foto ambientate sono state rifatte con un ingrandimento più naturale (pelle e ricami non più \"di plastica\").",
+    "<b>Pubblicati su Etsy</b>: calza Europa (20) e USA (20u), carta regalo Europa (24), body europei orsetti (27c) e coniglietti (27d). Ognuno ha sezione, spedizioni giuste (USA gratis per la calza americana) e la foto ambientata di ChatGPT approvata dall'art director.",
+    "<b>Body americani 27a e 27b</b>: pubblicati il 4/11 su tua decisione (spedizione USA gratis). Documenti CPSIA ancora in arrivo: Printify ha chiesto al produttore il certificato; per i body va chiesto anche quello del Rabbit Skins 4411.",
+    "<b>Libri da colorare</b>: ripresi dopo le foto. Libro di Natale (21): 18 pagine approvate, 6 in rifacimento, copertina e retro pronti; poi gli altri 5 temi.",
+    "<b>17d cappellino con il nome</b>: in vendita con <b>personalizzazione automatica</b>: il nome scritto dal cliente su Etsy (max 8 caratteri) va da solo nel ricamo; tu approvi ogni ordine con un clic. Colori: nero, blu navy, verde oliva (rosso tolto).",
+    "Pubblicati per sbaglio il 3/11 sera e poi <b>completati</b>: 4 sciarpe, cappellini 17a, 17c, 18a–18d e carta regalo USA 24u ora sono in vendita su Etsy (sezioni nuove Scarves, Beanies, Gift Wrap; spedizione USA gratis; solo USA+Canada, i ricamati anche Europa).",
+    "<b>17d cappellino con il nome</b>: messo <b>inattivo</b> su Etsy, perché era uscito senza il campo per scrivere il nome. Lo riattiviamo dopo aver verificato la personalizzazione.",
+    "Foto ambientate di ChatGPT (approvate dall'art director) caricate su Etsy come seconda foto di tutte le 11 inserzioni nuove. Sulla carta regalo USA tolte 4 foto Printify con la carta bianca e messa prima la foto nitida dei pacchi.",
+    "Informazioni di sicurezza (GPSR): presenti su tutti i 29 prodotti Printify."
+  ],
+  "da_fare": [
+    "Manda a Printify il messaggio per il certificato dei body 27a/27b (te l'ho scritto in chat).",
+    "Dimmi se vuoi in vendita anche i 4 prodotti <b>in attesa</b> (08, 09, 10, 16)."
+  ],
+  "gruppi": [
+    {
+      "id": "vendita",
+      "titolo": "In vendita su Etsy",
+      "tag": "ok",
+      "prodotti": [
+        "04_toddler",
+        "04_youth",
+        "05_toddler",
+        "05_youth",
+        "06_body",
+        "07_body",
+        "12_mug",
+        "13_mug",
+        "14_tote",
+        "15_tote",
+        "19b",
+        "19c",
+        "19d",
+        "19e",
+        "17a",
+        "17c",
+        "18a",
+        "18b",
+        "18c",
+        "18d",
+        "20+20u",
+        "24+24u",
+        "27c+27a",
+        "27d+27b",
+        "17d"
+      ],
+      "sotto": "Nelle schede doppie (USA + Europa) ogni versione dice se è in vendita."
+    },
+    {
+      "id": "dafare",
+      "titolo": "Libri da colorare: in lavorazione",
+      "tag": "wait",
+      "prodotti": [
+        "21",
+        "21b",
+        "21c",
+        "21d",
+        "21e",
+        "21f",
+        "22"
+      ]
+    },
+    {
+      "id": "attesa",
+      "titolo": "In attesa di una tua decisione",
+      "tag": "wait",
+      "prodotti": [
+        "08",
+        "09",
+        "10",
+        "16"
+      ]
+    }
+  ],
+  "scartati": [
+    "17b · cappellino ricamato (scartato da te)",
+    "19 · sciarpa con biscotti di pan di zenzero (scartate le cose solo natalizie)",
+    "Cappellini e sciarpe solo natalizi della prima versione delle proposte",
+    "23 · foglio di adesivi natalizi per bambini",
+    "25 · kit lettera a Babbo Natale + diploma",
+    "26 · tombola di Natale per famiglie (PDF)"
+  ],
+  "zone": {
+    "21": "usa",
+    "21b": "usa",
+    "21c": "usa",
+    "21d": "usa",
+    "21e": "usa",
+    "21f": "usa",
+    "22": "digitale",
+    "08": "usa",
+    "09": "usa",
+    "10": "europa",
+    "16": "europa"
+  },
+  "unite": {
+    "20+20u": "Calza di Natale \"Dear Santa\"",
+    "24+24u": "Carta regalo renne e agrifoglio",
+    "27c+27a": "Body maniche lunghe – orsetti",
+    "27d+27b": "Body maniche lunghe – coniglietti"
+  },
+  "inattivi": []
+}

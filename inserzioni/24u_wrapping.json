@@ -1,0 +1,52 @@
+{
+  "title": "Reindeer Christmas Wrapping Paper, Green Gift Wrap Roll with Holly and Gold Stars, Satin Wrapping Paper, Elegant Holiday Gift Wrap",
+  "description": "Leaping cream reindeer, red-berried holly and little golden stars on a deep forest green: a classic, elegant wrapping paper that makes every present look special under the tree.<br><br>DETAILS<br>- Satin-finish wrapping paper, one continuous roll<br>- Two sizes: 29 x 72 in (74 x 183 cm) or 29 x 144 in (74 x 366 cm)<br>- Printed on one side<br><br>PRODUCTION AND SHIPPING<br>Printed on demand by our production partner in the USA and shipped with tracking. Production takes 1-3 business days. Free shipping within the USA; this item ships to the USA and Canada only.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "christmas wrapping",
+    "gift wrap roll",
+    "reindeer gift wrap",
+    "wrapping paper",
+    "green gift wrap",
+    "holly wrapping",
+    "christmas paper",
+    "holiday gift wrap",
+    "elegant gift wrap",
+    "xmas wrapping",
+    "satin wrapping",
+    "gold star wrap",
+    "present wrapping"
+  ],
+  "blueprint_id": 1100,
+  "print_provider_id": 99,
+  "variants": {
+    "29'' x 72\" / Satin": 2990,
+    "29'' x 144\" / Satin": 3990
+  },
+  "images": {
+    "front": "stampa/24u_1100/design_front_5874x14614.jpg"
+  },
+  "variant_images": {
+    "29'' x 144\" / Satin": {
+      "front": "stampa/24u_1100/design_front_5874x28913.jpg"
+    }
+  },
+  "etsy": {
+    "sezione": "Gift Wrap",
+    "zona": "usa",
+    "attributi": {
+      "Holiday": "Christmas",
+      "Primary color": "Green"
+    },
+    "foto": "stampa/foto_etsy/24u.jpg",
+    "foto_extra": [
+      "stampa/foto_etsy/scheda_carta_us.jpg"
+    ]
+  },
+  "printify_product_id": "6aea025d4cb544049205249b",
+  "etsy_listing_id": 4609178707,
+  "etsy_immagini": {
+    "stampa/foto_etsy/24u.jpg": 8793776136,
+    "stampa/foto_etsy/scheda_carta_us.jpg": 8841695235
+  },
+  "etsy_video_id": 852046837
+}

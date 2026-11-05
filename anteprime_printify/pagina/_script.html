@@ -1,0 +1,6 @@
+<div id="zoom"><img alt=""></div>
+<script>
+  const z = document.getElementById('zoom'), zi = z.querySelector('img');
+  document.querySelectorAll('.gal img').forEach(i => i.addEventListener('click', () => { zi.src = i.src; z.classList.add('on'); }));
+  z.addEventListener('click', () => z.classList.remove('on'));
+</script>

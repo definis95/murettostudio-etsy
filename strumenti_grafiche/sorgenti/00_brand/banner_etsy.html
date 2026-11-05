@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="brand.css">
+<style>body{width:1680px;height:420px;background:#F4EFE5}</style>
+</head><body>
+<svg id="s" width="1680" height="420" viewBox="0 0 1680 420"></svg>
+<script src="brand_lib.js"></script>
+<script src="sigillo.js"></script>
+<script>
+/* Banner Etsy 3360x840 (design 1680x420, x2).
+   Poster di viaggio anni '50: Polignano sulle falesie (sx), Lama Monachile col ponte (dx), sole basso al centro,
+   muretto a secco in primo piano. Zona sicura mobile: 850x280 centrata (x 415-1265, y 70-350). */
+window.__ready = false;
+const { el, smooth, rng, f, bez } = BR;
+const svg = document.getElementById('s');
+const defs = el('defs', {}, svg);
+const Wd = 1680, Hd = 420, HOR = 300;
+const P = {
+  ink: '#153F62', ink2: '#243039', terra: '#C8683E', ocra: '#DEA852', calce: '#F4EFE5', bianco: '#FCFAF6',
+  rock: '#E3C89A', rockL: '#EFDDBA', rockS: '#C29A63', rockD: '#94703F',
+  houseS: '#E7DED0', houseD: '#CBC3B6', win: '#3B4650'
+};
+const lin = (id, stops, x2 = 0, y2 = 1) => {
+  const g = el('linearGradient', { id, x1: 0, y1: 0, x2, y2 }, defs);
+  for (const [o, c, a] of stops) el('stop', { offset: o, 'stop-color': c, 'stop-opacity': a ?? 1 }, g);
+  return `url(#${id})`;
+};
+const rad = (id, stops, cx, cy, r) => {
+  const g = el('radialGradient', { id, cx, cy, r, gradientUnits: 'userSpaceOnUse' }, defs);
+  for (const [o, c, a] of stops) el('stop', { offset: o, 'stop-color': c, 'stop-opacity': a ?? 1 }, g);
+  return `url(#${id})`;
+};
+
+// ------------------------------------------------ cielo
+el('rect', { width: Wd, height: HOR + 2, fill: lin('sky', [[0, '#F3EBDD'], [0.55, '#F5E2C3'], [1, '#F2CF9F']]) }, svg);
+el('rect', { width: Wd, height: HOR + 2, fill: rad('glow', [[0, '#F7D9A6', 0.9], [0.45, '#F4DDB8', 0.5], [1, '#F4E6D0', 0]], 840, HOR, 620) }, svg);
+// nuvole basse a strisce (stile manifesto)
+const cloud = (x, y, w, o) => {
+  el('path', { d: `M${x},${y}h${w}a5,5 0 0,0 0,-10h-${w * 0.35}a7,7 0 0,0 -14,0h-${w * 0.65 - 14}a5,5 0 0,0 0,10Z`, fill: '#FBF5EA', opacity: o }, svg);
+};
+cloud(1060, 96, 150, 0.85); cloud(1150, 116, 90, 0.7); cloud(560, 70, 120, 0.75); cloud(250, 120, 110, 0.6); cloud(1440, 64, 130, 0.7);
+
+// ------------------------------------------------ mare
+const seaG = el('g', {}, svg);
+el('rect', { x: 0, y: HOR, width: Wd, height: Hd - HOR, fill: lin('sea', [[0, '#5FA3B8'], [0.18, '#2F7BA6'], [0.55, '#1F5E8A'], [1, '#153F62']]) }, seaG);
+// promontorio lontanissimo (prospettiva atmosferica)
+el('path', { d: `M1080,${HOR}C1110,${HOR - 9} 1150,${HOR - 13} 1190,${HOR - 12}C1225,${HOR - 11} 1250,${HOR - 6} 1275,${HOR}Z`, fill: '#B9C7C4' }, svg);
+el('path', { d: `M300,${HOR}C330,${HOR - 6} 380,${HOR - 8} 420,${HOR - 5}L450,${HOR}Z`, fill: '#C3CCC5' }, svg);
+// sole che tramonta sull'orizzonte, con i tagli orizzontali del marchio
+{
+  const R0 = 40, cid = BR.id('sun');
+  el('rect', { x: 840 - R0 - 2, y: HOR - R0 - 2, width: 2 * R0 + 4, height: R0 + 2 }, el('clipPath', { id: cid }, defs));
+  const g2 = el('g', { 'clip-path': `url(#${cid})` }, svg);
+  el('circle', { cx: 840, cy: HOR, r: R0, fill: lin('sunG', [[0, '#E3A35A'], [1, '#C8683E']]) }, g2);
+  for (const [dy, h] of [[-9, 2.4], [-17, 2], [-24, 1.6]]) el('rect', { x: 840 - R0, y: HOR + dy - h / 2, width: 2 * R0, height: h, fill: '#F4D3A2' }, g2);
+}
+// riflesso del sole e onde
+const r = rng(8);
+for (let y = HOR + 4, s = 3.2; y < 412; y += s, s *= 1.09) {
+  const t = (y - HOR) / 110;
+  const half = 62 * (1 + t * 0.9);
+  let x = 840 - half + r() * 20;
+  while (x < 840 + half) {
+    const len = 6 + r() * 28 * (1 - t * 0.5);
+    el('rect', { x: f(x), y: f(y), width: f(len), height: f(1.1 + t * 1.6), rx: 1, fill: '#F2C98C', opacity: f(0.85 - t * 0.45) }, seaG);
+    x += len + 5 + r() * 16 * (1 + t);
+  }
+  // linee d'onda chiare su tutto il mare
+  let xx = r() * 60;
+  while (xx < Wd) {
+    const len = 14 + r() * 50 * (0.6 + t);
+    if (Math.abs(xx - 840) > half + 20) el('path', { d: `M${f(xx)},${f(y)}q${f(len / 4)},${f(-1.5 - t * 2)} ${f(len / 2)},0t${f(len / 2)},0`, fill: 'none', stroke: '#9FD0D4', 'stroke-width': f(0.8 + t * 1.2), opacity: f(0.35 + t * 0.2), 'stroke-linecap': 'round' }, seaG);
+    xx += len + 30 + r() * 90 * (1 + t);
+  }
+}
+
+// ------------------------------------------------ case bianche e falesie (controluce: il sole è al centro)
+// sun = +1 se il sole sta a destra dell'oggetto (paese di sinistra), -1 se a sinistra
+function house(g, x, base, w, h, sun, rr, o = {}) {
+  const top = base - h;
+  const side = w * (0.22 + rr() * 0.12);
+  const front = o.front || '#E8DFD0', lit = o.lit || '#FFFCF5';
+  el('rect', { x: f(x), y: f(top), width: f(w), height: f(h + 2), fill: front }, g);
+  // faccia rivolta al sole: luminosa
+  el('rect', { x: f(sun > 0 ? x + w - side : x), y: f(top), width: f(side), height: f(h + 2), fill: lit }, g);
+  // parapetto in luce
+  el('rect', { x: f(x - 0.6), y: f(top - 1.8), width: f(w + 1.2), height: 2.2, fill: lit }, g);
+  // ombra portata sotto il parapetto
+  el('rect', { x: f(sun > 0 ? x : x + side), y: f(top + 0.4), width: f(w - side), height: 2, fill: '#000', opacity: 0.06 }, g);
+  if (o.noWin) return;
+  const fx0 = sun > 0 ? x + 3 : x + side + 3, fw = w - side - 6;
+  const nwin = Math.min(3, Math.max(0, Math.floor(fw / 12) - (rr() < 0.4 ? 1 : 0)));
+  const floors = Math.max(1, Math.floor((h - 6) / 14));
+  for (let k = 0; k < floors; k++) for (let i = 0; i < nwin; i++) {
+    if (rr() < 0.4) continue;
+    const wx = fx0 + (i + 0.5) * fw / nwin - 1.8, wy = top + 6 + k * 14;
+    if (wy + 7 > base - 1) continue;
+    if (rr() < 0.25) el('path', { d: `M${f(wx)},${f(wy + 7)}v-4.6a1.9,1.9 0 0,1 3.8,0v4.6Z`, fill: o.win || '#56606A' }, g);
+    else el('rect', { x: f(wx), y: f(wy), width: 3.6, height: 5.4, fill: o.win || '#56606A' }, g);
+  }
+}
+function town(g, x0, x1, topAt, sun, seed) {
+  const rr = rng(seed);
+  // tre file: dietro (velate dall'aria), centro, fronte sul ciglio della falesia
+  const rows = [
+    { dy: -30, hMin: 34, hMax: 52, wMin: 26, wMax: 46, front: '#E3DCD2', lit: '#F7F2EA', win: '#8C939A' },
+    { dy: -14, hMin: 28, hMax: 46, wMin: 24, wMax: 52, front: '#E6DDCF', lit: '#FDF9F1', win: '#6B747C' },
+    { dy: 1, hMin: 22, hMax: 40, wMin: 22, wMax: 56, front: '#E9E0D1', lit: '#FFFCF5', win: '#4F5962' }
+  ];
+  for (const R of rows) {
+    let x = x0 - rr() * 20;
+    while (x < x1) {
+      const w = R.wMin + rr() * (R.wMax - R.wMin);
+      const h = R.hMin + rr() * (R.hMax - R.hMin);
+      const base = topAt(x + w / 2) + R.dy + (rr() - 0.5) * 4;
+      house(g, x, base, w, h, sun, rr, R);
+      x += w - 2 - rr() * 5;
+    }
+  }
+}
+// massa di roccia stratificata in controluce, con bordo illuminato verso il sole
+function cliff(g, d, o) {
+  const cid = BR.id('cf');
+  el('path', { d }, el('clipPath', { id: cid }, defs));
+  el('path', { d, fill: lin(BR.id('cg'), [[0, '#C99B63'], [0.45, '#B4864F'], [1, '#8A6038']]) }, g);
+  const cg = el('g', { 'clip-path': `url(#${cid})` }, g);
+  const rr = rng(o.seed);
+  // strati: ripiani con labbro in luce e ombra sottostante
+  for (const yy of o.strata) {
+    const pts = [];
+    for (let x = o.x0 - 20; x <= o.x1 + 20; x += 34) pts.push([x, yy + (rr() - 0.5) * 6]);
+    const dd = smooth(pts, false, 0.9);
+    el('path', { d: dd, fill: 'none', stroke: '#6E4A2A', 'stroke-width': 5, opacity: 0.28, transform: 'translate(0,3)' }, cg);
+    el('path', { d: dd, fill: 'none', stroke: '#E2B87E', 'stroke-width': 1.6, opacity: 0.85 }, cg);
+  }
+  // fratture verticali brevi e puntinatura (calcare poroso)
+  for (let i = 0; i < o.cracks; i++) {
+    const x = o.x0 + rr() * (o.x1 - o.x0), y = o.yTop + rr() * (o.yBot - o.yTop);
+    el('path', { d: `M${f(x)},${f(y)}l${f((rr() - 0.5) * 3)},${f(4 + rr() * 8)}`, stroke: '#6E4A2A', 'stroke-width': 0.9, opacity: 0.32, fill: 'none' }, cg);
+  }
+  for (let i = 0; i < o.cracks * 3; i++) {
+    el('circle', { cx: f(o.x0 + rr() * (o.x1 - o.x0)), cy: f(o.yTop + rr() * (o.yBot - o.yTop)), r: f(0.6 + rr() * 0.9), fill: rr() < 0.5 ? '#6E4A2A' : '#E7C38E', opacity: 0.5 }, cg);
+  }
+  // ombra fredda alla base (riflesso del mare)
+  el('rect', { x: o.x0 - 20, y: o.yBot - 40, width: o.x1 - o.x0 + 40, height: 60, fill: lin(BR.id('cb'), [[0, '#3B4E5E', 0], [1, '#2A3A48', 0.45]]) }, cg);
+  // controluce: bordo verso il sole
+  if (o.rim) el('path', { d: o.rim, fill: lin(BR.id('rim'), [[0, '#F6D9A2', o.sun > 0 ? 0 : 0.95], [1, '#F6D9A2', o.sun > 0 ? 0.95 : 0]], 1, 0) }, cg);
+  for (const c of (o.caves || [])) el('path', { d: c, fill: '#3A2817' }, cg);
+  return cg;
+}
+
+// ------------------------------------------------ sinistra: Polignano sulle falesie
+const L = el('g', {}, svg);
+const topL = x => 270 + Math.sin(x / 47) * 2.5 + (x > 330 ? (x - 330) * 0.12 : 0);
+town(el('g', {}, L), -20, 392, topL, 1, 21);
+// chiesa matrice: campanile e cupola nella fila di fondo
+{
+  const g = el('g', {}, L);
+  const x = 158, base = topL(158) - 40, w = 20, h = 70;
+  el('rect', { x, y: base - h, width: w, height: h, fill: '#E6DDCF' }, g);
+  el('rect', { x: x + w * 0.66, y: base - h, width: w * 0.34, height: h, fill: '#FDF9F1' }, g);
+  el('path', { d: `M${x - 2},${base - h}L${x + w / 2},${base - h - 20}L${x + w + 2},${base - h}Z`, fill: '#C98F62' }, g);
+  el('path', { d: `M${x + w / 2},${base - h - 20}L${x + w + 2},${base - h}H${x + w / 2}Z`, fill: '#DDA77A' }, g);
+  el('path', { d: `M${x + 6.5},${base - h + 17}v-8a3,3 0 0,1 6,0v8Z`, fill: '#56606A' }, g);
+  el('rect', { x: x - 1.5, y: base - h - 1.5, width: w + 3, height: 2.4, fill: '#FDF9F1' }, g);
+  el('rect', { x: 220, y: topL(240) - 66, width: 44, height: 22, fill: '#E6DDCF' }, g);
+  el('rect', { x: 252, y: topL(240) - 66, width: 12, height: 22, fill: '#FDF9F1' }, g);
+  el('path', { d: `M222,${topL(240) - 66}a20,18 0 0,1 40,0Z`, fill: '#E6DDCF' }, g);
+  el('path', { d: `M242,${topL(240) - 84}a20,18 0 0,1 20,18h-10Z`, fill: '#FDF9F1' }, g);
+  el('rect', { x: 240, y: topL(240) - 90, width: 4, height: 7, fill: '#E6DDCF' }, g);
+}
+const cliffLd = `M-20,${f(topL(-20))}` + (() => { let s = ''; for (let x = 0; x <= 392; x += 28) s += `L${x},${f(topL(x))}`; return s; })() +
+  `C404,${f(topL(392) + 1)} 414,282 416,296C419,310 426,312 428,326C430,338 440,346 458,352L462,358L-20,358Z`;
+cliff(L, cliffLd, {
+  seed: 3, x0: -20, x1: 460, yTop: 272, yBot: 352, strata: [290, 308, 324, 340], cracks: 45, sun: 1,
+  rim: `M372,262C402,268 414,282 416,296C419,310 426,312 428,326C430,338 440,346 460,352L460,262Z`,
+  caves: ['M300,353C301,334 330,331 336,353Z', 'M112,353C114,340 136,338 140,353Z', 'M396,353C397,344 408,343 410,353Z']
+});
+
+// ------------------------------------------------ destra: Lama Monachile col ponte borbonico
+const R = el('g', {}, svg);
+const topR = x => 268 + Math.sin(x / 53) * 2.5 + (x < 1300 ? (1300 - x) * 0.12 : 0);
+town(el('g', {}, R), 1262, 1720, topR, -1, 33);
+const ax0 = 1436, ax1 = 1552, crown = 292, spring = 330, deck = topR(1494) - 2;
+const cliffRd = `M1222,358L1226,356C1236,350 1244,344 1246,330C1248,318 1254,312 1256,300C1260,288 1270,${f(topR(1272) + 4)} 1286,${f(topR(1286))}` +
+  (() => { let s = ''; for (let x = 1300; x <= 1700; x += 28) s += `L${x},${f(topR(x))}`; return s; })() + `L1700,358Z`;
+cliff(R, cliffRd, {
+  seed: 9, x0: 1210, x1: 1700, yTop: 272, yBot: 356, strata: [292, 310, 326, 342], cracks: 45, sun: -1,
+  rim: `M1222,356C1236,350 1244,344 1246,330C1248,318 1254,312 1256,300C1260,288 1272,272 1292,270L1300,270L1300,356Z`,
+  caves: ['M1300,356C1302,340 1324,338 1328,356Z']
+});
+// arco del ponte: la cala si vede attraverso
+{
+  const archD = `M${ax0},360L${ax0},${spring}C${ax0},${crown + 10} ${ax0 + 24},${crown} ${(ax0 + ax1) / 2},${crown}C${ax1 - 24},${crown} ${ax1},${crown + 10} ${ax1},${spring}L${ax1},360Z`;
+  const mx = (ax0 + ax1) / 2;
+  el('path', { d: archD, fill: lin('cove', [[0, '#3A2B1D'], [1, '#5E4630']]) }, R);
+  const clipA = BR.id('ca'); el('path', { d: archD }, el('clipPath', { id: clipA }, defs));
+  const cag = el('g', { 'clip-path': `url(#${clipA})` }, R);
+  // pareti della lama che convergono verso il fondo luminoso
+  el('path', { d: `M${ax0},${crown}L${mx - 12},${crown + 22}L${mx - 12},${spring + 12}L${ax0},${spring + 26}Z`, fill: '#6A4F35' }, cag);
+  el('path', { d: `M${ax1},${crown}L${mx + 12},${crown + 22}L${mx + 12},${spring + 12}L${ax1},${spring + 26}Z`, fill: '#4B3826' }, cag);
+  el('path', { d: `M${mx - 12},${crown + 22}C${mx - 8},${crown + 12} ${mx + 8},${crown + 12} ${mx + 12},${crown + 22}L${mx + 12},${spring + 12}L${mx - 12},${spring + 12}Z`, fill: lin('lamaEnd', [[0, '#F3D9A6'], [1, '#C99E68']]) }, cag);
+  // spiaggetta di ciottoli
+  el('path', { d: `M${ax0},${spring + 26}L${mx - 12},${spring + 12}L${mx + 12},${spring + 12}L${ax1},${spring + 26}L${ax1},360L${ax0},360Z`, fill: '#D8C6A4' }, cag);
+  const rr = rng(2);
+  for (let i = 0; i < 80; i++) {
+    const yy = spring + 13 + rr() * 22, spread = (yy - spring - 12) / 14;
+    el('ellipse', { cx: f(mx + (rr() - 0.5) * (24 + spread * (ax1 - ax0 - 24))), cy: f(yy), rx: f(0.9 + rr() * 1.8 * (0.5 + spread * 0.5)), ry: f(0.7 + rr() * 0.9), fill: rr() < 0.5 ? '#B9A27C' : '#F4ECDC' }, cag);
+  }
+  // ghiera dell'arco con conci
+  const ring = `M${ax0 - 13},${spring + 2}C${ax0 - 13},${crown - 4} ${ax0 + 14},${crown - 14} ${(ax0 + ax1) / 2},${crown - 14}C${ax1 - 14},${crown - 14} ${ax1 + 13},${crown - 4} ${ax1 + 13},${spring + 2}` +
+    `L${ax1},${spring}C${ax1},${crown + 10} ${ax1 - 24},${crown} ${(ax0 + ax1) / 2},${crown}C${ax0 + 24},${crown} ${ax0},${crown + 10} ${ax0},${spring}Z`;
+  el('path', { d: ring, fill: '#D5AE78' }, R);
+  for (let i = 0; i <= 18; i++) {
+    const t = i / 18;
+    const p = t <= 0.5 ? bez([ax0, spring], [ax0, crown + 10], [ax0 + 24, crown], [(ax0 + ax1) / 2, crown], t * 2)
+      : bez([(ax0 + ax1) / 2, crown], [ax1 - 24, crown], [ax1, crown + 10], [ax1, spring], t * 2 - 1);
+    const a = Math.atan2(p[1] - (spring + 8), p[0] - (ax0 + ax1) / 2);
+    el('line', { x1: f(p[0]), y1: f(p[1]), x2: f(p[0] + Math.cos(a) * 13.5), y2: f(p[1] + Math.sin(a) * 13.5), stroke: '#8E6A3C', 'stroke-width': 1 }, R);
+  }
+  el('path', { d: `M${ax0},${spring}C${ax0},${crown + 10} ${ax0 + 24},${crown} ${(ax0 + ax1) / 2},${crown}`, fill: 'none', stroke: '#F6D9A2', 'stroke-width': 2 }, R);
+  // parapetto del ponte sopra l'arco
+  el('rect', { x: ax0 - 22, y: crown - 22, width: ax1 - ax0 + 44, height: 6, fill: '#E6C996' }, R);
+  el('rect', { x: ax0 - 22, y: crown - 16, width: ax1 - ax0 + 44, height: 2, fill: '#7E5A34', opacity: 0.5 }, R);
+}
+
+// ------------------------------------------------ riflessi delle falesie e schiuma
+{
+  const rg = lin('refl', [[0, '#3A3326', 0.45], [1, '#1F5E8A', 0]]);
+  el('path', { d: 'M-20,358L462,358C448,364 440,372 420,380C380,388 300,386 200,388L-20,388Z', fill: rg }, svg);
+  el('path', { d: 'M1222,358L1700,358L1700,388L1420,388C1330,386 1280,382 1250,374C1236,368 1230,364 1222,358Z', fill: rg }, svg);
+  const rr = rng(13);
+  for (const [x0, x1] of [[-20, 462], [1222, 1700]]) {
+    for (let i = 0; i < 26; i++) {
+      const x = x0 + rr() * (x1 - x0), w = 6 + rr() * 22, y = 358 + 1 + rr() * 2.5;
+      el('path', { d: `M${f(x)},${f(y)}q${f(w / 4)},-1.6 ${f(w / 2)},0t${f(w / 2)},0`, fill: 'none', stroke: '#EAF4F2', 'stroke-width': 1.3, opacity: 0.85, 'stroke-linecap': 'round' }, svg);
+    }
+  }
+}
+// ------------------------------------------------ barchetta (gozzo) e gabbiani
+{
+  const bx = 1120, by = 336;
+  el('path', { d: `M${bx - 22},${by - 4}C${bx - 12},${by + 5} ${bx + 14},${by + 5} ${bx + 24},${by - 6}L${bx + 18},${by - 2}Z`, fill: P.bianco }, svg);
+  el('path', { d: `M${bx - 20},${by - 2}C${bx - 10},${by + 4} ${bx + 12},${by + 4} ${bx + 21},${by - 3}`, fill: 'none', stroke: P.terra, 'stroke-width': 1.6 }, svg);
+  el('path', { d: `M${bx - 20},${by + 3}C${bx - 6},${by + 6} ${bx + 10},${by + 6} ${bx + 22},${by + 2}`, fill: 'none', stroke: '#9FD0D4', 'stroke-width': 1, opacity: 0.6 }, svg);
+}
+const gull = (x, y, s) => el('path', { d: `M${x - 7 * s},${y - 2 * s}q${4 * s},${-3 * s} ${7 * s},${2 * s}q${3 * s},${-5 * s} ${7 * s},${-2 * s}`, fill: 'none', stroke: '#4A5560', 'stroke-width': 1.3, 'stroke-linecap': 'round' }, svg);
+gull(1330, 150, 1); gull(1360, 168, 0.75); gull(330, 160, 0.85);
+
+// ------------------------------------------------ muretto a secco in primo piano
+const wallG = el('g', {}, svg);
+const wallTop = x => 376 + Math.sin(x / 140) * 3;
+const stones = BR.wallStones(rng(51), { x0: -20, x1: Wd + 20, yBottom: 432, yTop: 388, hMin: 18, hMax: 26, wMin: 24, wMax: 62, gap: 2.6, hVar: 0.12 });
+const topRow = Math.max(...stones.map(s => s.row));
+el('path', { d: `M-10,${Hd + 10}L-10,392` + stones.filter(s => s.row === topRow).map(s => `L${f(s.cx - s.w / 2)},${f(s.cy - s.h / 2 + 3)}L${f(s.cx + s.w / 2)},${f(s.cy - s.h / 2 + 3)}`).join('') + `L${Wd + 10},392L${Wd + 10},${Hd + 10}Z`, fill: '#3E3022' }, wallG);
+const rs = rng(77);
+for (const s of stones) {
+  const pts = BR.stone(s.cx, s.cy, s.w, s.h, rs, { j: 0.12, ex: 0.55, n: 8, rot: 0.14 });
+  const t = rs();
+  const base = t < 0.33 ? '#B49A74' : t < 0.66 ? '#A88E69' : '#BDA37D';
+  el('path', { d: smooth(pts, true, 0.55), fill: base }, wallG);
+  BR.crescent(wallG, defs, pts, (s.cx < 840 ? 1 : -1) * -Math.min(s.w, s.h) * 0.2, -Math.min(s.w, s.h) * 0.2, '#7E6545', 0.55);
+  BR.crescent(wallG, defs, pts, (s.cx < 840 ? 1 : -1) * Math.min(s.w, s.h) * 0.06, Math.min(s.w, s.h) * 0.14, '#E8D2A6', 0.55);
+}
+
+// ------------------------------------------------ ulivo in primo piano (destra) e rametto (sinistra)
+function oliveTree(g, x, y, s, seed) {
+  const rr = rng(seed);
+  // tronco contorto che si apre in due bracci
+  const T = (dx, dy) => `${f(x + dx * s)},${f(y + dy * s)}`;
+  el('path', { d: `M${T(-16, 0)}C${T(-8, -14)} ${T(-14, -30)} ${T(-6, -46)}C${T(-2, -56)} ${T(-14, -70)} ${T(-26, -88)}L${T(-20, -91)}C${T(-6, -76)} ${T(4, -62)} ${T(4, -52)}` +
+    `C${T(10, -66)} ${T(20, -78)} ${T(30, -96)}L${T(35, -93)}C${T(26, -74)} ${T(14, -56)} ${T(12, -38)}C${T(10, -22)} ${T(16, -10)} ${T(20, 0)}Z`, fill: '#6E5C45' }, g);
+  el('path', { d: `M${T(2, 0)}C${T(8, -14)} ${T(2, -30)} ${T(6, -44)}C${T(10, -30)} ${T(12, -14)} ${T(20, 0)}Z`, fill: '#4A3C2C' }, g);
+  el('path', { d: `M${T(-12, -4)}C${T(-6, -16)} ${T(-10, -28)} ${T(-4, -40)}`, fill: 'none', stroke: '#8C7759', 'stroke-width': 1.4 * s, 'stroke-linecap': 'round' }, g);
+  // chioma: ciuffi irregolari con buchi di cielo; luce dal sole (a sinistra)
+  const tufts = [];
+  for (let i = 0; i < 22; i++) {
+    const a = rr() * Math.PI * 2, d = Math.sqrt(rr());
+    tufts.push([x + Math.cos(a) * d * 62 * s, y - 112 * s + Math.sin(a) * d * 34 * s, (14 + rr() * 12) * s]);
+  }
+  tufts.sort((p, q) => p[1] - q[1]);
+  for (const [cx, cy, R0] of tufts) {
+    const pts = [];
+    const n = 11;
+    for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2; const k = 0.7 + rr() * 0.45; pts.push([cx + Math.cos(a) * R0 * k, cy + Math.sin(a) * R0 * 0.62 * k]); }
+    el('path', { d: smooth(pts), fill: '#6E7A4E' }, g);
+    BR.crescent(g, defs, pts, R0 * 0.28, R0 * 0.22, '#4D5939');          // ombra in basso a destra
+    BR.crescent(g, defs, pts, -R0 * 0.12, R0 * 0.18, '#9AA57A');         // bordo argentato verso il sole
+    for (let i = 0; i < 9; i++) {
+      const a = rr() * Math.PI * 2, d = rr() * R0 * 0.8;
+      el('path', { d: BR.leafPath(6 * s + rr() * 4 * s, 1.2 * s), transform: `translate(${f(cx + Math.cos(a) * d)},${f(cy + Math.sin(a) * d * 0.6)}) rotate(${f(-160 + rr() * 140)})`, fill: rr() < 0.55 ? '#B3BC92' : '#46522F', opacity: 0.8 }, g);
+    }
+  }
+}
+oliveTree(el('g', {}, svg), 1612, 392, 1.25, 4);
+
+// ------------------------------------------------ logo + payoff nella zona sicura
+const LG = el('g', {}, svg);
+const SC = 0.31, CX0 = 548, CY0 = 200;   // medaglione
+const sealSvg = el('svg', { x: CX0 - 500 * SC, y: CY0 - 500 * SC, width: 1000 * SC, height: 1000 * SC, viewBox: '0 0 1000 1000', overflow: 'visible' }, LG);
+// alone calce dietro il medaglione
+LG.appendChild(sealSvg);
+buildSeal(sealSvg, { ink: P.ink, accent: P.terra, paper: '#FCFAF6', ring: false });
+
+Promise.all([document.fonts.load('600 50px Cinzel'), document.fonts.load('italic 500 30px Cormorant'), document.fonts.load('400 20px Jost')]).then(() => {
+  const X = 680, W = 560;
+  const t1 = el('text', { x: X, y: 186, fill: P.ink, 'font-family': 'Cinzel', 'font-weight': 600, 'font-size': 50, 'letter-spacing': '0.1em' }, LG);
+  t1.textContent = 'MURETTO STUDIO';
+  let fs = 50;
+  for (let i = 0; i < 4; i++) { fs = fs * W / (t1.getComputedTextLength() - fs * 0.1); t1.setAttribute('font-size', fs.toFixed(2)); }
+  const yR = 208, cx = X + W / 2;
+  el('line', { x1: X, y1: yR, x2: cx - 20, y2: yR, stroke: P.ink, 'stroke-width': 1.2 }, LG);
+  el('line', { x1: cx + 20, y1: yR, x2: X + W, y2: yR, stroke: P.ink, 'stroke-width': 1.2 }, LG);
+  el('path', { d: BR.star4(cx, yR, 9, 2.3), fill: P.terra }, LG);
+  const t2 = el('text', { x: cx, y: 246, 'text-anchor': 'middle', fill: P.ink, 'font-family': 'Cormorant', 'font-style': 'italic', 'font-weight': 500, 'font-size': 33 }, LG);
+  t2.textContent = 'Minimal art & gifts from Puglia';
+  // grana carta su tutto
+  el('rect', { width: Wd, height: Hd, filter: BR.grainFilter(defs, { freq: 0.85, alpha: 0.9, bias: -0.38, r: 0.25, g: 0.2, b: 0.15 }), style: 'mix-blend-mode:multiply', opacity: 0.22 }, svg);
+  window.__ready = true;
+});
+</script>
+</body></html>

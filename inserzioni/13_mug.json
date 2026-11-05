@@ -1,0 +1,61 @@
+{
+  "title": "Christmas Movie Watching Club Mug, Retro Christmas Coffee Mug, Hot Cocoa Mug, Holiday Movie Lover Gift, Cozy Christmas",
+  "description": "Popcorn ready, blanket on, the countdown to Christmas can begin. A retro 70s badge with a vintage TV showing a snowy cabin, a bowl of popcorn and a candy cane: \"CHRISTMAS MOVIE WATCHING CLUB\".<br><br>The perfect mug for hot cocoa during holiday movie marathons, and a cosy gift for the Christmas film lover in your life.<br><br>DETAILS<br>- White glossy ceramic mug<br>- Two sizes: 330 ml (11 oz) or 440 ml (15 oz)<br>- Printed on both sides: the design shows whether you hold the mug in your right or left hand<br>- Dishwasher and microwave safe<br><br>PRODUCTION AND SHIPPING<br>Printed on demand by our production partner in the EU (Czech Republic) and shipped with tracking. Production takes 2-5 business days. This item ships within Europe and the UK.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "christmas movie",
+    "movie watching club",
+    "christmas mug",
+    "retro christmas mug",
+    "hot cocoa mug",
+    "christmas movie fan",
+    "cozy christmas",
+    "holiday mug",
+    "secret santa gift",
+    "christmas coffee mug",
+    "movie lover gift",
+    "stocking stuffer",
+    "vintage christmas"
+  ],
+  "blueprint_id": 441,
+  "print_provider_id": 30,
+  "variants": {
+    "11oz": 1790,
+    "15oz": 2190
+  },
+  "variant_images": {
+    "11oz": {
+      "front": "stampa/13_441/design_tazza_2717x1146.png"
+    },
+    "15oz": {
+      "front": "stampa/13_441/design_tazza_2811x1276.png"
+    }
+  },
+  "printify_product_id": "6ae717fce263eefc5e0c720d",
+  "etsy": {
+    "sezione": "Mugs",
+    "zona": "europa",
+    "foto": "stampa/foto_etsy/13.jpg",
+    "attributi": {
+      "Holiday": "Christmas",
+      "Graphic": "Movie",
+      "Materials": [
+        "Ceramic"
+      ],
+      "Primary color": "White",
+      "Dishwasher safe": "Yes",
+      "Microwave safe": "Yes",
+      "Handle": "Yes"
+    },
+    "foto_extra": [
+      "stampa/foto_etsy/13_mug_stampa.jpg",
+      "stampa/foto_etsy/13_mug_scheda.jpg"
+    ]
+  },
+  "etsy_listing_id": 4607484484,
+  "etsy_immagini": {
+    "stampa/foto_etsy/13.jpg": 8779834530,
+    "stampa/foto_etsy/13_mug_stampa.jpg": 8827663989,
+    "stampa/foto_etsy/13_mug_scheda.jpg": 8827664117
+  },
+  "etsy_video_id": 851449372
+}

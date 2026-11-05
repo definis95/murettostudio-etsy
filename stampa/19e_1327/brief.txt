@@ -1,0 +1,7 @@
+Use case: motif sheet for a seamless printed scarf pattern (the motifs will be cut out and re-arranged by software).
+Subject: small golden suns with a face-free round centre and pointed rays, crescent moons, and stars of different sizes (four-point sparkles and five-point stars). About 8 suns and 8 crescent moons as the main motifs, plus many small stars and tiny dots as fillers.
+Background: one flat solid deep navy #1F2A44 filling the whole canvas, no texture, no vignette, no gradient.
+Palette: gold #D4A548 for suns and most stars, cream #F4EBDD for moons and some small stars.
+Style: refined minimal flat celestial boho illustration like a quality fashion print, crisp clean edges, no shadows, no glow, no gradients.
+Layout: motifs evenly spaced with clear navy space between them; EVERY motif fully inside the canvas, none touching or cut by the edges, none overlapping each other. No text.
+Keep the same look as the attached reference photo of the approved scarf.

@@ -1,0 +1,6 @@
+Use case: repeat block for a seamless printed scarf pattern (software will repeat this image side by side in a grid).
+Subject: a 2x2 block of four original Mediterranean majolica-style square ceramic tiles, filling the canvas exactly edge to edge (each tile is one quarter of the canvas). Top-left and bottom-right tile: a geometric blue flower medallion with small leaves in the corners. Top-right and bottom-left tile: two small lemons with leaves inside a blue geometric frame. Each tile has a thin cobalt blue border line on all four sides, so that when the block is repeated the tiles meet perfectly.
+Background of the tiles: white #FAFAF7.
+Palette: cobalt blue #2F5DA8, light blue #8DB7D2, lemon yellow #E8C547, leaf green #6E9A5B.
+Style: refined minimal flat illustration like a quality fashion print, crisp clean edges, flat colours, no shadows, no glaze shine, no cracks, no photo of real tiles, no perspective: perfectly flat and straight, viewed from directly above. No text.
+Keep the same look as the attached reference photo of the approved scarf.

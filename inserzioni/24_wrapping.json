@@ -1,0 +1,52 @@
+{
+  "title": "Reindeer Christmas Wrapping Paper, Green Gift Wrap Roll with Holly and Gold Stars, Satin Wrapping Paper, Elegant Holiday Gift Wrap",
+  "description": "Leaping cream reindeer, red-berried holly and little golden stars on a deep forest green: a classic, elegant wrapping paper that makes every present look special under the tree.<br><br>DETAILS<br>- Satin-finish wrapping paper, one continuous roll<br>- Two sizes: 70 x 100 cm (28 x 39 in) or 70 x 200 cm (28 x 79 in)<br>- Printed on one side<br><br>PRODUCTION AND SHIPPING<br>Printed on demand by our production partner in the UK and shipped with tracking. Production takes 2-5 business days. This item ships within Europe and the UK.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "christmas wrapping",
+    "gift wrap roll",
+    "reindeer gift wrap",
+    "wrapping paper",
+    "green gift wrap",
+    "holly wrapping",
+    "christmas paper",
+    "holiday gift wrap",
+    "elegant gift wrap",
+    "xmas wrapping",
+    "satin wrapping",
+    "gold star wrap",
+    "present wrapping"
+  ],
+  "blueprint_id": 845,
+  "print_provider_id": 69,
+  "variants": {
+    "28\" x 39\" / Satin": 1990,
+    "28\" x 79\" / Satin": 2990
+  },
+  "images": {
+    "front": "stampa/24_845/design_front_8268x11811.jpg"
+  },
+  "variant_images": {
+    "28\" x 79\" / Satin": {
+      "front": "stampa/24_845/design_front_8268x23622.jpg"
+    }
+  },
+  "printify_product_id": "6ae99ea131d1eca07c0aee4b",
+  "etsy": {
+    "sezione": "Gift Wrap",
+    "zona": "europa",
+    "attributi": {
+      "Holiday": "Christmas",
+      "Primary color": "Green"
+    },
+    "foto": "stampa/foto_etsy/24.jpg",
+    "foto_extra": [
+      "stampa/foto_etsy/scheda_carta_eu.jpg"
+    ]
+  },
+  "etsy_listing_id": 4609296901,
+  "etsy_immagini": {
+    "stampa/foto_etsy/24.jpg": 8841593769,
+    "stampa/foto_etsy/scheda_carta_eu.jpg": 8841694471
+  },
+  "etsy_video_id": 852046807
+}

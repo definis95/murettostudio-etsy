@@ -1,0 +1,64 @@
+{
+  "title": "Custom Name Embroidered Beanie, Personalized Cuffed Beanie with Heart, Name Knit Hat, Personalized Winter Gift",
+  "description": "Your name, or the name of someone you love, embroidered in bold rounded letters with a little pink heart on the cuff of a classic knit beanie. A personal, cosy gift.<br><br>PERSONALIZATION<br>- Type the name in the personalization box: max 8 letters, A-Z only (no numbers, emoji or symbols)<br>- It is embroidered in white next to the heart, exactly as you write it (capital letters look best)<br>- Every name is checked by me before production. Personalized embroidery may add 1-2 business days<br><br>DETAILS<br>- Embroidered design on the cuff (not printed)<br>- 100% soft acrylic knit, hypoallergenic<br>- Classic 12 in (30 cm) cuffed beanie, stretchy, one size fits most adults<br>- Colours: Black, Navy, Olive<br><br>CARE<br>Hand wash cold, lay flat to dry. Do not iron the embroidery.<br><br>PRODUCTION AND SHIPPING<br>Embroidered on demand by our production partner and shipped with tracking. Orders to the USA are made in the USA, orders to Europe are made in Europe. Production takes 2-5 business days.<br><br>Design created by MurettoStudio with the help of AI image tools, then checked and prepared for print by me.<br><br>Photos: the first photo is the product mockup from our print partner; the lifestyle photos are digital mockups created for illustration.",
+  "tags": [
+    "custom name beanie",
+    "personalized beanie",
+    "embroidered beanie",
+    "name beanie",
+    "cuffed beanie",
+    "custom beanie",
+    "personalized gift",
+    "knit winter hat",
+    "heart beanie",
+    "name hat",
+    "gift for her",
+    "gift for kids",
+    "christmas gift"
+  ],
+  "blueprint_id": 1691,
+  "print_provider_id": 410,
+  "colori": [
+    "Red",
+    "Navy",
+    "Black",
+    "Olive"
+  ],
+  "variants": {
+    "*": 2990
+  },
+  "images": {
+    "front": "stampa/17d_1691/design_1500x525.png"
+  },
+  "etsy": {
+    "sezione": "Beanies",
+    "zona": "usa_europa",
+    "foto": "stampa/foto_etsy/17d.jpg",
+    "foto_extra": [
+      "stampa/foto_etsy/scheda_beanie_nome.jpg"
+    ],
+    "attributi": {
+      "Hat type": "Beanie",
+      "Materials": [
+        "Acrylic"
+      ],
+      "Recipient": [
+        "Adult"
+      ],
+      "Pattern": "Letters & words",
+      "Holiday": "Christmas"
+    }
+  },
+  "printify_product_id": "6aea056d3d51bbad970fbcf8",
+  "variant_images": {
+    "Red / One size": {
+      "front": "stampa/17d_1691/design_1500x525_rosso.png"
+    }
+  },
+  "etsy_listing_id": 4609199412,
+  "etsy_immagini": {
+    "stampa/foto_etsy/17d.jpg": 8841583477,
+    "stampa/foto_etsy/scheda_beanie_nome.jpg": 8841687625
+  },
+  "etsy_video_id": 852046431
+}

@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MurettoStudio – tutti i prodotti</title>
+<style>
+  :root { --ink:#2b2622; --muted:#7a6f66; --line:#e6ded5; --bg:#faf7f3; --ok:#2f7d4f; --wait:#b5711b; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width:760px; margin:0 auto; padding:20px 16px 60px; }
+  h1 { font-size:1.45rem; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 20px; font-size:.95rem; }
+  .box { background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px; margin:0 0 18px; }
+  .box h2 { font-size:1.15rem; margin:0 0 2px; }
+  .meta { color:var(--muted); font-size:.9rem; margin:0 0 12px; }
+  .gal { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:0 0 12px; }
+  .gal figure { margin:0; }
+  .gal img { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:10px; border:1px solid var(--line); background:#fff; cursor:zoom-in; display:block; }
+  .gal img.alto { object-fit:contain; }
+  .gal figcaption { font-size:.78rem; color:var(--muted); margin-top:3px; }
+  .check { margin:0; padding-left:20px; }
+  .check li { margin:0 0 6px; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; margin:4px 0 12px; }
+  td, th { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+  td.n { text-align:right; white-space:nowrap; }
+  .tag { display:inline-block; font-size:.78rem; font-weight:600; padding:2px 9px; border-radius:99px; }
+  .tag.ok { background:#e3f2e8; color:var(--ok); }
+  .tag.wait { background:#fbefdc; color:var(--wait); }
+  .domanda { background:#fff8ec; border-left:4px solid var(--wait); padding:10px 12px; border-radius:6px; margin-top:10px; }
+  .nota { font-size:.85rem; color:var(--muted); }
+  #zoom { position:fixed; inset:0; background:rgba(20,16,12,.92); display:none; align-items:center; justify-content:center; z-index:9; }
+  #zoom.on { display:flex; }
+  #zoom img { max-width:100vw; max-height:100vh; object-fit:contain; }
+
+  .indice { display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 4px; }
+  .indice a { font-size:.82rem; text-decoration:none; color:var(--ink); background:#fff; border:1px solid var(--line); border-radius:99px; padding:3px 10px; }
+  .gruppo { margin:30px 0 10px; padding-top:6px; border-top:2px solid var(--line); }
+  .gruppo h1 { font-size:1.3rem; }
+  .conta { color:var(--muted); font-weight:400; font-size:1rem; }
+  .tag.no { background:#eee; color:#777; }
+  .su { display:block; text-align:right; font-size:.8rem; margin:-8px 0 14px; }
+  a { color:#8a4b1f; }
+  .zona { display:inline-block; font-size:.85rem; font-weight:700; padding:3px 10px; border-radius:8px; margin:0 0 8px; }
+  .zona.usa { background:#e5edf9; color:#1f4f8f; }
+  .zona.europa { background:#eef4e2; color:#4a6b1d; }
+  .zona.usa_europa { background:#efe7f7; color:#5b3b86; }
+  .versione { border-top:1px dashed var(--line); margin-top:14px; padding-top:12px; }
+  .versione h3 { font-size:1rem; margin:0 0 8px; }
+  .versione h3 .zona { margin:0 0 4px; }
+  .zona.digitale { background:#f1f1f1; color:#555; }
+  .filtro { display:flex; gap:6px; margin:0 0 14px; position:sticky; top:0; background:var(--bg); padding:8px 0; z-index:5; }
+  .filtro button { flex:1; font:inherit; font-size:.9rem; padding:7px 4px; border-radius:10px; border:1px solid var(--line); background:#fff; color:var(--ink); }
+  .filtro button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+</style>
+</head>
+<body>
+<main id="top">
+  <h1>MurettoStudio – tutti i prodotti</h1>
+  <p class="sub">Aggiornato: 4 novembre 2026. Il link di questa pagina non cambia mai: si aggiorna. Tocca una foto per ingrandirla.</p>
+  <div class="box">
+    <h2>Novità di questo aggiornamento</h2>
+    <ul class="check">
+      <li><b>Foto complete su tutti i 19 annunci nuovi</b>: foto ambientata di ChatGPT (anche il 17d) + scheda informativa disegnata da ChatGPT nello stesso stile delle schede già online (materiale, misure, lavaggio, spedizione). Tutto approvato dall'art director, testi controllati lettera per lettera. Le foto ambientate sono state rifatte con un ingrandimento più naturale (pelle e ricami non più "di plastica").</li>
+      <li><b>Pubblicati su Etsy</b>: calza Europa (20) e USA (20u), carta regalo Europa (24), body europei orsetti (27c) e coniglietti (27d). Ognuno ha sezione, spedizioni giuste (USA gratis per la calza americana) e la foto ambientata di ChatGPT approvata dall'art director.</li>
+      <li><b>Body americani 27a e 27b</b>: pubblicati il 4/11 su tua decisione (spedizione USA gratis). Documenti CPSIA ancora in arrivo: Printify ha chiesto al produttore il certificato; per i body va chiesto anche quello del Rabbit Skins 4411.</li>
+      <li><b>Libri da colorare</b>: ripresi dopo le foto. Libro di Natale (21): 18 pagine approvate, 6 in rifacimento, copertina e retro pronti; poi gli altri 5 temi.</li>
+      <li><b>17d cappellino con il nome</b>: in vendita con <b>personalizzazione automatica</b>: il nome scritto dal cliente su Etsy (max 8 caratteri) va da solo nel ricamo; tu approvi ogni ordine con un clic. Colori: nero, blu navy, verde oliva (rosso tolto).</li>
+      <li>Pubblicati per sbaglio il 3/11 sera e poi <b>completati</b>: 4 sciarpe, cappellini 17a, 17c, 18a–18d e carta regalo USA 24u ora sono in vendita su Etsy (sezioni nuove Scarves, Beanies, Gift Wrap; spedizione USA gratis; solo USA+Canada, i ricamati anche Europa).</li>
+      <li><b>17d cappellino con il nome</b>: messo <b>inattivo</b> su Etsy, perché era uscito senza il campo per scrivere il nome. Lo riattiviamo dopo aver verificato la personalizzazione.</li>
+      <li>Foto ambientate di ChatGPT (approvate dall'art director) caricate su Etsy come seconda foto di tutte le 11 inserzioni nuove. Sulla carta regalo USA tolte 4 foto Printify con la carta bianca e messa prima la foto nitida dei pacchi.</li>
+      <li>Informazioni di sicurezza (GPSR): presenti su tutti i 29 prodotti Printify.</li>
+    </ul>
+    <h2 style="margin-top:12px">Cosa devi fare</h2>
+    <ul class="check">
+      <li>Manda a Printify il messaggio per il certificato dei body 27a/27b (te l'ho scritto in chat).</li>
+      <li>Dimmi se vuoi in vendita anche i 4 prodotti <b>in attesa</b> (08, 09, 10, 16).</li>
+    </ul>
+  </div>
+  <div class="filtro"><button class="on" data-f="tutti">Tutti</button><button data-f="usa">🇺🇸 USA</button><button data-f="europa">🇪🇺 Europa</button></div>
+  <div class="box">
+    <h2>Riepilogo</h2>
+    <p style="margin:10px 0 0"><a href="#g-vendita"><b>In vendita su Etsy</b></a> <span class="conta">(25)</span></p>
+    <div class="indice"><a href="#p-04_toddler">04_toddler</a><a href="#p-04_youth">04_youth</a><a href="#p-05_toddler">05_toddler</a><a href="#p-05_youth">05_youth</a><a href="#p-06_body">06_body</a><a href="#p-07_body">07_body</a><a href="#p-12_mug">12_mug</a><a href="#p-13_mug">13_mug</a><a href="#p-14_tote">14_tote</a><a href="#p-15_tote">15_tote</a><a href="#p-19b">19b</a><a href="#p-19c">19c</a><a href="#p-19d">19d</a><a href="#p-19e">19e</a><a href="#p-17a">17a</a><a href="#p-17c">17c</a><a href="#p-18a">18a</a><a href="#p-18b">18b</a><a href="#p-18c">18c</a><a href="#p-18d">18d</a><a href="#p-20">20 + 20u</a><a href="#p-24">24 + 24u</a><a href="#p-27c">27c + 27a</a><a href="#p-27d">27d + 27b</a><a href="#p-17d">17d</a></div>
+    <p style="margin:10px 0 0"><a href="#g-dafare"><b>Libri da colorare: in lavorazione</b></a> <span class="conta">(7)</span></p>
+    <div class="indice"><a href="#p-21">21</a><a href="#p-21b">21b</a><a href="#p-21c">21c</a><a href="#p-21d">21d</a><a href="#p-21e">21e</a><a href="#p-21f">21f</a><a href="#p-22">22</a></div>
+    <p style="margin:10px 0 0"><a href="#g-attesa"><b>In attesa di una tua decisione</b></a> <span class="conta">(4)</span></p>
+    <div class="indice"><a href="#p-08">08</a><a href="#p-09">09</a><a href="#p-10">10</a><a href="#p-16">16</a></div>
+    <p style="margin:10px 0 0"><a href="#g-scartati"><b>Scartati</b></a> <span class="conta">(6)</span></p>
+  </div>
+
+  <div class="gruppo" id="g-vendita"><h1>In vendita su Etsy <span class="conta">(25)</span></h1>
+  <p class="sub">Nelle schede doppie (USA + Europa) ogni versione dice se è in vendita.</p>
+  </div>
+  <div class="box" id="p-04_toddler" data-zona="usa">
+    <h2>04_toddler · Santa's Little Helper – maglietta bimbo 2-6 anni</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607485030">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="04_toddler_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="04_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 34,90 €</li>
+      <li><b>Colori:</b> rosso, blu navy, nero</li>
+      <li><b>Dove:</b> Printify Choice (USA) · USA + Canada, spedizione gratis USA</li>
+      <li><a href="https://www.etsy.com/listing/4607485030">Apri l'inserzione su Etsy</a></li>
+      <li>CPSIA (USA): in attesa dei documenti sull'inchiostro (SwiftPOD / Printify).</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-04_youth" data-zona="usa">
+    <h2>04_youth · Santa's Little Helper – maglietta ragazzo 6-16 anni</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607464361">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="04_youth_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="04_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 36,90 €</li>
+      <li><b>Colori:</b> rosso, blu navy, nero</li>
+      <li><b>Dove:</b> Printify Choice (USA) · USA + Canada, spedizione gratis USA</li>
+      <li><a href="https://www.etsy.com/listing/4607464361">Apri l'inserzione su Etsy</a></li>
+      <li>CPSIA (USA): in attesa dei documenti sull'inchiostro (SwiftPOD / Printify).</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-05_toddler" data-zona="usa">
+    <h2>05_toddler · Most Likely To Eat Santa's Cookies – maglietta bimbo 2-6 anni</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607464551">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="05_toddler_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="05_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 34,90 €</li>
+      <li><b>Colori:</b> bianco, rosa</li>
+      <li><b>Dove:</b> Printify Choice (USA) · USA + Canada, spedizione gratis USA</li>
+      <li><a href="https://www.etsy.com/listing/4607464551">Apri l'inserzione su Etsy</a></li>
+      <li>CPSIA (USA): in attesa dei documenti sull'inchiostro (SwiftPOD / Printify).</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-05_youth" data-zona="usa">
+    <h2>05_youth · Most Likely To Eat Santa's Cookies – maglietta ragazzo 6-16 anni</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607485604">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="05_youth_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="05_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 36,90 €</li>
+      <li><b>Colori:</b> bianco, naturale</li>
+      <li><b>Dove:</b> Printify Choice (USA) · USA + Canada, spedizione gratis USA</li>
+      <li><a href="https://www.etsy.com/listing/4607485604">Apri l'inserzione su Etsy</a></li>
+      <li>CPSIA (USA): in attesa dei documenti sull'inchiostro (SwiftPOD / Printify).</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-06_body" data-zona="europa">
+    <h2>06_body · Dear Santa, I Can Explain – body neonato</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607463299">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="06_body_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="06_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li><b>Prezzo:</b> 29,90 €</li>
+      <li><b>Colori:</b> bianco</li>
+      <li><b>Dove:</b> Textildruck (Germania) · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607463299">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-07_body" data-zona="europa">
+    <h2>07_body · Little But Fierce – body neonato</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607461891">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="07_body_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="07_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li><b>Prezzo:</b> 29,90 €</li>
+      <li><b>Colori:</b> bianco</li>
+      <li><b>Dove:</b> Textildruck (Germania) · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607461891">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-12_mug" data-zona="europa">
+    <h2>12_mug · Dear Santa, Define 'Good' – tazza</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607484350">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="12_mug_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="12_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 11oz 17,90 € / 15oz 21,90 €</li>
+      <li><b>Dove:</b> Repubblica Ceca · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607484350">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-13_mug" data-zona="europa">
+    <h2>13_mug · Christmas Movie Watching Club – tazza</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607484484">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="13_mug_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="13_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 11oz 17,90 € / 15oz 21,90 €</li>
+      <li><b>Dove:</b> Repubblica Ceca · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607484484">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-14_tote" data-zona="europa">
+    <h2>14_tote · North Pole Postal Service – borsa</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607463829">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="14_tote_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="14_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 24,90 €</li>
+      <li><b>Colori:</b> nero, rosso, blu navy</li>
+      <li><b>Dove:</b> Textildruck (Germania) · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607463829">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-15_tote" data-zona="europa">
+    <h2>15_tote · Merry & Bright – borsa</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4607464015">apri l'inserzione</a></p>
+    <p class="meta"><span class="tag ok">in vendita su Etsy dal 1° novembre</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="15_tote_printify.jpg" alt="Prima foto su Etsy (Printify)"><figcaption>Prima foto su Etsy (Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="15_ambientata.jpg" alt="Foto ambientata (ChatGPT)"><figcaption>Foto ambientata (ChatGPT)</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prezzo:</b> 24,90 €</li>
+      <li><b>Colori:</b> nero, rosso, blu navy</li>
+      <li><b>Dove:</b> Textildruck (Germania) · Europa + Regno Unito</li>
+      <li><a href="https://www.etsy.com/listing/4607464015">Apri l'inserzione su Etsy</a></li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-19b" data-zona="usa">
+    <h2>19b · Sciarpa con rametti d'ulivo</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609177233">apri l'inserzione</a></p>
+    <p class="meta">Printify Choice (USA) · <span class="tag ok">art director: approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="19b_mockup5.jpg" alt="Indossata (foto Printify)"><figcaption>Indossata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19b_mockup3.jpg" alt="Piegata (foto Printify)"><figcaption>Piegata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19b_mockup4.jpg" alt="Dettaglio (foto Printify)"><figcaption>Dettaglio (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19b_mockup1.jpg" alt="Stesa (foto Printify)"><figcaption>Stesa (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19b_dettaglio.jpg" alt="Dettaglio a grandezza reale (30 × 19 cm)"><figcaption>Dettaglio a grandezza reale (30 × 19 cm)</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="19b_file.jpg" alt="File di stampa intero (180 × 69 cm)"><figcaption>File di stampa intero (180 × 69 cm)</figcaption></figure>
+      <figure><img loading="lazy" src="19b_bozza.jpg" alt="Bozza approvata come idea"><figcaption>Bozza approvata come idea</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li>Sciarpa leggera 100% poliestere, 69 × 180 cm, stampata su un lato, con le frange.</li>
+      <li><b>Prezzo proposto:</b> 42,90 € con spedizione gratis negli USA (costo 24,34 $ + spedizione 6,39 $): ti resta circa 7 €.</li>
+      <li>Motivi orientati per stare dritti su tutti e due i lembi quando la sciarpa pende dal collo.</li>
+      <li>Rametti d'ulivo lunghi circa 18 cm, poche olive sciolte e foglie singole negli spazi.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-19c" data-zona="usa">
+    <h2>19c · Sciarpa con mazzolini di fiori di campo</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609177117">apri l'inserzione</a></p>
+    <p class="meta">Printify Choice (USA) · <span class="tag ok">art director: approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="19c_mockup5.jpg" alt="Indossata (foto Printify)"><figcaption>Indossata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19c_mockup3.jpg" alt="Piegata (foto Printify)"><figcaption>Piegata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19c_mockup4.jpg" alt="Dettaglio (foto Printify)"><figcaption>Dettaglio (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19c_mockup1.jpg" alt="Stesa (foto Printify)"><figcaption>Stesa (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19c_dettaglio.jpg" alt="Dettaglio a grandezza reale (30 × 19 cm)"><figcaption>Dettaglio a grandezza reale (30 × 19 cm)</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="19c_file.jpg" alt="File di stampa intero (180 × 69 cm)"><figcaption>File di stampa intero (180 × 69 cm)</figcaption></figure>
+      <figure><img loading="lazy" src="19c_bozza.jpg" alt="Bozza approvata come idea"><figcaption>Bozza approvata come idea</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li>Sciarpa leggera 100% poliestere, 69 × 180 cm, stampata su un lato, con le frange.</li>
+      <li><b>Prezzo proposto:</b> 42,90 € con spedizione gratis negli USA (costo 24,34 $ + spedizione 6,39 $): ti resta circa 7 €.</li>
+      <li>Motivi orientati per stare dritti su tutti e due i lembi quando la sciarpa pende dal collo.</li>
+      <li>Mazzolini di circa 20 cm con papaveri, lavanda, camomilla e ranuncoli.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-19d" data-zona="usa">
+    <h2>19d · Sciarpa con piastrelle mediterranee blu</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609199188">apri l'inserzione</a></p>
+    <p class="meta">Printify Choice (USA) · <span class="tag ok">art director: approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="19d_mockup5.jpg" alt="Indossata (foto Printify)"><figcaption>Indossata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19d_mockup3.jpg" alt="Piegata (foto Printify)"><figcaption>Piegata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19d_mockup4.jpg" alt="Dettaglio (foto Printify)"><figcaption>Dettaglio (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19d_mockup1.jpg" alt="Stesa (foto Printify)"><figcaption>Stesa (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19d_dettaglio.jpg" alt="Dettaglio a grandezza reale (30 × 19 cm)"><figcaption>Dettaglio a grandezza reale (30 × 19 cm)</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="19d_file.jpg" alt="File di stampa intero (180 × 69 cm)"><figcaption>File di stampa intero (180 × 69 cm)</figcaption></figure>
+      <figure><img loading="lazy" src="19d_bozza.jpg" alt="Bozza approvata come idea"><figcaption>Bozza approvata come idea</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li>Sciarpa leggera 100% poliestere, 69 × 180 cm, stampata su un lato, con le frange.</li>
+      <li><b>Prezzo proposto:</b> 42,90 € con spedizione gratis negli USA (costo 24,34 $ + spedizione 6,39 $): ti resta circa 7 €.</li>
+      <li>Motivi orientati per stare dritti su tutti e due i lembi quando la sciarpa pende dal collo.</li>
+      <li>Piastrelle grandi circa 23 cm: 3 sulla larghezza, senza pezzi tagliati sui bordi.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-19e" data-zona="usa">
+    <h2>19e · Sciarpa con soli, lune e stelle dorati</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609198798">apri l'inserzione</a></p>
+    <p class="meta">Printify Choice (USA) · <span class="tag ok">art director: approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="19e_mockup5.jpg" alt="Indossata (foto Printify)"><figcaption>Indossata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19e_mockup3.jpg" alt="Piegata (foto Printify)"><figcaption>Piegata (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19e_mockup4.jpg" alt="Dettaglio (foto Printify)"><figcaption>Dettaglio (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19e_mockup1.jpg" alt="Stesa (foto Printify)"><figcaption>Stesa (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="19e_dettaglio.jpg" alt="Dettaglio a grandezza reale (30 × 19 cm)"><figcaption>Dettaglio a grandezza reale (30 × 19 cm)</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="19e_file.jpg" alt="File di stampa intero (180 × 69 cm)"><figcaption>File di stampa intero (180 × 69 cm)</figcaption></figure>
+      <figure><img loading="lazy" src="19e_bozza.jpg" alt="Bozza approvata come idea"><figcaption>Bozza approvata come idea</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li>Sciarpa leggera 100% poliestere, 69 × 180 cm, stampata su un lato, con le frange.</li>
+      <li><b>Prezzo proposto:</b> 42,90 € con spedizione gratis negli USA (costo 24,34 $ + spedizione 6,39 $): ti resta circa 7 €.</li>
+      <li>Motivi orientati per stare dritti su tutti e due i lembi quando la sciarpa pende dal collo.</li>
+      <li>Soli e lune alternati (soli circa 7 cm), stelline negli spazi.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-17a" data-zona="usa_europa">
+    <h2>17a · Cappellino ricamato: Sole sul mare</h2>
+    <span class="zona usa_europa">🇺🇸🇪🇺 Spedito in USA + Europa</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609199570">apri l'inserzione</a></p>
+    <p class="meta">Printful · <span class="tag ok" id="ad17a">art director: approvato</span></p>
+    <p class="nota">Yupoong, acrilico morbido, con risvolto, <b>ricamati</b> (non stampati) da Printful: gli ordini americani si fanno negli USA, quelli europei in Europa. Colori: rosso, blu navy, nero, verde oliva (le montagne 17c solo rosso, navy e nero: il verde sul verde non si vedeva). Sul rosso il sole ha le onde bianche e il nome ha il cuore bianco, per farli risaltare. L'art director ha fatto rifare 5 disegni su 7 prima di approvarli.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="17a_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="17a_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="17a_beanie_file.jpg" alt="Ricamo sui colori del cappellino"><figcaption>Ricamo sui colori del cappellino</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza del ricamo circa 7 × 4 cm, sul risvolto: ti sembra giusta?</li>
+      <li>I colori si leggono bene su tutti e 4 i colori del cappellino?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">15,26 €</td><td class="n">≈ 6,30 € USA (sped. gratis) · ≈ 11 € Europa</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-17c" data-zona="usa_europa">
+    <h2>17c · Cappellino ricamato: Montagne e luna</h2>
+    <span class="zona usa_europa">🇺🇸🇪🇺 Spedito in USA + Europa</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609199774">apri l'inserzione</a></p>
+    <p class="meta">Printful · <span class="tag ok" id="ad17c">art director: approvato</span></p>
+    <p class="nota">Yupoong, acrilico morbido, con risvolto, <b>ricamati</b> (non stampati) da Printful: gli ordini americani si fanno negli USA, quelli europei in Europa. Colori: rosso, blu navy, nero, verde oliva (le montagne 17c solo rosso, navy e nero: il verde sul verde non si vedeva). Sul rosso il sole ha le onde bianche e il nome ha il cuore bianco, per farli risaltare. L'art director ha fatto rifare 5 disegni su 7 prima di approvarli.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="17c_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="17c_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="17c_beanie_file.jpg" alt="Ricamo sui colori del cappellino"><figcaption>Ricamo sui colori del cappellino</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza del ricamo circa 6 × 4 cm, sul risvolto: ti sembra giusta?</li>
+      <li>I colori si leggono bene su tutti e 4 i colori del cappellino?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">15,26 €</td><td class="n">≈ 6,30 € USA (sped. gratis) · ≈ 11 € Europa</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-18a" data-zona="usa">
+    <h2>18a · Cappellino in cotone: Montagne, pini e luna in un cerchio</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609200446">apri l'inserzione</a></p>
+    <p class="meta">Fulfill Engine (USA) · <span class="tag ok" id="ad18a">art director: approvato</span></p>
+    <p class="nota">Port Authority CP95, cotone 100%, stampa piccola sul davanti (Fulfill Engine, USA). Colori: nero, blu navy, grafite. <b>Attenzione:</b> questo modello <b>non ha il risvolto</b>, è un berretto liscio (diverso dalla foto della proposta).</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="18a_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="18a_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="18a_beanie_file.jpg" alt="Stampa su nero e navy (ignora rosso e oliva)"><figcaption>Stampa su nero e navy (ignora rosso e oliva)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza della stampa circa 6 × 6 cm: ti sembra giusta?</li>
+      <li>Ti va bene il berretto senza risvolto?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 € (sped. gratis USA)</td><td class="n">15,25 € + sped. 4,59 €</td><td class="n">≈ 6,40 €</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-18b" data-zona="usa">
+    <h2>18b · Cappellino in cotone: Faro sugli scogli</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609200164">apri l'inserzione</a></p>
+    <p class="meta">Fulfill Engine (USA) · <span class="tag ok" id="ad18b">art director: approvato</span></p>
+    <p class="nota">Port Authority CP95, cotone 100%, stampa piccola sul davanti (Fulfill Engine, USA). Colori: nero, blu navy, grafite. <b>Attenzione:</b> questo modello <b>non ha il risvolto</b>, è un berretto liscio (diverso dalla foto della proposta).</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="18b_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="18b_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="18b_beanie_file.jpg" alt="Stampa su nero e navy (ignora rosso e oliva)"><figcaption>Stampa su nero e navy (ignora rosso e oliva)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza della stampa circa 8 × 6 cm: ti sembra giusta?</li>
+      <li>Ti va bene il berretto senza risvolto?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 € (sped. gratis USA)</td><td class="n">15,25 € + sped. 4,59 €</td><td class="n">≈ 6,40 €</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-18c" data-zona="usa">
+    <h2>18c · Cappellino in cotone: Mazzolino di fiori di campo</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609200336">apri l'inserzione</a></p>
+    <p class="meta">Fulfill Engine (USA) · <span class="tag ok" id="ad18c">art director: approvato</span></p>
+    <p class="nota">Port Authority CP95, cotone 100%, stampa piccola sul davanti (Fulfill Engine, USA). Colori: nero, blu navy, grafite. <b>Attenzione:</b> questo modello <b>non ha il risvolto</b>, è un berretto liscio (diverso dalla foto della proposta).</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="18c_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="18c_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="18c_beanie_file.jpg" alt="Stampa su nero e navy (ignora rosso e oliva)"><figcaption>Stampa su nero e navy (ignora rosso e oliva)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza della stampa circa 5 × 6 cm: ti sembra giusta?</li>
+      <li>Ti va bene il berretto senza risvolto?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 € (sped. gratis USA)</td><td class="n">15,25 € + sped. 4,59 €</td><td class="n">≈ 6,40 €</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-18d" data-zona="usa">
+    <h2>18d · Cappellino in cotone: Sole e luna</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609200068">apri l'inserzione</a></p>
+    <p class="meta">Fulfill Engine (USA) · <span class="tag ok" id="ad18d">art director: approvato</span></p>
+    <p class="nota">Port Authority CP95, cotone 100%, stampa piccola sul davanti (Fulfill Engine, USA). Colori: nero, blu navy, grafite. <b>Attenzione:</b> questo modello <b>non ha il risvolto</b>, è un berretto liscio (diverso dalla foto della proposta).</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="18d_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="18d_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="18d_beanie_file.jpg" alt="Stampa su nero e navy (ignora rosso e oliva)"><figcaption>Stampa su nero e navy (ignora rosso e oliva)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza della stampa circa 6 × 6 cm: ti sembra giusta?</li>
+      <li>Ti va bene il berretto senza risvolto?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 € (sped. gratis USA)</td><td class="n">15,25 € + sped. 4,59 €</td><td class="n">≈ 6,40 €</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-20" data-zona="europa usa">
+    <h2>20 + 20u · Calza di Natale "Dear Santa"</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <div class="versione"><h3><span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span><br>20 · Calza di Natale "Dear Santa"</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609295523">apri l'inserzione</a></p>
+
+    <p class="meta">Print Clever (UK), stampata su tutta la calza · <span class="tag ok">approvata</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="20_stocking_mockup1.jpg" alt="Calza davanti"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="20_stocking_mockup2.jpg" alt="Calza dietro"><figcaption>Dietro: solo il motivo</figcaption></figure>
+      <figure><img loading="lazy" src="20_stocking_mockup3.jpg" alt="Calza ambientata 1"><figcaption>Ambientata 1</figcaption></figure>
+      <figure><img loading="lazy" src="20_stocking_mockup4.jpg" alt="Calza ambientata 2"><figcaption>Ambientata 2</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="20_stocking_file.jpg" alt="File di stampa calza"><figcaption>File di stampa intero</figcaption></figure>
+      <figure><img loading="lazy" src="20_stocking_dettaglio.jpg" alt="Dettaglio calza"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>La scritta e la renna stanno nella "gamba", non finiscono nel piede?</li>
+      <li>Il rosso e i fiocchi di neve ti piacciono?</li>
+      <li>La frase "Dear Santa, I've been (mostly) good" va bene?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">17,54 €</td><td class="n">≈ 8,70 €</td></tr>
+    </table>
+  
+    </div>
+    <div class="versione"><h3><span class="zona usa">🇺🇸 Spedito in USA + Canada</span><br>20u · Calza di Natale "Dear Santa" – USA</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609318050">apri l'inserzione</a></p>
+
+    <p class="meta">Printify Choice (USA), pile 100% poliestere, stampata davanti e dietro · <span class="tag ok">disegno già approvato</span></p>
+    <p class="nota">Printify Choice (USA), stessi disegni già approvati per l'Europa. Spedizione <b>gratis negli USA</b> (come le magliette): il costo di spedizione è già tolto dal margine.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="20u_stocking_mockup1.jpg" alt="Davanti (foto Printify)"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="20u_stocking_mockup2.jpg" alt="Dietro: solo il motivo"><figcaption>Dietro: solo il motivo</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="20u_stocking_file.jpg" alt="File di stampa intero"><figcaption>File di stampa intero</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>La calza americana è più corta e larga di quella europea: renna e scritta stanno nella gamba?</li>
+      <li>Prezzo 34,90 € con spedizione gratis negli USA: ok?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>34,90 €</td><td class="n">18,05 € + spedizione 6,59 €</td><td class="n">≈ 6,10 €</td></tr>
+    </table>
+  
+    </div>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-24" data-zona="europa usa">
+    <h2>24 + 24u · Carta regalo renne e agrifoglio</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <div class="versione"><h3><span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span><br>24 · Carta regalo renne e agrifoglio</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609296901">apri l'inserzione</a></p>
+
+    <p class="meta">Print Clever (UK), carta satinata · <span class="tag ok">approvata</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="24_wrapping_mockup1.jpg" alt="Carta regalo foglio"><figcaption>Foglio (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="24_wrapping_dettaglio.jpg" alt="Dettaglio carta"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="24_wrapping_file.jpg" alt="File di stampa carta"><figcaption>Foglio 70×100 intero</figcaption></figure>
+      <figure><img loading="lazy" src="24_wrapping_mockup2.jpg" alt="Carta regalo rotolo lungo"><figcaption>Formato 70×200 (Printify usa la stessa foto)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Nel foglio intero i disegni sembrano piccoli: è normale, la carta è grande 70 cm. Guarda il <b>dettaglio</b> per la grandezza vera (una renna è di circa 6 cm).</li>
+      <li>Verde scuro con renne crema e stelle oro: ti piace?</li>
+      <li>Prezzi dei due formati ok?</li>
+    </ul>
+    <table>
+      <tr><th>Formato</th><th class="n">Prezzo</th><th class="n">Costo</th><th class="n">Ti resta*</th></tr>
+      <tr><td>70×100 cm</td><td class="n">19,90 €</td><td class="n">11,86 €</td><td class="n">≈ 5,50 €</td></tr>
+      <tr><td>70×200 cm</td><td class="n">29,90 €</td><td class="n">20,43 €</td><td class="n">≈ 5,90 €</td></tr>
+    </table>
+    <p class="nota">Su Etsy come prima foto useremo un pacco incartato (consiglio dell'art director), perché nel foglio intero i disegni si vedono poco.</p>
+  
+    </div>
+    <div class="versione"><h3><span class="zona usa">🇺🇸 Spedito in USA + Canada</span><br>24u · Carta regalo renne e agrifoglio – USA</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609178707">apri l'inserzione</a></p>
+
+    <p class="meta">Printify Choice (USA), carta satinata, rotoli larghi 74 cm · <span class="tag ok">disegno già approvato</span></p>
+    <p class="nota">Printify Choice (USA), stessi disegni già approvati per l'Europa. Spedizione <b>gratis negli USA</b> (come le magliette): il costo di spedizione è già tolto dal margine.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="24u_wrapping_mockup1.jpg" alt="Pacchi incartati (foto Printify)"><figcaption>Pacchi incartati (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="24u_wrapping_dettaglio.jpg" alt="Dettaglio a grandezza reale"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="24u_wrapping_file.jpg" alt="Rotolo intero"><figcaption>Rotolo intero</figcaption></figure>
+      <figure><img loading="lazy" src="24u_wrapping_mockup2.jpg" alt="Altra foto Printify"><figcaption>Altra foto Printify</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Renne della stessa grandezza della carta europea (circa 6 cm).</li>
+      <li>Due formati: 74×183 cm a 29,90 € e 74×366 cm a 39,90 €, spedizione gratis negli USA. Prezzi ok?</li>
+    </ul>
+    <table>
+      <tr><th>Formato</th><th class="n">Prezzo</th><th class="n">Costo</th><th class="n">Ti resta*</th></tr>
+      <tr><td>74×183 cm</td><td class="n">29,90 €</td><td class="n">12,12 € + sped. 8,49 €</td><td class="n">≈ 5,70 €</td></tr>
+      <tr><td>74×366 cm</td><td class="n">39,90 €</td><td class="n">19,43 € + sped. 8,49 €</td><td class="n">≈ 7,30 €</td></tr>
+    </table>
+  
+    </div>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-27c" data-zona="europa usa">
+    <h2>27c + 27a · Body maniche lunghe – orsetti</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <div class="versione"><h3><span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span><br>27c · Body maniche lunghe – orsetti (bimbo)</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609319084">apri l'inserzione</a></p>
+
+    <p class="meta">Textildruck (Germania), cotone bio 100%, bianco · solo davanti · <span class="tag ok">approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="27c_body_mockup1.jpg" alt="Body orsetti"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="27c_body_dettaglio.jpg" alt="Dettaglio orsetti"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="27c_body_file.jpg" alt="File di stampa orsetti"><figcaption>File di stampa intero (ovale)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li>Disegnini piccoli e sparsi come volevi? (un orsetto è alto circa 2,8 cm)</li>
+      <li>Ti piace quanti ce ne sono, o li vuoi più radi o più fitti?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">18,88 €</td><td class="n">≈ 7,40 €</td></tr>
+    </table>
+  
+    </div>
+    <div class="versione"><h3><span class="zona usa">🇺🇸 Spedito in USA + Canada</span><br>27a · Body maniche lunghe – orsetti, celeste</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609363344">apri l'inserzione</a></p>
+
+    <p class="meta">Light Blue · taglie NB, 6M, 12M, 18M · <span id="ad27a" class="tag ok">art director: approvato</span></p>
+    <p class="nota">Rabbit Skins 4411, SwiftPOD (California), cotone 100%, solo davanti. <b>In vendita dal 4/11</b> (decisione tua) con la foto ambientata di ChatGPT. Documenti CPSIA ancora da ricevere: certificato Rabbit Skins 4411 e inchiostro SwiftPOD.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="27a_body_mockup1.jpg" alt="Body celeste orsetti"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="27a_body_dettaglio.jpg" alt="Dettaglio orsetti celeste"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="27a_body_file.jpg" alt="File di stampa orsetti celeste"><figcaption>File di stampa intero sul celeste</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li>Ora la stampa riempie tutta l'area che SwiftPOD permette. L'area cresce con la taglia: circa 11×13 cm su neonato e 6 mesi, 13×15 cm sui 12 mesi, 18×20 cm sui 18 mesi. La foto Printify mostra la 6 mesi.</li>
+      <li>Le nuvolette bianche sul celeste ti piacciono?</li>
+    </ul>
+  
+    <b>Prezzo dei body americani (27a e 27b)</b>
+    <table>
+      <tr><th>Proposta</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>34,90 € con spedizione gratis negli USA (come le magliette)</td><td class="n">19,16 € + spedizione ≈ 5 €</td><td class="n">≈ 6,60 €</td></tr>
+    </table>
+    <p class="nota">Approvato da te: 34,90 €, già impostato sulle bozze.</p>
+  
+    </div>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-27d" data-zona="europa usa">
+    <h2>27d + 27b · Body maniche lunghe – coniglietti</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <div class="versione"><h3><span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span><br>27d · Body maniche lunghe – coniglietti (bimba)</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609297615">apri l'inserzione</a></p>
+
+    <p class="meta">Textildruck (Germania), cotone bio 100%, bianco · solo davanti · <span class="tag ok">approvato</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="27d_body_mockup1.jpg" alt="Body coniglietti"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="27d_body_dettaglio.jpg" alt="Dettaglio coniglietti"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="27d_body_file.jpg" alt="File di stampa coniglietti"><figcaption>File di stampa intero (ovale)</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li>Coniglietti, fiorellini e cuori: piccoli e sparsi come volevi?</li>
+      <li>Ti piace quanti ce ne sono, o li vuoi più radi o più fitti?</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">18,88 €</td><td class="n">≈ 7,40 €</td></tr>
+    </table>
+    <div class="domanda"><b>Stampa su tutto il body?</b> Su Printify non si può su cotone: c'è solo un rettangolo su petto e pancia, e maniche e fianchi restano bianchi. I body stampati ovunque esistono solo in poliestere, che per i bimbi abbiamo escluso (solo cotone 100%). Per questo l'ovale resta la soluzione migliore.</div>
+  
+    </div>
+    <div class="versione"><h3><span class="zona usa">🇺🇸 Spedito in USA + Canada</span><br>27b · Body maniche lunghe – coniglietti, rosa</h3>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609341679">apri l'inserzione</a></p>
+
+    <p class="meta">Pink · taglie 6M, 12M, 18M (SwiftPOD non ha la taglia neonato in rosa) · <span id="ad27b" class="tag ok">art director: approvato</span></p>
+    <p class="nota">Rabbit Skins 4411, SwiftPOD (California), cotone 100%, solo davanti. <b>In vendita dal 4/11</b> (decisione tua) con la foto ambientata di ChatGPT. Documenti CPSIA ancora da ricevere: certificato Rabbit Skins 4411 e inchiostro SwiftPOD.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="27b_body_mockup1.jpg" alt="Body rosa coniglietti"><figcaption>Davanti (foto Printify)</figcaption></figure>
+      <figure><img loading="lazy" src="27b_body_dettaglio.jpg" alt="Dettaglio coniglietti rosa"><figcaption>Dettaglio a grandezza reale</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="27b_body_file.jpg" alt="File di stampa coniglietti rosa"><figcaption>File di stampa intero sul rosa</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li><b>Stampa solo davanti</b>, niente sul retro (verificato su Printify).</li>
+      <li>Coniglietti (circa 1,7 cm), fiori e cuoricini piccoli e sparsi come volevi?</li>
+    </ul>
+  
+    </div>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-17d" data-zona="usa_europa">
+    <h2>17d · Cappellino ricamato: Nome personalizzato (esempio "EMMA")</h2>
+    <span class="zona usa_europa">🇺🇸🇪🇺 Spedito in USA + Europa</span>
+    <p class="meta"><span class="tag ok">in vendita su Etsy</span> <a href="https://www.etsy.com/listing/4609199412">apri l'inserzione</a></p>
+    <p class="meta">Printful · <span class="tag ok" id="ad17d">art director: approvato</span></p>
+    <p class="nota">Yupoong, acrilico morbido, con risvolto, <b>ricamati</b> (non stampati) da Printful: gli ordini americani si fanno negli USA, quelli europei in Europa. Colori: rosso, blu navy, nero, verde oliva (le montagne 17c solo rosso, navy e nero: il verde sul verde non si vedeva). Sul rosso il sole ha le onde bianche e il nome ha il cuore bianco, per farli risaltare. L'art director ha fatto rifare 5 disegni su 7 prima di approvarli.</p>
+    <div class="gal">
+      <figure><img loading="lazy" src="17d_beanie_mockup1.jpg" alt="Foto Printify"><figcaption>Foto Printify</figcaption></figure>
+      <figure><img loading="lazy" src="17d_beanie_mockup2.jpg" alt="Foto Printify, altro colore"><figcaption>Foto Printify, altro colore</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="17d_beanie_file.jpg" alt="Ricamo sui colori del cappellino"><figcaption>Ricamo sui colori del cappellino</figcaption></figure>
+    </div>
+    <b>Cosa controllare</b>
+    <ul class="check">
+      <li>Grandezza del ricamo circa 8 × 2 cm, sul risvolto: ti sembra giusta?</li>
+      <li>I colori si leggono bene su tutti e 4 i colori del cappellino?</li>
+      <li><b>Personalizzazione automatica (4/11):</b> il nome è un testo personalizzabile (Fredoka bianco, allineato a destra accanto al cuore rosa): quello che il cliente scrive su Etsy (obbligatorio, max 8 caratteri) va da solo nel ricamo, digitalizzato gratis da Printify. Ogni ordine arriva come <b>"Review needed"</b>: controlli l'anteprima col nome e approvi. Provato anche un nome di 9 lettere: sta dentro l'area senza toccare il cuore.</li>
+      <li><b>Colori ora in vendita:</b> nero, blu navy, verde oliva. Il rosso è stato tolto: con la personalizzazione Printify non permette un disegno diverso per un solo colore (il rosso aveva il cuore bianco).</li>
+    </ul>
+    <table>
+      <tr><th>Prezzo</th><th class="n">Costo Printify</th><th class="n">Ti resta circa*</th></tr>
+      <tr><td>29,90 €</td><td class="n">15,26 €</td><td class="n">≈ 6,30 € USA (sped. gratis) · ≈ 11 € Europa</td></tr>
+    </table>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+
+  <div class="gruppo" id="g-dafare"><h1>Libri da colorare: in lavorazione <span class="conta">(7)</span></h1>
+  </div>
+  <div class="box" id="p-21" data-zona="usa">
+    <h2>21 · Libro da colorare: Natale, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">in lavorazione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21_copertina.jpg" alt="Copertina e retro"><figcaption>Copertina (a destra) e retro (a sinistra)</figcaption></figure>
+      <figure><img loading="lazy" src="21_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata all'inizio</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p01.jpg" alt="Pagina 1"><figcaption>Pagina 1</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p02.jpg" alt="Pagina 2"><figcaption>Pagina 2</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p03.jpg" alt="Pagina 3"><figcaption>Pagina 3</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p04.jpg" alt="Pagina 4"><figcaption>Pagina 4</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p05.jpg" alt="Pagina 5"><figcaption>Pagina 5</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p06.jpg" alt="Pagina 6"><figcaption>Pagina 6</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p07.jpg" alt="Pagina 7"><figcaption>Pagina 7</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p08.jpg" alt="Pagina 8"><figcaption>Pagina 8</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p09.jpg" alt="Pagina 9"><figcaption>Pagina 9</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p10.jpg" alt="Pagina 10"><figcaption>Pagina 10</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p11.jpg" alt="Pagina 11"><figcaption>Pagina 11</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p12.jpg" alt="Pagina 12"><figcaption>Pagina 12</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p13.jpg" alt="Pagina 13"><figcaption>Pagina 13</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p14.jpg" alt="Pagina 14"><figcaption>Pagina 14</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p15.jpg" alt="Pagina 15"><figcaption>Pagina 15</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p16.jpg" alt="Pagina 16"><figcaption>Pagina 16</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p17.jpg" alt="Pagina 17"><figcaption>Pagina 17</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p18.jpg" alt="Pagina 18"><figcaption>Pagina 18</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p19.jpg" alt="Pagina 19"><figcaption>Pagina 19</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p21.jpg" alt="Pagina 21"><figcaption>Pagina 21</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p22.jpg" alt="Pagina 22"><figcaption>Pagina 22</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p23.jpg" alt="Pagina 23"><figcaption>Pagina 23</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21_p24.jpg" alt="Pagina 24"><figcaption>Pagina 24</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li id="stato21">Pagine pronte: 23 su 24 (disegnate da ChatGPT). Approvate dall\'art director; da rifare: pagine 20 (ChatGPT le sta ridisegnando). Copertina e retro pronti.</li>
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-21b" data-zona="usa">
+    <h2>21b · Libro da colorare: avventura, pirati e isola del tesoro, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">in lavorazione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21b_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata all'inizio</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p01.jpg" alt="Pagina 1"><figcaption>Pagina 1</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p02.jpg" alt="Pagina 2"><figcaption>Pagina 2</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p04.jpg" alt="Pagina 4"><figcaption>Pagina 4</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p05.jpg" alt="Pagina 5"><figcaption>Pagina 5</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p06.jpg" alt="Pagina 6"><figcaption>Pagina 6</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p07.jpg" alt="Pagina 7"><figcaption>Pagina 7</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p08.jpg" alt="Pagina 8"><figcaption>Pagina 8</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p09.jpg" alt="Pagina 9"><figcaption>Pagina 9</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p10.jpg" alt="Pagina 10"><figcaption>Pagina 10</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p11.jpg" alt="Pagina 11"><figcaption>Pagina 11</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p13.jpg" alt="Pagina 13"><figcaption>Pagina 13</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p14.jpg" alt="Pagina 14"><figcaption>Pagina 14</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p15.jpg" alt="Pagina 15"><figcaption>Pagina 15</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p16.jpg" alt="Pagina 16"><figcaption>Pagina 16</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p18.jpg" alt="Pagina 18"><figcaption>Pagina 18</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p19.jpg" alt="Pagina 19"><figcaption>Pagina 19</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p20.jpg" alt="Pagina 20"><figcaption>Pagina 20</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p21.jpg" alt="Pagina 21"><figcaption>Pagina 21</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21b_p22.jpg" alt="Pagina 22"><figcaption>Pagina 22</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li id="stato21b">Pagine pronte: 19 su 24 (disegnate da ChatGPT). Approvate dall\'art director; da rifare: pagine 3, 12, 17, 23, 24 (ChatGPT le sta ridisegnando). Copertina e retro: da fare (li disegna ChatGPT).</li>
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-21c" data-zona="usa">
+    <h2>21c · Libro da colorare: dinosauri, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">in lavorazione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21c_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata all'inizio</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p01.jpg" alt="Pagina 1"><figcaption>Pagina 1</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p02.jpg" alt="Pagina 2"><figcaption>Pagina 2</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p03.jpg" alt="Pagina 3"><figcaption>Pagina 3</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p04.jpg" alt="Pagina 4"><figcaption>Pagina 4</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p05.jpg" alt="Pagina 5"><figcaption>Pagina 5</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p06.jpg" alt="Pagina 6"><figcaption>Pagina 6</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p07.jpg" alt="Pagina 7"><figcaption>Pagina 7</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p08.jpg" alt="Pagina 8"><figcaption>Pagina 8</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p09.jpg" alt="Pagina 9"><figcaption>Pagina 9</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p10.jpg" alt="Pagina 10"><figcaption>Pagina 10</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p12.jpg" alt="Pagina 12"><figcaption>Pagina 12</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p13.jpg" alt="Pagina 13"><figcaption>Pagina 13</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p14.jpg" alt="Pagina 14"><figcaption>Pagina 14</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p15.jpg" alt="Pagina 15"><figcaption>Pagina 15</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p16.jpg" alt="Pagina 16"><figcaption>Pagina 16</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p18.jpg" alt="Pagina 18"><figcaption>Pagina 18</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p19.jpg" alt="Pagina 19"><figcaption>Pagina 19</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p21.jpg" alt="Pagina 21"><figcaption>Pagina 21</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p22.jpg" alt="Pagina 22"><figcaption>Pagina 22</figcaption></figure>
+      <figure><img loading="lazy" class="alto" src="21c_p24.jpg" alt="Pagina 24"><figcaption>Pagina 24</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li id="stato21c">Pagine pronte: 20 su 24 (disegnate da ChatGPT). Approvate dall\'art director; da rifare: pagine 11, 17, 20, 23 (ChatGPT le sta ridisegnando). Copertina e retro: da fare (li disegna ChatGPT).</li>
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-21d" data-zona="usa">
+    <h2>21d · Libro da colorare: spazio e astronauti, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">da fare</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21d_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-21e" data-zona="usa">
+    <h2>21e · Libro da colorare: fondo del mare, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">da fare</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21e_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-21f" data-zona="usa">
+    <h2>21f · Libro da colorare: fiabe, castello e unicorni, 24 pagine</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">da fare</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="21f_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)</li>
+      <li>Solo USA + Canada: in Europa la spedizione costerebbe 17,49 $. Per l'Europa c'è il PDF 22.</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-22" data-zona="digitale">
+    <h2>22 · Versione PDF stampabile dei 6 libri da colorare (21-21f)</h2>
+    <span class="zona digitale">🌍 PDF da scaricare, ovunque</span>
+    <p class="meta"><span class="tag ok">approvato</span> <span class="tag wait">da fare</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="22_bozza.jpg" alt="Bozza approvata"><figcaption>Bozza approvata</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Prodotto digitale: PDF stampabile A4 e Letter, scaricabile subito</li>
+      <li>Si fa dopo che avrai pubblicato i prodotti in bozza, come mi hai chiesto.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+
+  <div class="gruppo" id="g-attesa"><h1>In attesa di una tua decisione <span class="conta">(4)</span></h1>
+  </div>
+  <div class="box" id="p-08" data-zona="usa">
+    <h2>08 · Promoted to Big Sister 2027 – maglietta bimba</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag wait">in attesa di una tua decisione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="08_mockup.jpg" alt="Foto di prova (ChatGPT)"><figcaption>Foto di prova (ChatGPT)</figcaption></figure>
+      <figure><img loading="lazy" src="08_disegno.jpg" alt="Disegno"><figcaption>Disegno</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)</li>
+      <li><b>Colori:</b> naturale, rosa, bianco</li>
+      <li>Disegno pronto dal 1° novembre, non ancora su Printify: l'avevi messo in attesa. Dimmi se lo vuoi in vendita.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-09" data-zona="usa">
+    <h2>09 · Promoted to Big Brother 2027 – maglietta bimbo</h2>
+    <span class="zona usa">🇺🇸 Spedito in USA + Canada</span>
+    <p class="meta"><span class="tag wait">in attesa di una tua decisione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="09_mockup.jpg" alt="Foto di prova (ChatGPT)"><figcaption>Foto di prova (ChatGPT)</figcaption></figure>
+      <figure><img loading="lazy" src="09_disegno.jpg" alt="Disegno"><figcaption>Disegno</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> T-shirt bambino MANICHE LUNGHE 100% cotone, due versioni: Rabbit Skins 2-6 anni e Bella+Canvas Youth 6-12 anni (produzione USA)</li>
+      <li><b>Colori:</b> celeste, bianco</li>
+      <li>Disegno pronto dal 1° novembre, non ancora su Printify: l'avevi messo in attesa. Dimmi se lo vuoi in vendita.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-10" data-zona="europa">
+    <h2>10 · Little Meatball – body neonato</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag wait">in attesa di una tua decisione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="10_mockup.jpg" alt="Foto di prova (ChatGPT)"><figcaption>Foto di prova (ChatGPT)</figcaption></figure>
+      <figure><img loading="lazy" src="10_disegno.jpg" alt="Disegno"><figcaption>Disegno</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Body neonato MANICHE LUNGHE 100% cotone bio, bianco (Babybugz, prodotto in Germania)</li>
+      <li><b>Colori:</b> bianco</li>
+      <li>Disegno pronto dal 1° novembre, non ancora su Printify: l'avevi messo in attesa. Dimmi se lo vuoi in vendita.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+  <div class="box" id="p-16" data-zona="europa">
+    <h2>16 · Buon Natale (moka e panettone) – borsa</h2>
+    <span class="zona europa">🇪🇺 Spedito in Europa + Regno Unito</span>
+    <p class="meta"><span class="tag wait">in attesa di una tua decisione</span></p>
+    <div class="gal">
+      <figure><img loading="lazy" src="16_mockup.jpg" alt="Foto di prova (ChatGPT)"><figcaption>Foto di prova (ChatGPT)</figcaption></figure>
+      <figure><img loading="lazy" src="16_disegno.jpg" alt="Disegno"><figcaption>Disegno</figcaption></figure>
+    </div>
+    <ul class="check">
+      <li><b>Prodotto:</b> Borsa tote 100% cotone bio, 38 x 42 cm (Textildruck, Germania)</li>
+      <li><b>Colori:</b> blu navy, nero, rosso</li>
+      <li>Disegno pronto dal 1° novembre, non ancora su Printify: l'avevi messo in attesa. Dimmi se lo vuoi in vendita.</li>
+    </ul>
+  </div>
+  <a class="su" href="#top">↑ torna su</a>
+
+  <div class="gruppo" id="g-scartati"><h1>Scartati</h1></div>
+  <div class="box">
+    <ul class="check">
+      <li>17b · cappellino ricamato (scartato da te)</li>
+      <li>19 · sciarpa con biscotti di pan di zenzero (scartate le cose solo natalizie)</li>
+      <li>Cappellini e sciarpe solo natalizi della prima versione delle proposte</li>
+      <li>23 · foglio di adesivi natalizi per bambini</li>
+      <li>25 · kit lettera a Babbo Natale + diploma</li>
+      <li>26 · tombola di Natale per famiglie (PDF)</li>
+    </ul>
+  </div>
+  <p class="nota">* Indicativo: prezzo meno costo Printify, meno le commissioni Etsy (circa 6,5% di vendita, circa 4% + 0,30 € di pagamento, 0,18 € di inserzione). Dove la spedizione è gratis, il suo costo è già tolto; altrimenti la paga il cliente a parte.</p>
+</main>
+<div id="zoom"><img loading="lazy" alt=""></div>
+<script>
+  const z = document.getElementById('zoom'), zi = z.querySelector('img');
+  document.querySelectorAll('.gal img').forEach(i => i.addEventListener('click', () => { zi.src = i.src; z.classList.add('on'); }));
+  z.addEventListener('click', () => z.classList.remove('on'));
+</script>
+</body>
+</html>

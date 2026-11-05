@@ -1,0 +1,52 @@
+beanie_ricamato:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-04T00:27:22.684584Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita
+beanie_ricamato:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-04T00:57:26.934534Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita
+beanie_ricamato:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-04T01:27:31.416293Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita
+Immagine generata da ChatGPT (gpt-6-astra) in 86s -> stampa\foto_etsy\scheda_beanie_ricamato_chatgpt.png  [Sottotitolo serif anziché sans-serif.]
+beanie_ricamato: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 83s -> stampa\foto_etsy\scheda_beanie_nome_chatgpt.png  [Grassetto richiesto non applicato.]
+beanie_nome: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 87s -> stampa\foto_etsy\scheda_beanie_cotone_chatgpt.png  [ok]
+beanie_cotone: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 68s -> stampa\foto_etsy\scheda_sciarpa_chatgpt.png  [ok]
+sciarpa: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\foto_etsy\scheda_calza_eu_chatgpt.png  [ok]
+calza_eu: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 61s -> stampa\foto_etsy\scheda_calza_us_chatgpt.png  [ok]
+calza_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\foto_etsy\scheda_carta_eu_chatgpt.png  [sottotitolo serif diverso dal riferimento.]
+carta_eu: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 61s -> stampa\foto_etsy\scheda_carta_us_chatgpt.png  [sottotitolo serif anziché sans-serif.]
+carta_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 65s -> stampa\foto_etsy\scheda_body_us_chatgpt.png  [ok]
+body_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 63s -> stampa\foto_etsy\scheda_body_eu_chatgpt.png  [ok]
+body_eu: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 68s -> stampa\foto_etsy\scheda_beanie_ricamato_chatgpt.png  [lieve texture sul fondo; margine sinistro circa 8%.]
+beanie_ricamato: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 82s -> stampa\foto_etsy\scheda_beanie_nome_chatgpt.png  [margine sinistro leggermente inferiore al 9%; sfondo lievemente non uniforme.]
+beanie_nome: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 84s -> stampa\foto_etsy\scheda_beanie_cotone_chatgpt.png  [lieve texture sul fondo; margine sinistro circa 8%.]
+beanie_cotone: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 94s -> stampa\foto_etsy\scheda_sciarpa_chatgpt.png  [lieve texture sul fondo; margine sinistro circa 8% anziché 9%.]
+sciarpa: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 85s -> stampa\foto_etsy\scheda_calza_eu_chatgpt.png  [lieve texture sul fondo; margine sinistro inferiore al 9%.]
+calza_eu: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 79s -> stampa\foto_etsy\scheda_calza_us_chatgpt.png  [lieve grana sullo sfondo; margine sinistro inferiore al 9%.]
+calza_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 87s -> stampa\foto_etsy\scheda_carta_eu_chatgpt.png  [lieve disuniformità dello sfondo; margini leggermente inferiori al 9%.]
+carta_eu: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\foto_etsy\scheda_carta_us_chatgpt.png  [lieve grana sullo sfondo; margine sinistro inferiore al 9%.]
+carta_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 83s -> stampa\foto_etsy\scheda_body_us_chatgpt.png  [lieve texture sullo sfondo; margine sinistro circa 8%.]
+body_us: fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 90s -> stampa\foto_etsy\scheda_body_eu_chatgpt.png  [lieve texture sul fondo; margine sinistro circa 8%.]
+body_eu: fatta

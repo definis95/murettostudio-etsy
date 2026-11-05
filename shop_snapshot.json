@@ -1,0 +1,99 @@
+{
+  "shop": {
+    "shop_id": 68871771,
+    "shop_name": "MurettoStudio",
+    "title": "Cute baby and kids tees, Christmas mugs and totes",
+    "announcement": "Welcome to MurettoStudio! Playful, cosy designs for little ones and the people who love them: organic cotton baby bodysuits, 100% cotton kids&#39; tees, Christmas mugs and organic cotton tote bags. Every idea is born in Puglia, Italy, and each item is printed on demand just for you, so nothing goes to waste. The Christmas 2026 collection is open: please check the estimated delivery date at checkout and order early for the holidays.",
+    "sale_message": "Grazie! Thank you for your order from MurettoStudio.\n\nYour item is now being made just for you by our print partner (in Europe or in the USA, depending on the product). Production usually takes 2-5 business days, then it ships with tracking: you will receive the tracking number by email as soon as it leaves.\n\nIf anything is not right with your order, just send me a message here on Etsy and I will fix it.\n\nA presto,\nDario - MurettoStudio",
+    "digital_sale_message": "Thank you for your purchase from MurettoStudio!\n\nYour files are ready to download from your Etsy account (You, then Purchases and reviews). If you have any trouble opening them, send me a message and I will help.\n\nA presto,\nDario - MurettoStudio",
+    "currency_code": "EUR",
+    "is_vacation": false,
+    "policy_additional": "PRODUCTION PARTNERS\nEvery MurettoStudio idea is created in Italy. Each item is printed on demand by our production partners: European products are made in Germany or the Czech Republic, and some kids&#39; tees are made in the USA. Making only what is ordered avoids waste and overstock.\n\nHOW OUR DESIGNS ARE MADE\nEvery design starts from my own idea and brief. The artwork is created with the help of AI image tools, then checked and prepared for printing by me.\n\nWHERE WE SHIP\nTo keep delivery fast and avoid customs fees, each product ships only within its production region: items made in Europe ship to Europe and the UK, items made in the USA ship to the USA and Canada. Each listing shows where it can be delivered.\n\nPROCESSING AND SHIPPING\nEach item is made to order: production takes 2-5 business days, plus the delivery time shown at checkout. If you order different products, they may arrive in separate parcels.\n\nBABY AND KIDS&#39; CLOTHING\nAll baby and kids&#39; garments are 100% cotton (baby bodysuits are certified organic cotton). Please check the size chart in each listing before ordering. Wash inside out in cold water, do not tumble dry at high heat and do not iron directly on the print.\n\nCOLOURS\nColours on screen can look slightly different from the printed product, depending on your monitor or phone settings.\n\nDAMAGED OR DEFECTIVE ITEMS\nIf your item arrives damaged, misprinted or defective, message me within 14 days of delivery with a photo and I will send a free replacement or a full refund. No need to return the damaged item.\n\nRETURNS\nYou can return unused items within 14 days of delivery. Return shipping costs are paid by the buyer.\n\nQUESTIONS\nMessage me any time through Etsy: I usually reply within 24 hours.",
+    "url": "https://www.etsy.com/shop/MurettoStudio",
+    "icon_url_fullxfull": "https://i.etsystatic.com/68871771/r/isla/175660/89526852/isla_fullxfull.89526852_53wanxrk.jpg",
+    "listing_active_count": 0,
+    "digital_listing_count": 0,
+    "languages": [
+      "en-US"
+    ],
+    "accepts_custom_requests": false
+  },
+  "sections": {
+    "count": 5,
+    "results": [
+      {
+        "shop_section_id": 61194144,
+        "title": "Mugs",
+        "rank": 1,
+        "user_id": 1309164008,
+        "active_listing_count": 0
+      },
+      {
+        "shop_section_id": 61194146,
+        "title": "Tote Bags",
+        "rank": 2,
+        "user_id": 1309164008,
+        "active_listing_count": 0
+      },
+      {
+        "shop_section_id": 61217250,
+        "title": "Christmas Shop",
+        "rank": 3,
+        "user_id": 1309164008,
+        "active_listing_count": 0
+      },
+      {
+        "shop_section_id": 61217252,
+        "title": "Baby Bodysuits",
+        "rank": 4,
+        "user_id": 1309164008,
+        "active_listing_count": 0
+      },
+      {
+        "shop_section_id": 61232875,
+        "title": "Kids Tees",
+        "rank": 5,
+        "user_id": 1309164008,
+        "active_listing_count": 0
+      }
+    ]
+  },
+  "shipping_profiles": {
+    "count": 0,
+    "results": []
+  },
+  "return_policies": {
+    "count": 1,
+    "results": [
+      {
+        "return_policy_id": 1527613792062,
+        "shop_id": 68871771,
+        "accepts_returns": true,
+        "accepts_exchanges": false,
+        "return_deadline": 14
+      }
+    ]
+  },
+  "production_partners": {
+    "count": 1,
+    "results": [
+      {
+        "production_partner_id": 5863638,
+        "partner_name": "Stampa i tessuti",
+        "location": "Europe"
+      }
+    ]
+  },
+  "readiness_states": {
+    "count": 0,
+    "results": []
+  },
+  "listings_active": {
+    "count": 0,
+    "results": []
+  },
+  "listings_draft": {
+    "count": 0,
+    "results": []
+  }
+}

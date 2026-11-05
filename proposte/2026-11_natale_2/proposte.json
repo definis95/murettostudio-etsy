@@ -1,0 +1,514 @@
+{
+  "titolo": "MurettoStudio - Nuove idee (novembre 2026, seconda serie, revisione)",
+  "sottotitolo": "Bozze veloci disegnate da ChatGPT. Dimmi i numeri da approvare. USA = si vende solo in USA e Canada; UK = si vende in Europa e Regno Unito; Digitale = file da scaricare, si vende in tutto il mondo.",
+  "idee": [
+    {
+      "id": "17a",
+      "collezione": "Cappellini ricamati (USA + Europa)",
+      "titolo": "Cappellino ricamato: sole sul mare",
+      "prodotto": "Berretto in maglia con risvolto, ricamato (Yupoong, Printful: spedisce USA + Europa)",
+      "blueprint": 1691,
+      "provider": 410,
+      "tipo": "berretto",
+      "colori": [
+        "Red",
+        "Navy",
+        "Black",
+        "Olive"
+      ],
+      "perche": "Simbolo minimal senza scritte, si vende tutto l'anno; richiama il mare di Polignano del marchio.",
+      "brief_design": "Use case: embroidery design for a beanie cuff (about 6 x 4 cm).\nSubject: a small half sun rising over three simple wave lines.\nThreads: cream #F4EBDD, warm gold #D4A548, sea blue #6FA3C7.\nStyle: clean embroidery look, maximum 3 thread colours, bold simple shapes, no gradients, no tiny details, no text.",
+      "mockup": "a navy knit cuffed beanie lying on a light wooden table, soft daylight, minimal styling.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "17c",
+      "collezione": "Cappellini ricamati (USA + Europa)",
+      "titolo": "Cappellino ricamato: montagne e luna",
+      "prodotto": "Berretto in maglia con risvolto, ricamato (Yupoong, Printful: spedisce USA + Europa)",
+      "blueprint": 1691,
+      "provider": 410,
+      "tipo": "berretto",
+      "colori": [
+        "Red",
+        "Navy",
+        "Black",
+        "Olive"
+      ],
+      "perche": "Stile outdoor molto richiesto negli USA, senza scritte.",
+      "brief_design": "Use case: embroidery design for a beanie cuff (about 6 x 4 cm).\nSubject: two simple mountain peaks with a small crescent moon and one star above.\nThreads: cream #F4EBDD, warm gold #D4A548, sage #A8C3A0.\nStyle: clean embroidery look, maximum 3 thread colours, bold simple shapes, no gradients, no tiny details, no text.",
+      "mockup": "a olive green knit cuffed beanie lying on a light wooden table, soft daylight, minimal styling.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "17d",
+      "collezione": "Cappellini ricamati (USA + Europa)",
+      "titolo": "Cappellino ricamato personalizzabile con il nome",
+      "prodotto": "Berretto in maglia con risvolto, ricamato (Yupoong, Printful: spedisce USA + Europa)",
+      "blueprint": 1691,
+      "provider": 410,
+      "tipo": "berretto",
+      "colori": [
+        "Red",
+        "Navy",
+        "Black",
+        "Olive"
+      ],
+      "perche": "I prodotti con il nome sono tra i più venduti su Etsy. EMMA è solo un esempio: prima di pubblicare va verificato il flusso degli ordini personalizzati.",
+      "brief_design": "Use case: embroidery design for a beanie cuff (about 8 x 2.5 cm).\nSubject: the name \"EMMA\" in simple bold rounded capital letters with a tiny embroidered heart after it.\nText (verbatim, exact spelling): \"EMMA\".\nThreads: cream #F4EBDD and soft pink #E8A9B0. Clean embroidery, no other text, no tiny details.",
+      "mockup": "a red knit cuffed beanie lying on a light wooden table, soft daylight, minimal styling.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "18a",
+      "collezione": "Cappellini in cotone (solo USA + Canada)",
+      "titolo": "Cappellino in cotone: montagne con pini e luna in un cerchio",
+      "prodotto": "Berretto 100% cotone con stampa (Fulfill Engine USA)",
+      "blueprint": 5254,
+      "provider": 217,
+      "tipo": "berretto_stampa",
+      "colori": [
+        "Black",
+        "Navy",
+        "Graphite"
+      ],
+      "perche": "Piccolo emblema minimal ma curato, stile outdoor apprezzato negli USA.",
+      "brief_design": "Use case: small print for the front of a beanie (about 6 x 6 cm).\nSubject: a circular badge containing a mountain range, a row of tiny pine trees and a crescent moon with two stars.\nPalette: cream #F4EBDD, light sage #A8C3A0, soft gold #D9B36C.\nStyle: refined minimal line illustration with a few flat colour accents, bold enough to print small (no line thinner than 1 mm at 8 cm width), no text, readable on dark fabric.",
+      "mockup": "a black cotton beanie worn by a young woman outdoors on a cold sunny day, smiling, soft winter light.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "18b",
+      "collezione": "Cappellini in cotone (solo USA + Canada)",
+      "titolo": "Cappellino in cotone: faro sugli scogli",
+      "prodotto": "Berretto 100% cotone con stampa (Fulfill Engine USA)",
+      "blueprint": 5254,
+      "provider": 217,
+      "tipo": "berretto_stampa",
+      "colori": [
+        "Black",
+        "Navy",
+        "Graphite"
+      ],
+      "perche": "Simbolo di mare elegante, richiama la costa pugliese del marchio senza scritte.",
+      "brief_design": "Use case: small print for the front of a beanie (about 5 x 7 cm).\nSubject: a small lighthouse on rocks with two light beams and a couple of stylised waves.\nPalette: cream #F4EBDD, light terracotta #D98C6A, sea blue #8DB7D2.\nStyle: refined minimal line illustration with a few flat colour accents, bold enough to print small (no line thinner than 1 mm at 8 cm width), no text, readable on dark fabric.",
+      "mockup": "a navy cotton beanie worn by a young woman outdoors on a cold sunny day, smiling, soft winter light.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "18c",
+      "collezione": "Cappellini in cotone (solo USA + Canada)",
+      "titolo": "Cappellino in cotone: mazzolino di fiori di campo",
+      "prodotto": "Berretto 100% cotone con stampa (Fulfill Engine USA)",
+      "blueprint": 5254,
+      "provider": 217,
+      "tipo": "berretto_stampa",
+      "colori": [
+        "Black",
+        "Navy",
+        "Graphite"
+      ],
+      "perche": "Motivo botanico delicato, piace molto al pubblico femminile.",
+      "brief_design": "Use case: small print for the front of a beanie (about 6 x 6 cm).\nSubject: a small bouquet of wildflowers (chamomile, lavender, a poppy) tied with a little ribbon bow.\nPalette: cream #F4EBDD, lavender #B9A7D6, poppy coral #E07A5F, sage #A8C3A0.\nStyle: refined minimal line illustration with a few flat colour accents, bold enough to print small (no line thinner than 1 mm at 8 cm width), no text, readable on dark fabric.",
+      "mockup": "a graphite grey cotton beanie worn by a young woman outdoors on a cold sunny day, smiling, soft winter light.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "18d",
+      "collezione": "Cappellini in cotone (solo USA + Canada)",
+      "titolo": "Cappellino in cotone: sole e luna che si incastrano",
+      "prodotto": "Berretto 100% cotone con stampa (Fulfill Engine USA)",
+      "blueprint": 5254,
+      "provider": 217,
+      "tipo": "berretto_stampa",
+      "colori": [
+        "Black",
+        "Navy",
+        "Graphite"
+      ],
+      "perche": "Simbolo celeste minimal, molto diffuso nello stile boho; senza scritte.",
+      "brief_design": "Use case: small print for the front of a beanie (about 6 x 6 cm).\nSubject: a sun with short rays and a crescent moon interlocking into one round symbol, with three tiny stars.\nPalette: soft gold #D9B36C, cream #F4EBDD.\nStyle: refined minimal line illustration with a few flat colour accents, bold enough to print small (no line thinner than 1 mm at 8 cm width), no text, readable on dark fabric.",
+      "mockup": "a black cotton beanie worn by a young woman outdoors on a cold sunny day, smiling, soft winter light.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "orizzontale"
+    },
+    {
+      "id": "19",
+      "collezione": "Sciarpe (solo USA + Canada)",
+      "titolo": "Sciarpa con biscotti di pan di zenzero (variante natalizia)",
+      "prodotto": "Sciarpa leggera stampata, 100% poliestere (Printify Choice USA)",
+      "blueprint": 1327,
+      "provider": 99,
+      "tipo": "sciarpa",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Variante natalizia della serie sciarpe.",
+      "brief_design": "Use case: seamless repeating pattern for a printed scarf.\nSubject: scattered smiling gingerbread cookies, candy canes, small red bows and tiny stars, evenly spaced.\nBackground: soft cream #F4EBDD filling everything.\nPalette: gingerbread brown #B5713E, white icing, red #C0392B, pine green #3F7A4E.\nStyle: cute flat illustration, no text.",
+      "mockup": "a lightweight cream scarf with the pattern loosely wrapped around the neck of a woman wearing a camel coat at a Christmas market.",
+      "stato": "scartata",
+      "note_qualita": {},
+      "formato": "quadrato"
+    },
+    {
+      "id": "19b",
+      "collezione": "Sciarpe (solo USA + Canada)",
+      "titolo": "Sciarpa con rametti d'ulivo",
+      "prodotto": "Sciarpa leggera stampata, 100% poliestere (Printify Choice USA)",
+      "blueprint": 1327,
+      "provider": 99,
+      "tipo": "sciarpa",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Fantasia elegante e senza stagione, coerente con il marchio.",
+      "brief_design": "Use case: seamless repeating pattern for a printed scarf.\nSubject: small olive branches with leaves and olives, scattered in alternating directions.\nBackground: cream #F4EBDD filling everything.\nPalette: olive green #7A8B4F, dark olive #4B5A2E, olive purple #6B4E71.\nStyle: refined minimal flat illustration, seamless repeating pattern, evenly spaced, no text.",
+      "mockup": "a lightweight scarf with the pattern loosely wrapped around the neck of a woman wearing a camel coat, city street, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {},
+      "formato": "quadrato"
+    },
+    {
+      "id": "19c",
+      "collezione": "Sciarpe (solo USA + Canada)",
+      "titolo": "Sciarpa con mazzolini di fiori di campo",
+      "prodotto": "Sciarpa leggera stampata, 100% poliestere (Printify Choice USA)",
+      "blueprint": 1327,
+      "provider": 99,
+      "tipo": "sciarpa",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Motivo floreale delicato, regalo per lei tutto l'anno.",
+      "brief_design": "Use case: seamless repeating pattern for a printed scarf.\nSubject: tiny tossed bouquets of wildflowers (chamomile, poppies, lavender) with thin stems.\nBackground: warm off-white #F7F1E6 filling everything.\nPalette: terracotta #C9704F, sage #8FAE8B, lavender #A897C9, mustard #D9A441.\nStyle: refined minimal flat illustration, seamless repeating pattern, evenly spaced, no text.",
+      "mockup": "a lightweight scarf with the pattern loosely wrapped around the neck of a woman wearing a navy coat, city street, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {},
+      "formato": "quadrato"
+    },
+    {
+      "id": "19d",
+      "collezione": "Sciarpe (solo USA + Canada)",
+      "titolo": "Sciarpa con piastrelle mediterranee blu",
+      "prodotto": "Sciarpa leggera stampata, 100% poliestere (Printify Choice USA)",
+      "blueprint": 1327,
+      "provider": 99,
+      "tipo": "sciarpa",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Fantasia geometrica ispirata alle maioliche del Sud Italia, molto riconoscibile.",
+      "brief_design": "Use case: seamless repeating pattern for a printed scarf.\nSubject: original Mediterranean majolica-style tiles: geometric flowers, small lemons and leaves inside square tiles.\nBackground: white #FAFAF7.\nPalette: cobalt blue #2F5DA8, light blue #8DB7D2, lemon yellow #E8C547, leaf green #6E9A5B.\nStyle: refined minimal flat illustration, seamless repeating pattern, evenly spaced, no text.",
+      "mockup": "a lightweight scarf with the pattern loosely wrapped around the neck of a woman wearing a beige trench coat, city street, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {},
+      "formato": "quadrato"
+    },
+    {
+      "id": "19e",
+      "collezione": "Sciarpe (solo USA + Canada)",
+      "titolo": "Sciarpa con soli, lune e stelle dorati",
+      "prodotto": "Sciarpa leggera stampata, 100% poliestere (Printify Choice USA)",
+      "blueprint": 1327,
+      "provider": 99,
+      "tipo": "sciarpa",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Fantasia celeste in stile boho, elegante su fondo scuro.",
+      "brief_design": "Use case: seamless repeating pattern for a printed scarf.\nSubject: small suns, crescent moons and stars of different sizes, evenly scattered.\nBackground: deep navy #1F2A44 filling everything.\nPalette: gold #D4A548, cream #F4EBDD.\nStyle: refined minimal flat illustration, seamless repeating pattern, evenly spaced, no text.",
+      "mockup": "a lightweight scarf with the pattern loosely wrapped around the neck of a woman wearing a grey wool coat, city street, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {},
+      "formato": "quadrato"
+    },
+    {
+      "id": "20",
+      "collezione": "Natale - calze (Europa + USA, due versioni)",
+      "titolo": "Calza di Natale \"Dear Santa, I've Been (Mostly) Good\"",
+      "prodotto": "Calza di Natale in finto camoscio 33 x 49 cm (Print Clever, Regno Unito)",
+      "blueprint": 850,
+      "provider": 72,
+      "tipo": "calza",
+      "colori": [
+        "unico"
+      ],
+      "perche": "La calza da appendere al camino è uno dei prodotti natalizi più cercati; la frase ironica si collega alle t-shirt e al body \"Dear Santa\". Approvata anche in versione USA (stesso disegno, stampatore americano).",
+      "brief_design": "Use case: print for the front of a Christmas stocking (tall portrait shape).\nSubject: a cheeky little reindeer with a halo slightly tilted, sitting among wrapped presents, snowflakes around.\nText (verbatim, exact spelling): \"DEAR SANTA,\" on top and \"I'VE BEEN (MOSTLY) GOOD\" below, playful bold lettering.\nBackground: deep red #A32630 filling everything, with a soft cream snowy band at the top.\nPalette: cream #F4EBDD, caramel #C68B59, gold #D4A548, pine green #3F6B4F.",
+      "formato": "verticale",
+      "mockup": "a red faux suede Christmas stocking hanging from a mantelpiece decorated with garland and fairy lights.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Text extends too low; 12% safe margins not fully respected.",
+        "mockup": "ok"
+      },
+      "usa": {
+        "candidati": [
+          {
+            "blueprint": 380,
+            "provider": 99
+          },
+          {
+            "blueprint": 734,
+            "provider": 99
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: Natale, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Regalo per bambini economico e molto cercato a dicembre. Stesse illustrazioni della versione digitale 22: un solo lavoro, due prodotti. Richiede 24 disegni + copertina (più quota ChatGPT).",
+      "brief_design": "Use case: cover of a children's Christmas coloring book.\nSubject: a happy snowman, a reindeer, a gingerbread house and a Christmas tree with presents, cheerful composition.\nText (verbatim, exact spelling): \"MY CHRISTMAS COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, Christmas tree in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "21b",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: avventura, pirati e isola del tesoro, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Stesse illustrazioni anche nella versione digitale 22. Richiede 24 disegni + copertina.",
+      "brief_design": "Use case: cover of a children's coloring book.\nSubject: a friendly young pirate crew on a small ship, a parrot, a treasure map and an island with palm trees and a treasure chest.\nText (verbatim, exact spelling): \"MY ADVENTURE COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, a toy ship in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "21c",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: dinosauri, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Stesse illustrazioni anche nella versione digitale 22. Richiede 24 disegni + copertina.",
+      "brief_design": "Use case: cover of a children's coloring book.\nSubject: cute smiling dinosaurs (T-rex, triceratops, long-neck) among volcanoes, ferns and eggs.\nText (verbatim, exact spelling): \"MY DINOSAUR COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, a toy dinosaur in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "21d",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: spazio e astronauti, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Stesse illustrazioni anche nella versione digitale 22. Richiede 24 disegni + copertina.",
+      "brief_design": "Use case: cover of a children's coloring book.\nSubject: a child astronaut, a rocket, planets, a friendly alien and stars.\nText (verbatim, exact spelling): \"MY SPACE COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, a small globe in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "21e",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: fondo del mare, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Stesse illustrazioni anche nella versione digitale 22. Richiede 24 disegni + copertina.",
+      "brief_design": "Use case: cover of a children's coloring book.\nSubject: a happy whale, a turtle, an octopus, fish and coral under the sea.\nText (verbatim, exact spelling): \"MY OCEAN COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, seashells in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "21f",
+      "collezione": "Bambini - libro da colorare (solo USA + Canada; in Europa il PDF 22)",
+      "titolo": "Libro da colorare: fiabe, castello e unicorni, 24 pagine",
+      "prodotto": "Libro da colorare 21,6 x 28 cm, copertina morbida, 26 pagine (Printify Choice USA)",
+      "blueprint": 2721,
+      "provider": 99,
+      "tipo": "libro",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Stesse illustrazioni anche nella versione digitale 22. Richiede 24 disegni + copertina.",
+      "brief_design": "Use case: cover of a children's coloring book.\nSubject: a fairy tale castle, a unicorn, a friendly dragon, a little princess and a knight.\nText (verbatim, exact spelling): \"MY FAIRY TALE COLORING BOOK\".\nStyle: bright, friendly children's book illustration with thick outlines.",
+      "mockup": "a children's coloring book lying open on a table with colored pencils, one page half colored by a child, the colorful cover visible next to it, a toy crown in the background.",
+      "stato": "approvata",
+      "note_qualita": {},
+      "formato": "verticale"
+    },
+    {
+      "id": "22",
+      "collezione": "Digitale - pagine da colorare (tutto il mondo)",
+      "titolo": "Versione PDF stampabile dei 6 libri da colorare (21-21f)",
+      "prodotto": "Prodotto digitale: PDF stampabile A4 e Letter, scaricabile subito",
+      "blueprint": null,
+      "provider": null,
+      "tipo": "digitale",
+      "colori": [
+        "digitale"
+      ],
+      "perche": "Approvato: un PDF per ciascun libro (Natale, avventura, dinosauri, spazio, mare, fiabe). Nessun costo di produzione, si vende in tutto il mondo.",
+      "brief_design": "Use case: printable children's coloring page.\nSubject: a cute snowman with a scarf and a little bird, snowy trees around.\nStyle: clean black line art only, thick even outlines, large simple areas to color, no shading, no grey, white background.\nText (verbatim, exact spelling): \"MERRY CHRISTMAS\" in outline letters at the top.",
+      "mockup": "three printed Christmas coloring pages on a kitchen table, one partly colored with crayons, a child's hand holding a red crayon.",
+      "stato": "approvata",
+      "note_qualita": {}
+    },
+    {
+      "id": "24",
+      "collezione": "Natale - carta regalo (Europa + USA, due versioni)",
+      "titolo": "Carta da regalo con renne e stelle",
+      "prodotto": "Rotolo di carta regalo satinata, 70 x 100 o 70 x 200 cm (Prodigi, Regno Unito)",
+      "blueprint": 845,
+      "provider": 69,
+      "tipo": "carta",
+      "colori": [
+        "unico"
+      ],
+      "perche": "Chi compra un regalo cerca anche la carta: si abbina alla borsa e alla calza, e si vende in Europa. Approvata anche in versione USA.",
+      "brief_design": "Use case: seamless repeating pattern for gift wrapping paper.\nSubject: small leaping reindeer, tiny golden stars and little sprigs of holly, evenly spaced.\nBackground: deep forest green #1F3D2E filling everything.\nPalette: cream #F4EBDD, gold #D4A548, red #B23A3A.\nStyle: elegant flat Scandinavian illustration, no text.",
+      "mockup": "several presents wrapped in the green reindeer paper with red ribbons under a Christmas tree, plus an unrolled piece of the paper.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "lievi sfumature; alcuni motivi distano meno del 4% dai bordi.",
+        "mockup": "Paper slightly cropped at left; print has minor variations from reference."
+      },
+      "usa": {
+        "candidati": [
+          {
+            "blueprint": 1367,
+            "provider": 99
+          },
+          {
+            "blueprint": 1100,
+            "provider": 99
+          }
+        ]
+      },
+      "formato": "quadrato"
+    },
+    {
+      "id": "27a",
+      "collezione": "Neonati - tutine maniche lunghe (USA + Canada)",
+      "titolo": "Tutina maschietto celeste con orsetti (USA)",
+      "prodotto": "Tutina maniche lunghe 100% cotone (Rabbit Skins 4411, SwiftPOD USA)",
+      "blueprint": 31,
+      "provider": 39,
+      "tipo": "capo",
+      "colori": [
+        "Light Blue"
+      ],
+      "perche": "Versione USA/Canada: la tutina è celeste, gli orsetti stampati sopra.",
+      "brief_design": "Use case: front print for a light blue baby bodysuit.\nSubject: small cute teddy bears scattered with tiny stars and little clouds, evenly spaced, filling a tall rectangle loosely (separate motifs, no background).\nPalette: white #FFFFFF, warm beige #D8B98F, soft brown #A9774F, navy #2E3F66.\nStyle: soft cute flat illustration, no text.",
+      "mockup": "a light blue long-sleeve baby bodysuit laid flat on a white knit blanket, a small wooden rattle next to it, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "difetto residuo: sfondo sfumato con aloni, trasparenza richiesta non ottenuta.",
+        "mockup": "ok"
+      },
+      "formato": "verticale"
+    },
+    {
+      "id": "27b",
+      "collezione": "Neonati - tutine maniche lunghe (USA + Canada)",
+      "titolo": "Tutina femminuccia rosa con coniglietti (USA)",
+      "prodotto": "Tutina maniche lunghe 100% cotone (Rabbit Skins 4411, SwiftPOD USA)",
+      "blueprint": 31,
+      "provider": 39,
+      "tipo": "capo",
+      "colori": [
+        "Pink"
+      ],
+      "perche": "Versione USA/Canada: la tutina è rosa, coniglietti e fiorellini stampati sopra.",
+      "brief_design": "Use case: front print for a pink baby bodysuit.\nSubject: small cute bunnies scattered with tiny flowers and little hearts, evenly spaced, filling a tall rectangle loosely (separate motifs, no background).\nPalette: white #FFFFFF, cream #F4EBDD, dusty rose #C97B84, sage #8FAE8B.\nStyle: soft cute flat illustration, no text.",
+      "mockup": "a pink long-sleeve baby bodysuit laid flat on a white knit blanket, a small wooden rattle next to it, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "difetto residuo: sfondo sfumato non trasparente, anche dopo il secondo tentativo.",
+        "mockup": "lievi variazioni nei dettagli del disegno rispetto al riferimento."
+      },
+      "formato": "verticale"
+    },
+    {
+      "id": "27c",
+      "collezione": "Neonati - tutine maniche lunghe (Europa + UK)",
+      "titolo": "Body maschietto bianco con orsetti celesti (Europa)",
+      "prodotto": "Body maniche lunghe cotone organico (Babybugz BZ30, Textildruck Germania) - come i body 06/07",
+      "blueprint": 974,
+      "provider": 26,
+      "tipo": "capo",
+      "colori": [
+        "White"
+      ],
+      "perche": "Versione Europa/UK: il body esiste solo bianco, quindi i motivi sono in celeste.",
+      "brief_design": "Use case: front print for a white baby bodysuit.\nSubject: small cute teddy bears scattered with tiny stars and little clouds, evenly spaced, filling a tall rectangle loosely (separate motifs, no background).\nPalette: baby blue #9CC3E0, light blue #C9DFF0, warm beige #D8B98F, soft brown #A9774F.\nStyle: soft cute flat illustration, no text.",
+      "mockup": "a white long-sleeve baby bodysuit laid flat on a light blue knit blanket, a small wooden rattle next to it, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Difetto residuo: sfondo con aloni, trasparenza richiesta non ottenuta.",
+        "mockup": "lievi differenze nel disegno rispetto al riferimento."
+      },
+      "formato": "verticale"
+    },
+    {
+      "id": "27d",
+      "collezione": "Neonati - tutine maniche lunghe (Europa + UK)",
+      "titolo": "Body femminuccia bianco con coniglietti rosa (Europa)",
+      "prodotto": "Body maniche lunghe cotone organico (Babybugz BZ30, Textildruck Germania) - come i body 06/07",
+      "blueprint": 974,
+      "provider": 26,
+      "tipo": "capo",
+      "colori": [
+        "White"
+      ],
+      "perche": "Versione Europa/UK: il body esiste solo bianco, quindi i motivi sono in rosa.",
+      "brief_design": "Use case: front print for a white baby bodysuit.\nSubject: small cute bunnies scattered with tiny flowers and little hearts, evenly spaced, filling a tall rectangle loosely (separate motifs, no background).\nPalette: baby pink #F2B8C6, dusty rose #C97B84, cream #F4EBDD, sage #8FAE8B.\nStyle: soft cute flat illustration, no text.",
+      "mockup": "a white long-sleeve baby bodysuit laid flat on a pink knit blanket, a small wooden rattle next to it, soft daylight.",
+      "stato": "realizzata",
+      "note_qualita": {
+        "design": "Difetto residuo: fondo con aloni ancora presente, trasparenza non corretta.",
+        "mockup": "ok"
+      },
+      "formato": "verticale"
+    }
+  ]
+}

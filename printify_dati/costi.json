@@ -1,0 +1,1342 @@
+{
+  "Calendario Harrier UK": {
+    "blueprint": 1368,
+    "provider": 94,
+    "variants": [
+      {
+        "title": "14\" x 11.5\" / Glossy",
+        "cost": 1619
+      },
+      {
+        "title": "11\" x 8.5\" / Matte",
+        "cost": 1079
+      },
+      {
+        "title": "14\" x 11.5\" / Matte",
+        "cost": 1478
+      }
+    ]
+  },
+  "Decorazione ceramica Harrier UK": {
+    "blueprint": 1676,
+    "provider": 94,
+    "variants": [
+      {
+        "title": "2.95'' × 2.95'' / Round",
+        "cost": 736
+      }
+    ]
+  },
+  "Poster OPT CZ": {
+    "blueprint": 443,
+    "provider": 30,
+    "variants": [
+      {
+        "title": "11.7\" x 16.5\" / Glossy",
+        "cost": 709
+      },
+      {
+        "title": "11.7\" x 16.5\" / Matte",
+        "cost": 709
+      },
+      {
+        "title": "16.5\" x 23.4\" / Glossy",
+        "cost": 903
+      },
+      {
+        "title": "16.5\" x 23.4\" / Matte",
+        "cost": 903
+      },
+      {
+        "title": "23.4\" x 33.1\" / Glossy",
+        "cost": 1350
+      },
+      {
+        "title": "23.4\" x 33.1\" / Matte",
+        "cost": 1350
+      },
+      {
+        "title": "11.7\" x 8.3\" / Glossy",
+        "cost": 650
+      },
+      {
+        "title": "11.7\" x 8.3\" / Matte",
+        "cost": 650
+      },
+      {
+        "title": "16.5\" x 11.7\" / Glossy",
+        "cost": 709
+      },
+      {
+        "title": "16.5\" x 11.7\" / Matte",
+        "cost": 709
+      },
+      {
+        "title": "23.4\" x 16.5\" / Glossy",
+        "cost": 903
+      },
+      {
+        "title": "23.4\" x 16.5\" / Matte",
+        "cost": 903
+      },
+      {
+        "title": "33.1\" x 23.4\" / Glossy",
+        "cost": 1350
+      },
+      {
+        "title": "33.1\" x 23.4\" / Matte",
+        "cost": 1350
+      },
+      {
+        "title": "8.3\" x 11.7\" / Glossy",
+        "cost": 650
+      },
+      {
+        "title": "8.3\" x 11.7\" / Matte",
+        "cost": 650
+      }
+    ]
+  },
+  "Poster Posterflow DE": {
+    "blueprint": 1033,
+    "provider": 220,
+    "variants": [
+      {
+        "title": "7.9\" x 11.8\" (Vertical) / Matte",
+        "cost": 926
+      },
+      {
+        "title": "7.9\" x 11.8\" (Vertical) / Satin",
+        "cost": 926
+      },
+      {
+        "title": "11.8″ x 15.8″ (Vertical) / Matte",
+        "cost": 1115
+      },
+      {
+        "title": "11.8″ x 15.8″ (Vertical) / Satin",
+        "cost": 1115
+      },
+      {
+        "title": "23.6″ x 35.4″ (Vertical) / Matte",
+        "cost": 2105
+      },
+      {
+        "title": "23.6″ x 35.4″ (Vertical) / Satin",
+        "cost": 2105
+      },
+      {
+        "title": "27.6″ x 39.4″ (Vertical) / Matte",
+        "cost": 2626
+      },
+      {
+        "title": "27.6″ x 39.4″ (Vertical) / Satin",
+        "cost": 2626
+      },
+      {
+        "title": "11.7\" x 16.5\" (Vertical) / Matte",
+        "cost": 1115
+      },
+      {
+        "title": "11.7\" x 16.5\" (Vertical) / Satin",
+        "cost": 1115
+      },
+      {
+        "title": "15.8″ x 19.7″ (Vertical) / Matte",
+        "cost": 1350
+      },
+      {
+        "title": "15.8″ x 19.7″ (Vertical) / Satin",
+        "cost": 1350
+      },
+      {
+        "title": "16.5\" x 23.4\" (Vertical) / Matte",
+        "cost": 1493
+      },
+      {
+        "title": "16.5\" x 23.4\" (Vertical) / Satin",
+        "cost": 1493
+      },
+      {
+        "title": "19.7\" x 27.6\" (Vertical) / Matte",
+        "cost": 1586
+      },
+      {
+        "title": "19.7\" x 27.6\" (Vertical) / Satin",
+        "cost": 1586
+      },
+      {
+        "title": "23.4\" x 33.1\" (Vertical) / Matte",
+        "cost": 2059
+      },
+      {
+        "title": "23.4\" x 33.1\" (Vertical) / Satin",
+        "cost": 2059
+      },
+      {
+        "title": "8.3\" x 11.7\" (Vertical) / Matte",
+        "cost": 926
+      },
+      {
+        "title": "8.3\" x 11.7\" (Vertical) / Satin",
+        "cost": 926
+      },
+      {
+        "title": "11.7\" x 8.3\" (Horizontal) / Matte",
+        "cost": 926
+      },
+      {
+        "title": "11.7\" x 8.3\" (Horizontal) / Satin",
+        "cost": 926
+      },
+      {
+        "title": "16.5\" x 11.7\" (Horizontal) / Matte",
+        "cost": 1115
+      },
+      {
+        "title": "16.5\" x 11.7\" (Horizontal) / Satin",
+        "cost": 1115
+      },
+      {
+        "title": "19.7\" x 15.8\" (Horizontal) / Matte",
+        "cost": 1350
+      },
+      {
+        "title": "19.7\" x 15.8\" (Horizontal) / Satin",
+        "cost": 1350
+      },
+      {
+        "title": "23.4\" x 16.5\" (Horizontal) / Matte",
+        "cost": 1493
+      },
+      {
+        "title": "23.4\" x 16.5\" (Horizontal) / Satin",
+        "cost": 1493
+      },
+      {
+        "title": "27.6″ x 19.7″ (Horizontal) / Matte",
+        "cost": 1586
+      },
+      {
+        "title": "27.6″ x 19.7″ (Horizontal) / Satin",
+        "cost": 1586
+      },
+      {
+        "title": "33.1\" x 23.4\" (Horizontal) / Matte",
+        "cost": 2059
+      },
+      {
+        "title": "33.1\" x 23.4\" (Horizontal) / Satin",
+        "cost": 2059
+      },
+      {
+        "title": "11.8\" x 7.9\" (Horizontal) / Matte",
+        "cost": 926
+      },
+      {
+        "title": "11.8\" x 7.9\" (Horizontal) / Satin",
+        "cost": 926
+      },
+      {
+        "title": "15.8″ x 11.8″ (Horizontal) / Matte",
+        "cost": 1115
+      },
+      {
+        "title": "15.8″ x 11.8″ (Horizontal) / Satin",
+        "cost": 1115
+      },
+      {
+        "title": "35.4″ x 23.6″ (Horizontal) / Matte",
+        "cost": 2105
+      },
+      {
+        "title": "35.4″ x 23.6″ (Horizontal) / Satin",
+        "cost": 2105
+      },
+      {
+        "title": "39.4″ x 27.6″ (Horizontal) / Matte",
+        "cost": 2626
+      },
+      {
+        "title": "39.4″ x 27.6″ (Horizontal) / Satin",
+        "cost": 2626
+      }
+    ]
+  },
+  "Poster cornice Print Pigeons LV": {
+    "blueprint": 492,
+    "provider": 36,
+    "variants": [
+      {
+        "title": "11″ x 14″ / Black",
+        "cost": 3501
+      },
+      {
+        "title": "11″ x 14″ / White",
+        "cost": 3501
+      },
+      {
+        "title": "12″ x 18″ / Black",
+        "cost": 4008
+      },
+      {
+        "title": "12″ x 18″ / White",
+        "cost": 4066
+      },
+      {
+        "title": "18″ x 24″ / Black",
+        "cost": 5787
+      },
+      {
+        "title": "18″ x 24″ / White",
+        "cost": 5787
+      },
+      {
+        "title": "24″ x 36″ / Black",
+        "cost": 9069
+      },
+      {
+        "title": "24″ x 36″ / White",
+        "cost": 9069
+      },
+      {
+        "title": "8\" x 11\" / Black",
+        "cost": 3123
+      },
+      {
+        "title": "8\" x 11\" / White",
+        "cost": 3123
+      },
+      {
+        "title": "16\" x 20\" / Black",
+        "cost": 4943
+      },
+      {
+        "title": "20\" x 30\" / Black",
+        "cost": 6951
+      },
+      {
+        "title": "16\" x 20\" / White",
+        "cost": 4943
+      },
+      {
+        "title": "20\" x 30\" / White",
+        "cost": 6951
+      }
+    ]
+  },
+  "Tazza OPT CZ": {
+    "blueprint": 441,
+    "provider": 30,
+    "variants": [
+      {
+        "title": "11oz",
+        "cost": 588
+      },
+      {
+        "title": "15oz",
+        "cost": 987
+      }
+    ]
+  },
+  "Tazza Textildruck DE": {
+    "blueprint": 1016,
+    "provider": 26,
+    "variants": [
+      {
+        "title": "11oz / White / Glossy",
+        "cost": 591
+      }
+    ]
+  },
+  "Tote Textildruck DE": {
+    "blueprint": 731,
+    "provider": 26,
+    "variants": [
+      {
+        "title": "Black / 15\" x 16.5\"",
+        "cost": 1962
+      },
+      {
+        "title": "Classic Red / 15\" x 16.5\"",
+        "cost": 1962
+      },
+      {
+        "title": "French Navy / 15\" x 16.5\"",
+        "cost": 1962
+      }
+    ]
+  },
+  "Desk mat cucito Printify Choice US": {
+    "blueprint": 10665,
+    "provider": 99,
+    "variants": [
+      {
+        "title": "24\" x 14\" / Unhemmed",
+        "cost": 902
+      },
+      {
+        "title": "24\" x 14\" / White",
+        "cost": 902
+      },
+      {
+        "title": "14.5\" x 12.2\" / Black",
+        "cost": 688
+      },
+      {
+        "title": "18\" x 16\" / White",
+        "cost": 984
+      },
+      {
+        "title": "36\" x 18\" / White",
+        "cost": 1560
+      },
+      {
+        "title": "48\" x 24\" / White",
+        "cost": 2135
+      }
+    ]
+  },
+  "Desk mat SPOKE US": {
+    "blueprint": 488,
+    "provider": 1,
+    "variants": [
+      {
+        "title": "12\" × 18\"",
+        "cost": 1067
+      },
+      {
+        "title": "12\" × 22\"",
+        "cost": 1149
+      },
+      {
+        "title": "16\" × 32\"",
+        "cost": 1560
+      }
+    ]
+  },
+  "Telo mare SPOKE US": {
+    "blueprint": 352,
+    "provider": 1,
+    "variants": [
+      {
+        "title": "30\" × 60\"",
+        "cost": 2381
+      },
+      {
+        "title": "36\" × 72\"",
+        "cost": 3046
+      }
+    ]
+  },
+  "Puzzle District Photo US": {
+    "blueprint": 1149,
+    "provider": 28,
+    "variants": [
+      {
+        "title": "1014 pcs (Vertical)",
+        "cost": 2847
+      },
+      {
+        "title": "110 pcs (Horizontal)",
+        "cost": 839
+      },
+      {
+        "title": "252 pcs (Horizontal)",
+        "cost": 1256
+      },
+      {
+        "title": "520 pcs (Horizontal)",
+        "cost": 1673
+      },
+      {
+        "title": "1014 pcs (Horizontal)",
+        "cost": 2847
+      },
+      {
+        "title": "110 pcs (Vertical)",
+        "cost": 839
+      },
+      {
+        "title": "252 pcs (Vertical)",
+        "cost": 1256
+      },
+      {
+        "title": "520 pcs (Vertical)",
+        "cost": 1673
+      }
+    ]
+  },
+  "Puzzle con scatola in latta US": {
+    "blueprint": 532,
+    "provider": 59,
+    "variants": [
+      {
+        "title": "14\" × 11\" (252 pcs)",
+        "cost": 2094
+      },
+      {
+        "title": "30\" × 20\" (1000 pcs)",
+        "cost": 2924
+      },
+      {
+        "title": "21\" × 15.5\" (500 pcs)",
+        "cost": 2596
+      },
+      {
+        "title": "10\" × 8\" (30 pcs)",
+        "cost": 1800
+      },
+      {
+        "title": "10\" × 8\" (110 pcs)",
+        "cost": 1800
+      },
+      {
+        "title": "40\" x 28\" (2000 pcs)",
+        "cost": 4097
+      }
+    ]
+  },
+  "720:6": {
+    "blueprint": 720,
+    "provider": 6,
+    "variants": [
+      {
+        "title": "One size / Grey",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Lavender",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Lime",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Navy Blue",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Orange",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Red",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Royal Blue",
+        "cost": 2110
+      },
+      {
+        "title": "One size / White",
+        "cost": 2110
+      },
+      {
+        "title": "One size / Black",
+        "cost": 2110
+      }
+    ]
+  },
+  "352:99": {
+    "blueprint": 352,
+    "provider": 99,
+    "variants": [
+      {
+        "title": "30\" × 60\"",
+        "cost": 2370
+      },
+      {
+        "title": "36\" × 72\"",
+        "cost": 3033
+      }
+    ]
+  },
+  "586:39": {
+    "blueprint": 586,
+    "provider": 39,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Black / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Heather / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Light Blue / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Navy / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Pink / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Red / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Royal / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "White / 2T",
+        "cost": 1837
+      },
+      {
+        "title": "Black / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Heather / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Light Blue / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Navy / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Pink / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Red / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Royal / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "White / 3T",
+        "cost": 1837
+      },
+      {
+        "title": "Black / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Heather / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Light Blue / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Navy / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Pink / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Red / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Royal / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "White / 4T",
+        "cost": 1837
+      },
+      {
+        "title": "Black / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Heather / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Light Blue / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Navy / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Pink / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Red / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "Royal / 5-6T",
+        "cost": 1837
+      },
+      {
+        "title": "White / 5-6T",
+        "cost": 1837
+      }
+    ]
+  },
+  "586:99": {
+    "blueprint": 586,
+    "provider": 99,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Red / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Royal / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Pink / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "White / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Black / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Light Blue / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "White / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "White / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Light Blue / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Black / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Heather / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Royal / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Pink / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "Red / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "Pink / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Pink / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Heather / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Black / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "Light Blue / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Navy / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "Red / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Navy / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Red / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Royal / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "Navy / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Heather / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Navy / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Black / 3T",
+        "cost": 1834
+      },
+      {
+        "title": "Royal / 4T",
+        "cost": 1834
+      },
+      {
+        "title": "Heather / 2T",
+        "cost": 1834
+      },
+      {
+        "title": "White / 5-6T",
+        "cost": 1834
+      },
+      {
+        "title": "Light Blue / 2T",
+        "cost": 1834
+      }
+    ]
+  },
+  "1702:39": {
+    "blueprint": 1702,
+    "provider": 39,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Athletic Heather / S",
+        "cost": 1842
+      },
+      {
+        "title": "Athletic Heather / M",
+        "cost": 1842
+      },
+      {
+        "title": "Athletic Heather / L",
+        "cost": 1842
+      },
+      {
+        "title": "Black / S",
+        "cost": 1842
+      },
+      {
+        "title": "Black / M",
+        "cost": 1842
+      },
+      {
+        "title": "Black / L",
+        "cost": 1842
+      },
+      {
+        "title": "Black Heather / S",
+        "cost": 1842
+      },
+      {
+        "title": "Black Heather / M",
+        "cost": 1842
+      },
+      {
+        "title": "Black Heather / L",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Deep Teal / S",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Deep Teal / M",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Deep Teal / L",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Mauve / S",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Mauve / M",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Mauve / L",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Navy / M",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Navy / L",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Yellow Gold / S",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Yellow Gold / M",
+        "cost": 1842
+      },
+      {
+        "title": "Heather Yellow Gold / L",
+        "cost": 1842
+      },
+      {
+        "title": "Natural / S",
+        "cost": 1842
+      },
+      {
+        "title": "Natural / M",
+        "cost": 1842
+      },
+      {
+        "title": "Natural / L",
+        "cost": 1842
+      },
+      {
+        "title": "Navy / S",
+        "cost": 1842
+      },
+      {
+        "title": "Navy / M",
+        "cost": 1842
+      },
+      {
+        "title": "Navy / L",
+        "cost": 1842
+      },
+      {
+        "title": "Red / S",
+        "cost": 1842
+      },
+      {
+        "title": "Red / M",
+        "cost": 1842
+      },
+      {
+        "title": "Red / L",
+        "cost": 1842
+      },
+      {
+        "title": "White / S",
+        "cost": 1842
+      },
+      {
+        "title": "White / M",
+        "cost": 1842
+      },
+      {
+        "title": "White / L",
+        "cost": 1842
+      }
+    ]
+  },
+  "1702:99": {
+    "blueprint": 1702,
+    "provider": 99,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Athletic Heather / S",
+        "cost": 1839
+      },
+      {
+        "title": "Athletic Heather / M",
+        "cost": 1839
+      },
+      {
+        "title": "Athletic Heather / L",
+        "cost": 1839
+      },
+      {
+        "title": "Black / S",
+        "cost": 1839
+      },
+      {
+        "title": "Black / M",
+        "cost": 1839
+      },
+      {
+        "title": "Black / L",
+        "cost": 1839
+      },
+      {
+        "title": "Black Heather / S",
+        "cost": 1839
+      },
+      {
+        "title": "Black Heather / M",
+        "cost": 1839
+      },
+      {
+        "title": "Black Heather / L",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Deep Teal / S",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Deep Teal / M",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Deep Teal / L",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Mauve / S",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Mauve / M",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Mauve / L",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Navy / M",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Navy / L",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Yellow Gold / S",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Yellow Gold / M",
+        "cost": 1839
+      },
+      {
+        "title": "Heather Yellow Gold / L",
+        "cost": 1839
+      },
+      {
+        "title": "Natural / S",
+        "cost": 1839
+      },
+      {
+        "title": "Natural / M",
+        "cost": 1839
+      },
+      {
+        "title": "Natural / L",
+        "cost": 1839
+      },
+      {
+        "title": "Navy / S",
+        "cost": 1839
+      },
+      {
+        "title": "Navy / M",
+        "cost": 1839
+      },
+      {
+        "title": "Navy / L",
+        "cost": 1839
+      },
+      {
+        "title": "Red / S",
+        "cost": 1839
+      },
+      {
+        "title": "Red / M",
+        "cost": 1839
+      },
+      {
+        "title": "Red / L",
+        "cost": 1839
+      },
+      {
+        "title": "White / S",
+        "cost": 1839
+      },
+      {
+        "title": "White / M",
+        "cost": 1839
+      },
+      {
+        "title": "White / L",
+        "cost": 1839
+      }
+    ]
+  },
+  "974:26": {
+    "blueprint": 974,
+    "provider": 26,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Black / NB (0-3M)",
+        "cost": 1888
+      },
+      {
+        "title": "Black / 3-6M",
+        "cost": 1888
+      },
+      {
+        "title": "Black / 6-12M",
+        "cost": 1888
+      },
+      {
+        "title": "Black / 12-18M",
+        "cost": 1888
+      },
+      {
+        "title": "White / NB (0-3M)",
+        "cost": 1888
+      },
+      {
+        "title": "White / 3-6M",
+        "cost": 1888
+      },
+      {
+        "title": "White / 6-12M",
+        "cost": 1888
+      },
+      {
+        "title": "White / 12-18M",
+        "cost": 1888
+      }
+    ]
+  },
+  "731:26": {
+    "blueprint": 731,
+    "provider": 26,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "Black / 15\" x 16.5\"",
+        "cost": 1300
+      },
+      {
+        "title": "Classic Red / 15\" x 16.5\"",
+        "cost": 1300
+      },
+      {
+        "title": "French Navy / 15\" x 16.5\"",
+        "cost": 1300
+      }
+    ]
+  },
+  "441:30": {
+    "blueprint": 441,
+    "provider": 30,
+    "posizione": "front",
+    "variants": [
+      {
+        "title": "11oz",
+        "cost": 588
+      },
+      {
+        "title": "15oz",
+        "cost": 987
+      }
+    ]
+  },
+  "380:99": {
+    "blueprint": 380,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "One size",
+        "cost": 1805
+      }
+    ]
+  },
+  "734:99": {
+    "blueprint": 734,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "One size / Red and Black/Natural",
+        "cost": 1713
+      },
+      {
+        "title": "One size / White and Black/Natural",
+        "cost": 1713
+      }
+    ]
+  },
+  "1100:99": {
+    "blueprint": 1100,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "29'' x 20\" / Matte",
+        "cost": 547
+      },
+      {
+        "title": "29'' x 144\" / Matte",
+        "cost": 1902
+      },
+      {
+        "title": "29'' x 72\" / Matte",
+        "cost": 1187
+      },
+      {
+        "title": "29'' x 20\" / Satin",
+        "cost": 572
+      },
+      {
+        "title": "29'' x 144\" / Satin",
+        "cost": 1943
+      },
+      {
+        "title": "29'' x 72\" / Satin",
+        "cost": 1212
+      }
+    ]
+  },
+  "1367:99": {
+    "blueprint": 1367,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "30\" x 180\" / Glossy",
+        "cost": 2089
+      },
+      {
+        "title": "30\" x 36\" / Matte",
+        "cost": 806
+      },
+      {
+        "title": "30\" x 72\" / Matte",
+        "cost": 1067
+      },
+      {
+        "title": "30\" x 72\" / Glossy",
+        "cost": 1072
+      },
+      {
+        "title": "30\" x 180\" / Matte",
+        "cost": 2293
+      },
+      {
+        "title": "30\" x 36\" / Glossy",
+        "cost": 814
+      }
+    ]
+  },
+  "1691:410": {
+    "blueprint": 1691,
+    "provider": 410,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "Baby Pink / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Black / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Brown / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Dark Grey / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Gold / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Navy / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Olive / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Red / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Royal / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Spruce / One size",
+        "cost": 1526
+      },
+      {
+        "title": "White / One size",
+        "cost": 1526
+      },
+      {
+        "title": "Heather Grey / One size",
+        "cost": 1526
+      }
+    ]
+  },
+  "5254:217": {
+    "blueprint": 5254,
+    "provider": 217,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "One size / Black",
+        "cost": 1525
+      },
+      {
+        "title": "One size / Graphite",
+        "cost": 1525
+      },
+      {
+        "title": "One size / Navy",
+        "cost": 1525
+      }
+    ]
+  },
+  "1327:99": {
+    "blueprint": 1327,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "27\" × 71''",
+        "cost": 2434
+      }
+    ]
+  }
+}
