@@ -51,4 +51,9 @@
 - `etsy_client.py` (Seller App "dario-shop-tools" approvata, OAuth; token in un file locale da non stampare).
 - `inspect_shop.py` (stato del negozio → `shop_snapshot.json`), `setup_shop.py [--dry-run]` (testi negozio da
   `shop_content_en.json`), `pubblica.py`, `verifica.py`.
+- `natale.py [--applica | --togli]`: blocco "CHRISTMAS DELIVERY" in cima alle descrizioni online e riga
+  nell'annuncio del negozio. Date di Printify per stampatore e destinazione meno 3 giorni (`CUTOFF`, da
+  aggiornare ogni anno); rilanciato con `--applica`, le date passate diventano "may arrive after Christmas".
+  Lanciato ogni mattina dall'Utilita' di pianificazione di Windows nel periodo di Natale (vedi `stato.md`),
+  copre anche le inserzioni appena pubblicate; uno stampatore nuovo va aggiunto in `CUTOFF`.
 - Video: ffmpeg (`winget install Gyan.FFmpeg`).
