@@ -1,6 +1,6 @@
 # Stato del progetto (aggiornare a ogni cambiamento)
 
-Ultimo aggiornamento: 2026-11-13.
+Ultimo aggiornamento: 2026-11-14.
 
 ## Online su Etsy (29 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
 - Prima release 01/11: 04 e 05 magliette (toddler + youth, USA), 06 e 07 body (EU), 12 e 13 tazze (EU),
@@ -20,16 +20,41 @@ Ultimo aggiornamento: 2026-11-13.
 
 ## In lavorazione / in attesa
 - Libri da colorare 21-21f (bp 2721/99, USA, prezzo proposto 19,90 € con spedizione USA gratis, costo 8,13 $
-  + 6,19 $ spedizione) e 22 PDF per l'Europa. Al 05/11:
+  + 6,19 $ spedizione) e 22 PDF per l'Europa. Al 13/11:
   - 21 Natale: pagine e copertina approvate, bozza Printify 6aec6ade902ad8910b041a25 (`inserzioni/21_book.json`)
     → attende l'ok di Dario su bozza e prezzo; poi foto ambientate, scheda e video.
   - 21b pirati: pagine e copertina approvate, bozza Printify 6aeca90e45ea31e28f041b03 (`inserzioni/21b_book.json`)
     → attende l'ok di Dario come il 21.
-  - 21c dinosauri: copertina approvata, 22/24 pagine approvate; in nuovo disegno 17 e 23.
-  - 21d spazio: copertina pronta (ritaglio alzato con `copertina_su`), 21/24 pagine approvate; in nuovo disegno 7, 17, 23.
-  - 21e mare 24/24 disegnate (da revisionare), 21f fiabe 24/24 disegnate il 13/11 (da revisionare, manca la
-    copertina; pagina 10: cavalli con le corna segnalati dal generatore).
-  Le pagine bocciate hanno il soggetto gia' riscritto in `libri_colorare.json` con le correzioni dell'art director.
+  - 13/11 sera: Dario ha trovato una collina sospesa (21c/11) passata dall'art director → nuova revisione pagina
+    per pagina di TUTTI i libri con la sezione "Scene logic" di `art-director.md`: 42 pagine da correggere,
+    copertine tutte PASS. Correzioni con ChatGPT sulla pagina stessa (`libro_colorare.py correggi`, difetti in
+    `strumenti_grafiche/correzioni_libri.json`) → prove `pagine/_NN_prova.png` riviste per intero dall'art
+    director → `accetta`. 14/11: tutte le 144 pagine approvate, `correzioni_libri.json` vuoto, file di stampa
+    2625x3375 a 300 DPI. Bozze Printify di 21 e 21b aggiornate (`--solo-stampa`).
+  - Ritocchi a mano rimasti sui file di stampa (si perdono rifacendo `prepara` di quella pagina): 21/04, 21b/23
+    (tolta la sesta stella), 21d/07 (Giove all'88%), 21d/13, 21e/20, 21e/22 (colonne laterali di pesci ±100 px),
+    21f/04. Su 21f/12 chiuso a mano un anello della catena direttamente su 12_chatgpt.png (resta anche rifacendo
+    `prepara`). 21/09, 21/23, 21c/18 e 21e/06 rifatte da ChatGPT. Originali sostituiti in pagine/_vecchie/.
+  - 14/11: Dario ha trovato ancora 21c/11 sbagliata due volte (paesaggio sospeso, poi collina che finisce dietro
+    il triceratopo) → in `art-director.md` aggiunti "Anchored ground" e il "Method" di continuità (seguire ogni
+    linea che tocca un personaggio e dire dove esce). Ricontrollo linea per linea di tutte le 144 pagine: 26
+    pagine corrette e approvate. Alla sera tutti e 6 i libri passano; bozze Printify di 21 e 21b aggiornate.
+  - 14/11 sera (ok di Dario "vai"): titoli/descrizioni/tag di tutti i libri "Ages 4-8" (tolto "toddlers": i
+    libri per bambini di 3 anni o meno escono dall'esenzione CPSIA "ordinary book") e produzione "up to about 10
+    business days" (prima diceva 2-5). Bozze Printify create anche per 21c 6af89e364643b0e30508f187, 21d
+    6af89e7dedd1928e090c485c, 21e 6af89ec3ca5d307abc00f010, 21f 6af89f0e948a470d52066962. Foto ambientate
+    ChatGPT di 21 e 21b (`stampa/<id>_2721/foto/brief_foto.txt`, libretto sottile; punte delle matite
+    ricolorate a mano) e scheda `scheda_libro_us.jpg` (voce `libro_us` in schede_info.json, vale per tutti e 6):
+    art director PASS. Pagina di revisione aggiornata (6 libri nel gruppo "pronti").
+  - CPSIA libri: bozza in `documenti_conformita/CPSIA/LIBRI.md` (certificato, testo etichetta per il retro della
+    copertina, domanda a Printify su rilegatura/inchiostri/stabilimento/date di Natale). Da Dario: citta' e
+    indirizzo per etichetta e certificato, scelta stampatore (99 Printify Choice, rete; oppure 28 District Photo,
+    Beltsville MD, stabilimento unico, 8,16 $), invio della domanda a Printify.
+  - Foto ambientate fatte e PASS anche per 21c-21f (21e e 21f con punte di pastelli/matite ricolorate a mano);
+    `etsy.foto` e `foto_extra` compilati su tutti e 6 i libri. Originali prima dei ritocchi: nessuno da tenere.
+  - Prossimo: con l'ok di Dario etichetta sul retro delle copertine, poi pubblicazione (21 e 21b per primi).
+  - Da decidere con Dario: sfondo castello+collina ripetuto in 21f (p02, 05, 13, 22, 24); stesso pesce in 21e
+    p10, 16, 22; segni decorativi isolati (onde, ciuffi, puntini) accettati per ora.
 - 17d nome personalizzato: verificare il flusso di personalizzazione Printify (max 8 lettere A-Z, controllo di
   ogni ordine) — Dario vuole garanzie sul testo del cliente.
 - Idee 08, 09, 10, 16 in sospeso (decide Dario). Scartate: 17b, 19 pan di zenzero, 23, 25, 26, berretti/sciarpe

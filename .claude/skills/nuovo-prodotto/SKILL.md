@@ -35,8 +35,9 @@ Chat in **italiano**; tutto cio' che va sul negozio (titoli, descrizioni, tag, s
 2. **Stampa sempre a 300 DPI**: ogni file copre il 100% dell'area Printify a scala 1. Se lo stampatore definisce
    l'area a risoluzione piu' bassa (es. sciarpe 1327/99 ~155 DPI, carta USA 1100/99 ~200 DPI), dirlo a Dario
    PRIMA di scegliere il prodotto.
-3. **Art director** (agente `art-director`) su ogni grafica, foto e scheda prima di usarla; testi e numeri
-   controllati lettera per lettera.
+3. **Art director** (agente `art-director`) su ogni grafica, foto e scheda prima di usarla **e prima di mostrarla
+   a Dario**, anche dopo ogni correzione (si ricontrolla l'immagine intera, non solo il punto corretto); testi e
+   numeri controllati lettera per lettera. Dario non deve trovare difetti che il controllo poteva vedere.
 4. **Quota ChatGPT limitata**: bozze col modello rapido (luna), al massimo 1 nuovo tentativo e solo per errori
    veri; se compare "usage limit" fermarsi e dire a Dario l'orario di ripristino.
 

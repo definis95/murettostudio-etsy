@@ -5,7 +5,10 @@ Ogni disegno lo fa ChatGPT (chatgpt_bridge); il codice pulisce solo il tratto e 
 Uso:
   python strumenti_grafiche/libro_colorare.py genera 21            # disegna le pagine che mancano (si ferma se finisce la quota)
   python strumenti_grafiche/libro_colorare.py genera 21 3 7        # ridisegna solo le pagine 3 e 7
-  python strumenti_grafiche/libro_colorare.py prepara 21           # pagine di stampa 2625x3375 + foglio di controllo
+  python strumenti_grafiche/libro_colorare.py prepara 21 [3 7]     # pagine di stampa 2625x3375 (tutte o solo 3 e 7) + foglio
+  python strumenti_grafiche/libro_colorare.py correggi 21 [3]      # corregge solo il difetto scritto in correzioni_libri.json,
+                                                                   # ridisegnando la pagina da se stessa -> pagine/_03_prova.png
+  python strumenti_grafiche/libro_colorare.py accetta 21 3         # dopo il PASS: la prova diventa la pagina (vecchia in _vecchie/)
   python strumenti_grafiche/libro_colorare.py copertina 21         # fronte + retro da ChatGPT -> copertina 5175x3375
   python strumenti_grafiche/libro_colorare.py copertina 21 unisci  # solo rimonta la copertina dai disegni esistenti
 
@@ -13,6 +16,7 @@ Soggetti delle pagine: strumenti_grafiche/libri_colorare.json. File in stampa/<i
 """
 import json
 import sys
+import time
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageFilter, ImageOps, ImageStat
@@ -29,6 +33,7 @@ STILE = """Use case: one interior page of a children's coloring book for ages 3-
 Subject: {soggetto}.
 Style: clean BLACK LINE ART ONLY on pure white: thick, even, closed outlines (about 6-8 px at 1024 px width), large simple areas easy to color with crayons, cute friendly faces, no shading, no grey, no hatching, no solid black fills except small details like eyes, no colour.
 Composition: one clear scene filling the portrait page, everything fully inside the page with a white margin of at least 8% on every side: every element fully inside the canvas, nothing touches or is cut by the image border: no object, house, tree or ground line may touch or be cut by the page edge; ground and snow lines end with rounded tips inside the page. No frame or border line around the page. All lines closed and unbroken, no overlapping outlines inside hands or bodies, no tiny fragments. At most 3 characters, clearly separated, never overlapping; no flames near any body; large simple areas, no tiny details.
+Fill the page: the artwork spans about 85% of the page height; a single animal or object gets a simple setting (ground or seabed, a few plants, bubbles or clouds), never a small subject floating in empty white. Uniform outline weight everywhere. Every number in the subject is exact: count the repeated elements (legs, tentacles, stars, fish) before finishing. Characters stand on the ground, never float, and objects never touch each other.
 {testo}"""
 NIENTE_TESTO = "No text, no letters, no numbers, no signature, no watermark anywhere."
 TESTO_P1 = ("The only text is exactly: THIS BOOK BELONGS TO (in big hollow outline letters to color, spelled exactly). "
@@ -95,7 +100,10 @@ def copertina(libro, quali=("fronte", "retro")):
         im = ingrandisci_x4(Image.open(d / f"{nome}_chatgpt.png").convert("RGB"))
         k = max(meta / im.width, COPERTINA[1] / im.height)  # riempie tutta la meta', taglia l'eccesso in alto/basso
         im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
-        l, t = (im.width - meta) // 2, (im.height - COPERTINA[1]) // 2
+        # "copertina_su" (facoltativo, in libri_colorare.json): alza la finestra del ritaglio di quella frazione
+        # dell'altezza, quando in alto c'e' qualcosa troppo vicino al taglio e in basso solo sfondo
+        su = round(info.get("copertina_su", 0) * im.height)
+        l, t = (im.width - meta) // 2, max(0, (im.height - COPERTINA[1]) // 2 - su)
         tela.paste(im.crop((l, t, l + meta, t + COPERTINA[1])), (x, 0))
     tela.save(d / "copertina_5175x3375.png", dpi=(300, 300))
     an = tela.copy()
@@ -136,17 +144,73 @@ def spessore_uniforme(g, n):
     return g
 
 
-def prepara(libro):
+CORREZIONI = Path(__file__).parent / "correzioni_libri.json"
+CORREGGI = """Use case: one interior page of a children's coloring book for ages 3-8 ({tema}).
+The attached reference image is the current page: redraw THIS SAME PAGE, keeping everything identical: the same characters, poses, faces, objects, composition, proportions and placement, the same thick clean black line style.
+Fix ONLY this: {difetto}
+Change nothing else. Scene logic: every character and object that should stand on something rests on its ground line; every ground, hill, horizon or seabed line runs to the edge of the scene or joins another line, and a line that passes behind a character reappears on the other side.
+Style: clean BLACK LINE ART ONLY on pure white: thick, even, closed outlines, no shading, no grey, no hatching, no colour. Everything fully inside the page with a white margin of at least 8% on every side; nothing touches or is cut by the image border. No frame. {testo}"""
+
+
+def correggi(libro, quali):
+    """Ridisegna la pagina partendo da se stessa (riferimento) e corregge solo il difetto scritto in
+    correzioni_libri.json -> pagine/_NN_prova.png. La pagina attuale non si tocca finche' non si fa 'accetta'."""
+    info, d = LIBRI[libro], cartella(libro)
+    difetti = json.loads(CORREZIONI.read_text(encoding="utf-8")).get(libro, {})
+    for n in quali or sorted(int(k) for k in difetti):
+        prova = d / "pagine" / f"_{n:02d}_prova.png"
+        if prova.exists() and not quali:
+            continue
+        brief = CORREGGI.format(tema=info["tema"], difetto=difetti[f"{n:02d}"],
+                                testo=TESTO_P1 if n == 1 else NIENTE_TESTO)
+        try:
+            chatgpt(brief, prova, "verticale", trasparente=False, riferimenti=[d / "pagine" / f"{n:02d}_chatgpt.png"],
+                    controllo=(n == 1))
+        except SystemExit as e:
+            print(f"pagina {n}: {str(e)[-300:]}", flush=True)
+            if "usage limit" in str(e).lower():
+                print("quota ChatGPT finita: riprendere piu' tardi con lo stesso comando", flush=True)
+                return False
+            continue
+        print(f"{libro} pagina {n} corretta (prova)", flush=True)
+    return True
+
+
+def accetta(libro, quali):
+    """La prova approvata diventa la pagina: la vecchia va in pagine/_vecchie/, poi si prepara solo quella pagina."""
+    d = cartella(libro) / "pagine"
+    (d / "_vecchie").mkdir(exist_ok=True)
+    difetti = json.loads(CORREZIONI.read_text(encoding="utf-8"))
+    for n in quali:
+        orig = d / f"{n:02d}_chatgpt.png"
+        orig.replace(d / "_vecchie" / f"{n:02d}_chatgpt_{time.strftime('%Y%m%d_%H%M')}.png")
+        (d / f"_{n:02d}_prova.png").replace(orig)
+        difetti.get(libro, {}).pop(f"{n:02d}", None)  # corretta: 'correggi' non la rifa'
+    CORREZIONI.write_text(json.dumps(difetti, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    prepara(libro, quali)
+
+
+def prepara(libro, quali=()):
+    """Pagine di stampa (tutte, o solo quelle in quali) + foglio di controllo con tutte le pagine.
+    Attenzione: rifare una pagina cancella i ritocchi a mano fatti sul suo file di stampa."""
     d = cartella(libro)
     pronte = []
-    for src in sorted((d / "pagine").glob("*_chatgpt.png")):
+    for src in sorted((d / "pagine").glob("[0-9][0-9]_chatgpt.png")):
         n = int(src.name[:2])
+        if quali and n not in quali:
+            esistente = d / "pagine" / f"pagina_{n:02d}.png"
+            if esistente.exists():
+                pronte.append((n, Image.open(esistente).convert("L")))
+            continue
         g = pulisci(ingrandisci_x4(Image.open(src).convert("RGB")))
         # ritaglia il bianco attorno al disegno, poi lo adatta alla zona sicura
         bbox = ImageOps.invert(g).getbbox()
         g = g.crop(bbox)
         k = min(SICURA[0] / g.width, SICURA[1] / g.height)
         g = g.resize((round(g.width * k), round(g.height * k)), Image.LANCZOS)
+        # margine bianco PRIMA di ingrossare: senza, il tratto non puo' allargarsi oltre il bordo del ritaglio e
+        # le linee piu' esterne escono tagliate piatte (segnalato dall'art director il 05/11)
+        g = ImageOps.expand(g, 40, fill=255)
         g = spessore_uniforme(g, n)
         pagina = Image.new("L", PAGINA, 255)
         pagina.paste(g, ((PAGINA[0] - g.width) // 2, (PAGINA[1] - g.height) // 2))
@@ -168,6 +232,10 @@ if __name__ == "__main__":
     if cmd == "genera":
         genera(libro, [int(x) for x in num])
     elif cmd == "prepara":
-        prepara(libro)
+        prepara(libro, [int(x) for x in num])
+    elif cmd == "correggi":
+        correggi(libro, [int(x) for x in num])
+    elif cmd == "accetta":
+        accetta(libro, [int(x) for x in num])
     elif cmd == "copertina":  # copertina 21 [fronte|retro|unisci]
         copertina(libro, num or ("fronte", "retro"))

@@ -23,6 +23,10 @@ L'API da' l'ordine giusto ma Etsy mostra come copertina l'ultima foto caricata/s
 dettaglio stampa → ambientata, circa 10 s. Controllare un foglio di fotogrammi prima di caricarlo.
 
 ## Controlli
+- Foto con matite/pastelli (libri da colorare, 14/11): ChatGPT sbaglia spesso il colore della punta rispetto al
+  corpo, anche se il brief lo chiede; il libro sottile va chiesto esplicitamente ("thin 24-page saddle-stitched
+  booklet, about 3 mm"). Ritocco locale: cambiare solo la tinta conservando la luminosita' originale, maschera
+  sfumata, pixel neri protetti (niente schiarimenti: sporcano le righe nere).
 - Mockup Printify bianchi/vuoti (successo con 24u): `verifica.py` li segnala, si tolgono a mano.
 - Gli id delle foto caricate stanno in `etsy_immagini`: Etsy cancella il testo alternativo quando si riordina,
   quindi non usarlo per riconoscere le foto.
