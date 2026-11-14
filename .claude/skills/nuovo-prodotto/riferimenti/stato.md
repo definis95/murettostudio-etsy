@@ -2,7 +2,8 @@
 
 Ultimo aggiornamento: 2026-11-14.
 
-## Online su Etsy (29 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
+## Online su Etsy (31 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
+- 14/11: libri da colorare 21 (Natale) e 21b (pirati), USA, 19,90 € con spedizione USA gratis.
 - Prima release 01/11: 04 e 05 magliette (toddler + youth, USA), 06 e 07 body (EU), 12 e 13 tazze (EU),
   14 e 15 tote (EU).
 - Serie 2 (04/11): 17a/17c/17d berretti ricamati (USA+EU), 18a-d berretti cotone (USA), 19b-e sciarpe (USA),
@@ -52,7 +53,14 @@ Ultimo aggiornamento: 2026-11-14.
     Beltsville MD, stabilimento unico, 8,16 $), invio della domanda a Printify.
   - Foto ambientate fatte e PASS anche per 21c-21f (21e e 21f con punte di pastelli/matite ricolorate a mano);
     `etsy.foto` e `foto_extra` compilati su tutti e 6 i libri. Originali prima dei ritocchi: nessuno da tenere.
-  - Prossimo: con l'ok di Dario etichetta sul retro delle copertine, poi pubblicazione (21 e 21b per primi).
+  - 14/11 sera (ok di Dario): stampatore District Photo (provider 28, Beltsville MD, costo 8,16 $ + sped. USA
+    5,49 $): bozze rifatte su 28 e cancellate quelle su 99. Etichetta CPSIA sul retro delle 6 copertine
+    (`libro_colorare.py` -> `etichetta`, rifatta da `copertina <id> unisci`), art director PASS. Attributi Etsy:
+    Book format=Paperback (+ Holiday=Christmas sul 21). `natale.py`: date prudenti per il provider 28 (US 5/12).
+  - **21 e 21b pubblicati su Etsy il 14/11**: 21 inserzione 4617461552, 21b 4617463598, sezione nuova
+    "Coloring Books", verifica OK. Printify aveva passato i <br> come "\n" scritti: corretto su Etsy, ora
+    `pubblica.py` li sistema da solo e `verifica.py` li segnala.
+  - Prossimo: pubblicare 21c-21f quando lo dice Dario; poi PDF 22 per l'Europa (nessuno stampatore europeo di libri).
   - Da decidere con Dario: sfondo castello+collina ripetuto in 21f (p02, 05, 13, 22, 24); stesso pesce in 21e
     p10, 16, 22; segni decorativi isolati (onde, ciuffi, puntini) accettati per ora.
 - 17d nome personalizzato: verificare il flusso di personalizzazione Printify (max 8 lettere A-Z, controllo di

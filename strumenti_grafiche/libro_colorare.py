@@ -80,6 +80,37 @@ Composition: portrait, artwork fills the WHOLE image edge to edge, flat artwork 
 No text at all, no letters, no logo, no barcode, no watermark."""
 
 
+# Etichetta di tracciabilita' CPSIA sul retro (testo composto dal codice, non e' grafica del prodotto).
+# Lotto = libro + anno/mese della versione dei file di stampa: cambiarlo quando si ristampano pagine o copertina.
+STAMPATORE = "District Photo, Beltsville, MD"
+LOTTO = "2611"
+ETICHETTA = ["MurettoStudio · Polignano a Mare, Italy",
+             "Printed on demand in the USA by {stampatore}",
+             "Batch MS-{libro}-{lotto} · Date of production: see the order date on the packing slip",
+             "Children's product for ages 4-8 · Conforms to CPSIA"]
+
+
+def etichetta(tela, libro):
+    """Riquadro bianco al centro della parte chiara del retro (meta' sinistra della copertina)."""
+    from PIL import ImageDraw, ImageFont
+    font = ROOT / "fonts" / "Jost_wght.ttf"
+    righe = [r.format(stampatore=STAMPATORE, libro=libro, lotto=LOTTO) for r in ETICHETTA]
+    f1, f2 = ImageFont.truetype(str(font), 44), ImageFont.truetype(str(font), 38)
+    f1.set_variation_by_axes([550])
+    f2.set_variation_by_axes([400])
+    fonti = [f1] + [f2] * (len(righe) - 1)
+    passo = 62
+    larg = max(ImageDraw.Draw(tela).textlength(r, font=f) for r, f in zip(righe, fonti))
+    w, h = round(larg) + 120, passo * len(righe) + 70
+    cx, cy = (COPERTINA[0] // 2) // 2, 2050          # centro del retro, zona chiara sopra i personaggi in basso
+    box = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    ImageDraw.Draw(box).rounded_rectangle((0, 0, w - 1, h - 1), radius=28, fill=(255, 255, 255, 225))
+    dr = ImageDraw.Draw(box)
+    for i, (r, f) in enumerate(zip(righe, fonti)):
+        dr.text((w / 2, 35 + passo * i + passo / 2), r, font=f, fill=(55, 50, 45, 255), anchor="mm")
+    tela.paste(box, (cx - w // 2, cy - h // 2), box)
+
+
 def copertina(libro, quali=("fronte", "retro")):
     """Fronte e retro disegnati da ChatGPT; poi li unisce nel file copertina di Printify (retro | fronte)."""
     info, d = LIBRI[libro], cartella(libro)
@@ -105,6 +136,7 @@ def copertina(libro, quali=("fronte", "retro")):
         su = round(info.get("copertina_su", 0) * im.height)
         l, t = (im.width - meta) // 2, max(0, (im.height - COPERTINA[1]) // 2 - su)
         tela.paste(im.crop((l, t, l + meta, t + COPERTINA[1])), (x, 0))
+    etichetta(tela, libro)
     tela.save(d / "copertina_5175x3375.png", dpi=(300, 300))
     an = tela.copy()
     an.thumbnail((1600, 1600))

@@ -17,7 +17,7 @@
     "adventure book kids"
   ],
   "blueprint_id": 2721,
-  "print_provider_id": 99,
+  "print_provider_id": 28,
   "variants": {
     "*": 1990
   },
@@ -48,14 +48,22 @@
     "page_23": "stampa/21b_2721/pagine/pagina_23.png",
     "page_24": "stampa/21b_2721/pagine/pagina_24.png"
   },
-  "printify_product_id": "6aeca90e45ea31e28f041b03",
   "etsy": {
     "sezione": "Coloring Books",
     "zona": "usa",
-    "attributi": {},
+    "attributi": {
+      "Book format": "Paperback"
+    },
     "foto": "stampa/foto_etsy/21b.jpg",
     "foto_extra": [
       "stampa/foto_etsy/scheda_libro_us.jpg"
     ]
-  }
+  },
+  "printify_product_id": "6af8df26626b8d7aa0015d63",
+  "etsy_listing_id": 4617463598,
+  "etsy_immagini": {
+    "stampa/foto_etsy/21b.jpg": 8907572985,
+    "stampa/foto_etsy/scheda_libro_us.jpg": 8859798668
+  },
+  "etsy_video_id": 854173648
 }

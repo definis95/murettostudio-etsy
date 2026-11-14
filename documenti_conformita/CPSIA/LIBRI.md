@@ -1,8 +1,9 @@
 # CPSIA – libri da colorare USA (21, 21b, 21c, 21d, 21e, 21f)
 
 Prodotto: Printify blueprint 2721 "Coloring Book" 8.5 x 11 in, copertina morbida lucida, 24 pagine carta 60 lb
-(Soporset Opaque Smooth Text), stampa digitale. Stampatori: Printify Choice (99, Miami, rete di stabilimenti) o
-District Photo (28, 10501 Rhode Island Ave, Beltsville MD 20705, un solo stabilimento). Fascia d'eta': 4-8 anni.
+(Soporset Opaque Smooth Text), stampa digitale. Stampatore scelto da Dario il 14/11: **District Photo**
+(Printify provider 28), 10501 Rhode Island Ave, Beltsville MD 20705, USA (un solo stabilimento, dato dell'API
+Printify). Fascia d'eta': 4-8 anni.
 
 ## Cosa dice la CPSC (letto il 14/11/2026)
 - Il libro da colorare per bambini e' un prodotto per bambini (12 anni o meno): serve un certificato (CPC)
@@ -13,40 +14,40 @@ District Photo (28, 10501 Rhode Island Ave, Beltsville MD 20705, un solo stabili
   citati: caso dubbio (https://cpsc.gov/FAQ/Childrens-Books).
 - In ogni caso la carta e gli inchiostri CMYK da stampa su carta non richiedono test di laboratorio per il
   piombo (determinazioni 16 CFR 1500.91, https://www.cpsc.gov/FAQ/Total-Lead-Content).
-- Restano da chiarire con lo stampatore: rilegatura (punti metallici o colla, niente plastica), plastificazione
-  lucida della copertina, inchiostri/toner usati.
 - Etichetta di tracciabilita' (CPSIA sez. 14(a)(5)): segni permanenti sul prodotto con chi lo vende, dove e
-  quando e' stato prodotto, lotto. Sul libro si stampa sul retro della copertina (area vuota).
+  quando e' stato prodotto, lotto.
 
-## Testo proposto per il retro della copertina (da confermare con Dario)
+## Etichetta (stampata sul retro della copertina dal 14/11, `libro_colorare.py` -> `etichetta`)
 ```
-MurettoStudio · [citta', Italia] · Printed on demand in the USA by [stampatore, citta', stato]
-Batch MS-21-2611 · Date of production: see the order date on the packing slip
+MurettoStudio · Polignano a Mare, Italy
+Printed on demand in the USA by District Photo, Beltsville, MD
+Batch MS-<id>-2611 · Date of production: see the order date on the packing slip
 Children's product for ages 4-8 · Conforms to CPSIA
 ```
-(il lotto cambia per libro: MS-21b-2611, MS-21c-2611, ...; 2611 = novembre 2026, versione dei file di stampa)
+Il lotto (2611 = novembre 2026) cambia quando si ristampano pagine o copertina (`LOTTO` nello script).
+Sul libro non va l'indirizzo completo: sta nel certificato.
 
-## Bozza del certificato (CPC) – da completare
-1. Prodotto: "[titolo] – children's coloring book, 8.5 x 11 in, 24 pages, soft cover", lotto MS-[id]-2611.
+## Certificato (CPC) – uno per libro, cambia solo la riga 1
+1. Prodotto: "<titolo Etsy> – children's coloring book, 8.5 x 11 in, 24 pages, soft cover", lotto MS-<id>-2611.
 2. Regole: CPSIA sez. 101 (piombo nel substrato) e 16 CFR 1303 (piombo nelle vernici di superficie).
-3. Chi certifica: Dario [cognome], MurettoStudio, [indirizzo], [email].
-4. Contatto per i test: lo stesso.
-5. Data e luogo di produzione: stampa su ordine dal [mese/anno] presso [stampatore, indirizzo].
+3. Chi certifica (private labeler): Dario De Finis, MurettoStudio, Traversa di Via Vivarini 6, 70044 Polignano a
+   Mare (BA), Italia, definis95@yahoo.it.
+4. Chi conserva i documenti dei test: lo stesso.
+5. Data e luogo di produzione: stampa su ordine dal novembre 2026 presso District Photo, 10501 Rhode Island Ave,
+   Beltsville MD 20705, USA.
 6. Base della conformita': prodotto di carta stampato con inchiostri/toner per carta, esente dal test di terza
-   parte per il piombo (PL 112-28, "ordinary paper-based printed material"; 16 CFR 1500.91).
+   parte per il piombo (PL 112-28, "ordinary book / ordinary paper-based printed material"; 16 CFR 1500.91).
 7. Laboratorio: nessuno (esenzione).
 
-## Domanda da mandare a Printify
-> Hi, I sell the Coloring Book (blueprint 2721) to the USA as a children's product (ages 4-8) and I am preparing
-> my CPSIA Children's Product Certificate. Could you please tell me:
-> 1. How is the book bound (staples or glue) and does it contain any non-paper parts?
-> 2. Is the glossy cover laminated or coated, and with what?
-> 3. Which inks or toners are used, and do you have any CPSIA / lead test documents for the paper, cover and inks?
-> 4. Which facility prints it for Printify Choice (provider 99), and is District Photo (provider 28) a single
->    facility in Beltsville, MD? I need the production location for the tracking label.
-> 5. What is the Christmas order cut-off to the USA for this book with each of the two providers?
-> Thank you, Dario – MurettoStudio (Etsy)
+## Domande ancora aperte (non bloccano la pubblicazione)
+Printify non ha un'API per i messaggi all'assistenza: le domande si fanno dalla chat di Printify.
+- Rilegatura (punti metallici o colla) e copertina (plastificata o verniciata): l'esenzione vale per entrambe
+  le rilegature normali; da confermare che non ci siano parti in plastica.
+- Date di Natale 2026 di District Photo per gli USA: la tabella di Printify
+  (printify.com/network-fulfillment-status) si legge solo nel browser. In `natale.py` messe date prudenti
+  (ordini USA entro il 2/12, Canada entro il 28/11).
 
 ## Cronologia
-**14 nov 2026** – Titoli e descrizioni di 21 e 21b portati a "ages 4-8" (tolto "toddlers") per restare fuori
-dall'esclusione dei libri per bambini di 3 anni o meno; corretto anche il tempo di produzione (circa 10 giorni).
+**14 nov 2026** – Titoli e descrizioni dei 6 libri portati a "ages 4-8" (tolto "toddlers") per restare fuori
+dall'esclusione dei libri per bambini di 3 anni o meno; corretto il tempo di produzione (circa 10 giorni).
+Dario sceglie District Photo; etichetta aggiunta sul retro delle 6 copertine.

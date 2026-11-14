@@ -96,6 +96,8 @@ def controlla_testi(l, problemi):
         problemi.append("descrizione senza dichiarazione AI")
     if "Photos:" not in desc:
         problemi.append("descrizione senza nota sulle foto (Photos: ...)")
+    if "\\n" in desc or "<br" in desc:
+        problemi.append("descrizione con \\n o <br> scritti nel testo invece di veri a capo")
     if len(l.get("tags", [])) < 13:
         problemi.append(f"solo {len(l.get('tags', []))} tag su 13")
 

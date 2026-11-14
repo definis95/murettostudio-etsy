@@ -17,7 +17,7 @@
     "quiet time activity"
   ],
   "blueprint_id": 2721,
-  "print_provider_id": 99,
+  "print_provider_id": 28,
   "variants": {
     "*": 1990
   },
@@ -51,11 +51,13 @@
   "etsy": {
     "sezione": "Coloring Books",
     "zona": "usa",
-    "attributi": {},
+    "attributi": {
+      "Book format": "Paperback"
+    },
     "foto": "stampa/foto_etsy/21e.jpg",
     "foto_extra": [
       "stampa/foto_etsy/scheda_libro_us.jpg"
     ]
   },
-  "printify_product_id": "6af89ec3ca5d307abc00f010"
+  "printify_product_id": "6af8dfb8626b8d7aa0015dfb"
 }

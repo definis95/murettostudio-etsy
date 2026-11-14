@@ -33,6 +33,9 @@ CUTOFF = {
     30: {"US": D(11, 20), "CA": D(11, 20), "EU": D(12, 7), "UK": D(11, 27)},  # OPT OnDemand
     72: {"US": D(11, 18), "CA": D(11, 23), "EU": D(11, 27), "UK": D(12, 14)}, # Print Clever (UK Standard)
     69: {"US": D(12, 8), "CA": D(11, 27), "EU": D(12, 4), "UK": D(12, 9)},    # Prodigi
+    # District Photo (libri da colorare): la tabella 2026 di Printify non era leggibile (14/11); date prudenti
+    # stimate da 10 giorni di produzione + spedizione. Da verificare in Printify -> holiday order deadlines.
+    28: {"US": D(12, 5), "CA": D(12, 1), "EU": D(11, 25), "UK": D(11, 25)},
 }
 DESTINAZIONI = {"usa": ["US", "CA"], "europa": ["EU", "UK"], "usa_europa": ["US", "CA", "EU", "UK"]}
 NOMI = {"US": "US", "CA": "Canada", "EU": "Europe", "UK": "UK"}

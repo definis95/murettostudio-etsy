@@ -15,6 +15,7 @@ Per ogni prodotto:
   6. video dell'inserzione (prassi: ogni inserzione ne ha uno), da strumenti_grafiche/video_etsy.py
 I dati di pubblicazione stanno nel campo "etsy" del file inserzione (sezione, zona, foto).
 """
+import html
 import json
 import sys
 import time
@@ -54,10 +55,14 @@ def pubblica_printify(shop_id, pid):
 
 
 def sistema_inserzione(shop_id, listing_id, cfg, sezioni, partner):
-    etsy.request("PATCH", f"/application/shops/{shop_id}/listings/{listing_id}", data=[
-        ("shop_section_id", sezioni[cfg["sezione"]]),
-        ("should_auto_renew", "true"),
-    ] + [("production_partner_ids", partner[n]) for n in PARTNER[cfg["zona"]]])
+    dati = [("shop_section_id", sezioni[cfg["sezione"]]), ("should_auto_renew", "true")]
+    dati += [("production_partner_ids", partner[n]) for n in PARTNER[cfg["zona"]]]
+    # 14/11/2026: Printify ha passato a Etsy i <br> della descrizione come "\n" scritto (barra + n), non come
+    # a capo veri: il cliente li vedrebbe nel testo. Se succede, li sostituisce con a capo veri.
+    desc = html.unescape(etsy.get(f"/application/listings/{listing_id}")["description"])
+    if "\\n" in desc:
+        dati.append(("description", desc.replace("\\n", "\n")))
+    etsy.request("PATCH", f"/application/shops/{shop_id}/listings/{listing_id}", data=dati)
 
 
 def carica_foto(shop_id, listing_id, foto, extra, caricate):

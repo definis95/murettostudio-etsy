@@ -1,6 +1,9 @@
 {
   "aggiornato": "14 novembre 2026",
   "novita": [
+    "<b>Pubblicati su Etsy i libri da colorare di Natale (21) e dei pirati (21b)</b>: 19,90 € con spedizione USA gratis, stampati da District Photo (Maryland), date di Natale nella descrizione (ordini USA entro il 2 dicembre).",
+    "Etichetta di tracciabilità CPSIA sul retro di tutte e 6 le copertine (MurettoStudio, stampatore, lotto, età 4-8), approvata dall'art director.",
+    "Dinosauri, spazio, mare e fiabe: bozze pronte su District Photo con foto e scheda; si pubblicano quando dici tu.",
     "<b>Tutti e 6 i libri da colorare sono pronti</b>: le 144 pagine hanno passato il nuovo controllo linea per linea (26 pagine corrette oggi, compresa la collina del triceratopo).",
     "<b>Bozze Printify per tutti e 6</b> (non pubblicate): Natale e pirati aggiornate, dinosauri, spazio, mare e fiabe nuove. Prezzo 19,90 € con spedizione USA gratis.",
     "Titoli e descrizioni dei libri ora dicono <b>età 4-8</b> (prima \"toddlers 3-8\") e il tempo di produzione giusto (circa 10 giorni lavorativi).",
@@ -19,8 +22,8 @@
     "Informazioni di sicurezza (GPSR): presenti su tutti i 29 prodotti Printify."
   ],
   "da_fare": [
-    "Guarda le bozze dei 6 libri da colorare e dimmi se approvi bozze e prezzo.",
-    "Leggi in chat le domande sul certificato CPSIA dei libri (indirizzo, stampatore, messaggio a Printify).",
+    "Guarda le copertine dei libri 21 e 21b nella pagina Inserzioni di Etsy (l'API non le mostra).",
+    "Dimmi quando pubblicare dinosauri, spazio, mare e fiabe.",
     "Manda a Printify il messaggio per il certificato dei body 27a/27b (te l'ho scritto in chat).",
     "Dimmi se vuoi in vendita anche i 4 prodotti <b>in attesa</b> (08, 09, 10, 16)."
   ],
@@ -54,7 +57,9 @@
         "24+24u",
         "27c+27a",
         "27d+27b",
-        "17d"
+        "17d",
+        "21",
+        "21b"
       ],
       "sotto": "Nelle schede doppie (USA + Europa) ogni versione dice se è in vendita."
     },
@@ -63,8 +68,6 @@
       "titolo": "Libri da colorare: bozze pronte, da approvare",
       "tag": "wait",
       "prodotti": [
-        "21",
-        "21b",
         "21c",
         "21d",
         "21e",

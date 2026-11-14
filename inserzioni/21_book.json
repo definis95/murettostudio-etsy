@@ -17,7 +17,7 @@
     "snowman coloring"
   ],
   "blueprint_id": 2721,
-  "print_provider_id": 99,
+  "print_provider_id": 28,
   "variants": {
     "*": 1990
   },
@@ -48,16 +48,23 @@
     "page_23": "stampa/21_2721/pagine/pagina_23.png",
     "page_24": "stampa/21_2721/pagine/pagina_24.png"
   },
-  "printify_product_id": "6aec6ade902ad8910b041a25",
   "etsy": {
     "sezione": "Coloring Books",
     "zona": "usa",
     "attributi": {
-      "Holiday": "Christmas"
+      "Holiday": "Christmas",
+      "Book format": "Paperback"
     },
     "foto": "stampa/foto_etsy/21.jpg",
     "foto_extra": [
       "stampa/foto_etsy/scheda_libro_us.jpg"
     ]
-  }
+  },
+  "printify_product_id": "6af8def0a2664d401605b413",
+  "etsy_listing_id": 4617461552,
+  "etsy_immagini": {
+    "stampa/foto_etsy/21.jpg": 8907555323,
+    "stampa/foto_etsy/scheda_libro_us.jpg": 8859780782
+  },
+  "etsy_video_id": 854173064
 }
