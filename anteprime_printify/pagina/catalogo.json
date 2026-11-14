@@ -1,6 +1,13 @@
 {
-  "aggiornato": "4 novembre 2026",
+  "aggiornato": "14 novembre 2026",
   "novita": [
+    "<b>Tutti e 6 i libri da colorare sono pronti</b>: le 144 pagine hanno passato il nuovo controllo linea per linea (26 pagine corrette oggi, compresa la collina del triceratopo).",
+    "<b>Bozze Printify per tutti e 6</b> (non pubblicate): Natale e pirati aggiornate, dinosauri, spazio, mare e fiabe nuove. Prezzo 19,90 € con spedizione USA gratis.",
+    "Titoli e descrizioni dei libri ora dicono <b>età 4-8</b> (prima \"toddlers 3-8\") e il tempo di produzione giusto (circa 10 giorni lavorativi).",
+    "Foto ambientate (ChatGPT) di tutti e 6 i libri e scheda informativa pronte, approvate dall'art director.",
+    "<b>Libri da colorare di Natale (21) e dei pirati (21b): bozze su Printify pronte.</b> Pagine e copertine approvate dall'art director. Guarda le foto Printify e il prezzo proposto (19,90 € con spedizione USA gratis) nelle schede.",
+    "<b>Libro dei dinosauri (21c)</b>: copertina approvata, 22 pagine su 24 approvate; le ultime 2 sono in corso.",
+    "<b>Libro dello spazio (21d)</b>: copertina pronta, 21 pagine su 24 approvate; 3 in corso. Mare (21e) e fiabe (21f) in corso.",
     "<b>Foto complete su tutti i 19 annunci nuovi</b>: foto ambientata di ChatGPT (anche il 17d) + scheda informativa disegnata da ChatGPT nello stesso stile delle schede già online (materiale, misure, lavaggio, spedizione). Tutto approvato dall'art director, testi controllati lettera per lettera. Le foto ambientate sono state rifatte con un ingrandimento più naturale (pelle e ricami non più \"di plastica\").",
     "<b>Pubblicati su Etsy</b>: calza Europa (20) e USA (20u), carta regalo Europa (24), body europei orsetti (27c) e coniglietti (27d). Ognuno ha sezione, spedizioni giuste (USA gratis per la calza americana) e la foto ambientata di ChatGPT approvata dall'art director.",
     "<b>Body americani 27a e 27b</b>: pubblicati il 4/11 su tua decisione (spedizione USA gratis). Documenti CPSIA ancora in arrivo: Printify ha chiesto al produttore il certificato; per i body va chiesto anche quello del Rabbit Skins 4411.",
@@ -12,6 +19,8 @@
     "Informazioni di sicurezza (GPSR): presenti su tutti i 29 prodotti Printify."
   ],
   "da_fare": [
+    "Guarda le bozze dei 6 libri da colorare e dimmi se approvi bozze e prezzo.",
+    "Leggi in chat le domande sul certificato CPSIA dei libri (indirizzo, stampatore, messaggio a Printify).",
     "Manda a Printify il messaggio per il certificato dei body 27a/27b (te l'ho scritto in chat).",
     "Dimmi se vuoi in vendita anche i 4 prodotti <b>in attesa</b> (08, 09, 10, 16)."
   ],
@@ -50,8 +59,8 @@
       "sotto": "Nelle schede doppie (USA + Europa) ogni versione dice se è in vendita."
     },
     {
-      "id": "dafare",
-      "titolo": "Libri da colorare: in lavorazione",
+      "id": "pronti",
+      "titolo": "Libri da colorare: bozze pronte, da approvare",
       "tag": "wait",
       "prodotti": [
         "21",
@@ -59,7 +68,14 @@
         "21c",
         "21d",
         "21e",
-        "21f",
+        "21f"
+      ]
+    },
+    {
+      "id": "dafare",
+      "titolo": "In lavorazione",
+      "tag": "wait",
+      "prodotti": [
         "22"
       ]
     },
