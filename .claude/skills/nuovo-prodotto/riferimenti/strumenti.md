@@ -57,3 +57,7 @@
   Lanciato ogni mattina dall'Utilita' di pianificazione di Windows nel periodo di Natale (vedi `stato.md`),
   copre anche le inserzioni appena pubblicate; uno stampatore nuovo va aggiunto in `CUTOFF`.
 - Video: ffmpeg (`winget install Gyan.FFmpeg`).
+- Prodotti digitali (PDF, idea 22): `pubblica_pdf.py anteprime | bozza | attiva <nome>` con i dati in
+  `inserzioni/<nome>_pdf.json`; l'inserzione si crea direttamente su Etsy (tipo download, file max 20 MB, 5 file).
+  Le tag vanno mandate come un'unica stringa separata da virgole (ripetendo "tags" Etsy tiene solo l'ultima).
+  Gli script dei prodotti Printify (`--tutti`, `natale.py`, pagina di revisione) saltano i file `*_pdf.json`.

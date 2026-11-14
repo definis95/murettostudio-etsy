@@ -18,7 +18,7 @@ Dati per articolo: `inserzioni/<id>.json`; costi letti: `printify_dati/costi.jso
 | Calza di Natale USA | 380 / 99 Printify Choice | usa | 3490 | fleece, fronte+retro |
 | Carta da regalo EU | 845 / 69 | europa | 1990 / 2990 | JPEG: Printify rifiuta upload ~32 MB (413), 16 MB ok |
 | Carta da regalo USA | 1100 / 99 Printify Choice | usa | 2990 / 3990 | area ~200 DPI reali (limite Printify); controllare mockup bianchi |
-| Libro da colorare | 2721 | usa | 28 District Photo (stabilimento unico, Beltsville MD: serve per l'etichetta CPSIA) | 21 e 21b online; 8,16 $ + sped. USA 5,49 $; per l'Europa versione PDF (22) |
+| Libro da colorare | 2721 | usa | 28 District Photo (stabilimento unico, Beltsville MD: serve per l'etichetta CPSIA) | 6 libri online; 8,16 $ + sped. USA 5,49 $; per l'Europa (e tutto il mondo) i PDF digitali 22 |
 
 ## Fatti utili
 

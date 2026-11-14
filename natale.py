@@ -89,7 +89,7 @@ def main():
     for path in sorted((ROOT / "inserzioni").glob("*.json")):
         ins = json.loads(path.read_text(encoding="utf-8"))
         lid = ins.get("etsy_listing_id")
-        if not lid:
+        if not lid or "print_provider_id" not in ins:  # prodotti digitali (PDF): nessuna spedizione, niente date
             continue
         if ins["print_provider_id"] not in CUTOFF:  # stampatore nuovo: aggiungere le sue date in CUTOFF
             print(f"ATTENZIONE: {path.stem} saltata, stampatore {ins['print_provider_id']} senza date in CUTOFF")

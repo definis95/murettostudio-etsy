@@ -1,9 +1,10 @@
 # Stato del progetto (aggiornare a ogni cambiamento)
 
-Ultimo aggiornamento: 2026-11-14.
+Ultimo aggiornamento: 2026-11-15.
 
-## Online su Etsy (31 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
-- 14/11: libri da colorare 21 (Natale) e 21b (pirati), USA, 19,90 € con spedizione USA gratis.
+## Online su Etsy (35 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
+- 14-15/11: libri da colorare 21-21f (Natale, pirati, dinosauri, spazio, mare, fiabe), USA, 19,90 € con
+  spedizione USA gratis.
 - Prima release 01/11: 04 e 05 magliette (toddler + youth, USA), 06 e 07 body (EU), 12 e 13 tazze (EU),
   14 e 15 tote (EU).
 - Serie 2 (04/11): 17a/17c/17d berretti ricamati (USA+EU), 18a-d berretti cotone (USA), 19b-e sciarpe (USA),
@@ -60,7 +61,15 @@ Ultimo aggiornamento: 2026-11-14.
   - **21 e 21b pubblicati su Etsy il 14/11**: 21 inserzione 4617461552, 21b 4617463598, sezione nuova
     "Coloring Books", verifica OK. Printify aveva passato i <br> come "\n" scritti: corretto su Etsy, ora
     `pubblica.py` li sistema da solo e `verifica.py` li segnala.
-  - Prossimo: pubblicare 21c-21f quando lo dice Dario; poi PDF 22 per l'Europa (nessuno stampatore europeo di libri).
+  - **15/11: 21c-21f pubblicati** (21c 4617472703, 21d 4617484020, 21e 4617486114, 21f 4617487924), verifica OK,
+    date di Natale messe. Tutti e 6 i libri in vendita.
+  - 22 PDF stampabili (tutto il mondo, Dario: "anche per l'America"): `libro_colorare.py pdf tutti ...` -> PDF Letter
+    e A4 per libro (`stampa/<id>_2721/pdf/`) e raccolta dei 6 (`stampa/22_pdf/`); `pubblica_pdf.py` -> 7 bozze
+    Etsy digitali (`inserzioni/22_<id>_pdf.json`, `22_tutti_pdf.json`), sezione "Printable Coloring Pages", foto
+    composte + schede `scheda_libro_pdf` / `scheda_libri_pdf`, art director PASS. Prezzi proposti 4,90 € e 14,90 €:
+    **attendono l'ok di Dario**, poi `python pubblica_pdf.py attiva 22_21 ... 22_tutti`.
+  - 15/11 pulizia (ok di Dario): tolte pagine/_vecchie (83 file, 105 MB), stampa/libri_ciclo_log.txt, mockup per
+    i video in foto_etsy.
   - Da decidere con Dario: sfondo castello+collina ripetuto in 21f (p02, 05, 13, 22, 24); stesso pesce in 21e
     p10, 16, 22; segni decorativi isolati (onde, ciuffi, puntini) accettati per ora.
 - 17d nome personalizzato: verificare il flusso di personalizzazione Printify (max 8 lettere A-Z, controllo di

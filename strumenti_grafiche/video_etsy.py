@@ -100,7 +100,8 @@ def video_inserzione(shop_id, nome, ins, solo_video=False):
 
 
 def main():
-    nomi = ([p.stem for p in sorted((ROOT / "inserzioni").glob("*.json"))] if "--tutti" in sys.argv
+    nomi = ([p.stem for p in sorted((ROOT / "inserzioni").glob("*.json")) if not p.stem.endswith("_pdf")]
+            if "--tutti" in sys.argv
             else [a for a in sys.argv[1:] if not a.startswith("--")])
     shop_id, _ = etsy.get_shop_id()
     for nome in nomi:

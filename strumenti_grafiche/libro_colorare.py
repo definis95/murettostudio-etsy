@@ -11,6 +11,8 @@ Uso:
   python strumenti_grafiche/libro_colorare.py accetta 21 3         # dopo il PASS: la prova diventa la pagina (vecchia in _vecchie/)
   python strumenti_grafiche/libro_colorare.py copertina 21         # fronte + retro da ChatGPT -> copertina 5175x3375
   python strumenti_grafiche/libro_colorare.py copertina 21 unisci  # solo rimonta la copertina dai disegni esistenti
+  python strumenti_grafiche/libro_colorare.py pdf 21               # PDF stampabili Letter e A4 (idea 22) -> pdf/
+  python strumenti_grafiche/libro_colorare.py pdf tutti 21 21b 21c 21d 21e 21f   # i singoli + raccolta in stampa/22_pdf/
 
 Soggetti delle pagine: strumenti_grafiche/libri_colorare.json. File in stampa/<id>_2721/.
 """
@@ -259,8 +261,64 @@ def prepara(libro, quali=()):
     print(f"{libro}: {len(pronte)} pagine pronte -> {d.relative_to(ROOT)}")
 
 
+FORMATI_PDF = {"Letter": (2550, 3300), "A4": (2480, 3508)}  # 300 DPI
+
+
+def pdf(libro):
+    """PDF stampabili (idea 22): copertina a colori + 24 pagine, in Letter e A4, a 300 DPI.
+    Le pagine di stampa hanno l'abbondanza: si ritaglia il centro (il disegno sta nella zona sicura 2250x3000)
+    e si completa di bianco dove il foglio e' piu' grande. Uscita: stampa/<id>_2721/pdf/."""
+    d = cartella(libro)
+    (d / "pdf").mkdir(exist_ok=True)
+    titolo = LIBRI[libro]["titolo"].title().replace(" ", "_")
+    fronte = Image.open(d / "copertina_5175x3375.png").convert("RGB")
+    fronte = fronte.crop((COPERTINA[0] - (COPERTINA[0] + 1) // 2, 0, COPERTINA[0], COPERTINA[1]))
+    pagine = [Image.open(d / "pagine" / f"pagina_{n:02d}.png") for n in range(1, len(LIBRI[libro]["pagine"]) + 1)]
+
+    def al_formato(im, w, h, fondo):
+        l, t = (im.width - w) // 2, (im.height - h) // 2
+        ritaglio = im.crop((max(l, 0), max(t, 0), max(l, 0) + min(w, im.width), max(t, 0) + min(h, im.height)))
+        foglio = Image.new(im.mode, (w, h), fondo)
+        foglio.paste(ritaglio, ((w - ritaglio.width) // 2, (h - ritaglio.height) // 2))
+        return foglio
+
+    tutti = {}
+    for nome, (w, h) in FORMATI_PDF.items():
+        # la copertina riempie il foglio (scala sull'altezza o larghezza mancante), le pagine restano 1:1
+        k = max(w / fronte.width, h / fronte.height)
+        cop = fronte.resize((round(fronte.width * k), round(fronte.height * k)), Image.LANCZOS) if k > 1 else fronte
+        fogli = [al_formato(cop, w, h, "white")]
+        fogli += [al_formato(p.convert("L").point(lambda v: 255 if v > 127 else 0).convert("1"), w, h, 1) for p in pagine]
+        salva_pdf(fogli, d / "pdf" / f"MurettoStudio_{titolo}_{nome}.pdf", LIBRI[libro]["titolo"].title())
+        tutti[nome] = fogli
+    return tutti
+
+
+def salva_pdf(fogli, out, titolo):
+    fogli[0].save(out, "PDF", resolution=300, save_all=True, append_images=fogli[1:], title=titolo,
+                  author="MurettoStudio")
+    print(f"{out.name}: {out.stat().st_size / 1e6:.1f} MB, {len(fogli)} pagine", flush=True)
+
+
+def pdf_raccolta(libri):
+    """Un PDF per formato con tutti i libri uno dopo l'altro -> stampa/22_pdf/."""
+    d = ROOT / "stampa" / "22_pdf"
+    d.mkdir(exist_ok=True)
+    per_formato = {n: [] for n in FORMATI_PDF}
+    for libro in libri:
+        for nome, fogli in pdf(libro).items():
+            per_formato[nome] += fogli
+    for nome, fogli in per_formato.items():
+        salva_pdf(fogli, d / f"MurettoStudio_{len(libri)}_Coloring_Books_{nome}.pdf",
+                  f"{len(libri)} Coloring Books - MurettoStudio")
+
+
 if __name__ == "__main__":
     cmd, libro, *num = sys.argv[1:]
+    if cmd == "pdf" and libro == "tutti":  # pdf tutti 21 21b ... -> i singoli + la raccolta
+        pdf_raccolta(num)
+    elif cmd == "pdf":
+        pdf(libro)
     if cmd == "genera":
         genera(libro, [int(x) for x in num])
     elif cmd == "prepara":

@@ -53,7 +53,7 @@ FILTRO_JS = """<script>
 def etsy_id(p):
     ROOT = P.parents[1]
     for f in [ROOT / "inserzioni" / f"{p}.json", *sorted((ROOT / "inserzioni").glob(f"{p}_*.json"))]:
-        if f.exists():
+        if f.exists() and not f.stem.endswith("_pdf"):  # le inserzioni PDF (22) stanno nella loro card
             return json.loads(f.read_text(encoding="utf-8")).get("etsy_listing_id")
     return None
 

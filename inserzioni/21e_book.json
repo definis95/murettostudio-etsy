@@ -59,5 +59,11 @@
       "stampa/foto_etsy/scheda_libro_us.jpg"
     ]
   },
-  "printify_product_id": "6af8dfb8626b8d7aa0015dfb"
+  "printify_product_id": "6af8dfb8626b8d7aa0015dfb",
+  "etsy_listing_id": 4617486114,
+  "etsy_immagini": {
+    "stampa/foto_etsy/21e.jpg": 8907743425,
+    "stampa/foto_etsy/scheda_libro_us.jpg": 8907743595
+  },
+  "etsy_video_id": 854178836
 }

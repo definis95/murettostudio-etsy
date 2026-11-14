@@ -151,7 +151,9 @@ def limita_spedizioni(shop_id, profile_id, zona):
 
 
 def main():
-    nomi = ([p.stem for p in sorted((ROOT / "inserzioni").glob("*.json"))] if "--tutti" in sys.argv
+    # i PDF digitali (*_pdf.json) non passano da Printify: li gestisce pubblica_pdf.py
+    nomi = ([p.stem for p in sorted((ROOT / "inserzioni").glob("*.json")) if not p.stem.endswith("_pdf")]
+            if "--tutti" in sys.argv
             else [a for a in sys.argv[1:] if not a.startswith("--")])
     pf_shop = printify.get_shop()["id"]
     shop_id, _ = etsy.get_shop_id()

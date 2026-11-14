@@ -164,5 +164,38 @@
       "**Made to order** in the USA, **free shipping** in the USA (also ships to Canada)",
       "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
     ]
+  },
+  "libro_pdf": {
+    "titolo": "Printable coloring book",
+    "per": [
+      "22_21_pdf",
+      "22_21b_pdf",
+      "22_21c_pdf",
+      "22_21d_pdf",
+      "22_21e_pdf",
+      "22_21f_pdf"
+    ],
+    "punti": [
+      "**Instant download**: PDF files, no physical item is shipped",
+      "**24 coloring pages** + full-colour cover, one big illustration per page",
+      "Two sizes included: **US Letter** and **A4**",
+      "Print at home on plain paper, as often as you like for your family",
+      "**Personal use only**, not for resale",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
+  },
+  "libri_pdf": {
+    "titolo": "6 printable coloring books",
+    "per": [
+      "22_tutti_pdf"
+    ],
+    "punti": [
+      "**Instant download**: PDF files, no physical item is shipped",
+      "**6 books, 144 coloring pages** + 6 full-colour covers",
+      "Two sizes included: **US Letter** and **A4**",
+      "Print at home on plain paper, as often as you like for your family",
+      "**Personal use only**, not for resale",
+      "Original MurettoStudio design, created with the help of AI tools and prepared for print by me"
+    ]
   }
 }
