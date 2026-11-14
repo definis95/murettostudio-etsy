@@ -31,7 +31,13 @@ Piano: spostare su SwiftPOD (stabilimento unico, stampa etichetta sul collo) se 
 
 ## Cronologia
 
-**2 nov 2026** – Printify invia il CPC 3302 (ok) e il CPC 3501YCVC heather (sbagliato).
+**2 nov 2026** – Printify (Celeste Harrington) invia il CPC 3302 (ok) e il CPC 3501YCVC heather (sbagliato).
+Nella stessa mail: i CPC li fa solo il produttore della maglia, non Printify né lo stampatore; l'etichetta sulla
+maglia è solo quella del produttore (etichetta propria solo con stampa sul collo); gli inchiostri DTG "sono
+formulati" per rispettare CPSIA (piombo 16 CFR 1303, ftalati) e hanno OEKO-TEX ECO PASSPORT, ma nessun rapporto
+di laboratorio per singola stampa; il venditore è il "private labeler" e può fare il proprio CPC con il part
+testing (16 CFR 1109) tenendo i CPC delle maglie e i documenti degli inchiostri. La risposta del 3/11 precisa
+che per il 1303 serve un documento di laboratorio accettato dalla CPSC: la dichiarazione generica non basta.
 
 **3 nov 2026** – Risposta di Printify (Abigail Adams):
 
@@ -79,6 +85,10 @@ Conclusione: entrambe le serie di inchiostri DTG Kornit sono dichiarate conformi
 **Risposta da mandare a Kornit** (cortesia, nessuna azione richiesta):
 
 > Thank you very much, this is exactly what I needed. I don't run the printers myself: my products are printed by SwiftPOD (USA) on Kornit DTG systems, and I am asking them which Kornit series they use. Best regards, Dario
+
+**14 nov 2026** (data in cui Dario la inoltra) – Printify (Jamie Jones): "we're still actively looking into this
+with our team. While we don't have a new update to share just yet, please rest assured that your inquiry hasn't
+been overlooked." Nessun documento allegato: il CPC 3501Y 100% cotone è ancora in attesa.
 
 ## Prossimi passi
 1. Ricevere da Printify il CPC 3501Y 100% cotone (richiesto al produttore il 3/11) → salvarlo qui.
