@@ -98,3 +98,19 @@ pagina 20:  worker quit with fatal: Transport channel closed, when Client(HttpRe
 quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
 Immagine generata da ChatGPT (gpt-6-astra) in 72s -> stampa\21_2721\pagine\20_chatgpt.png  [margins below 8%; five faces exceed the three-character limit.]
 21 pagina 20 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 76s -> stampa\21_2721\pagine\_02_prova.png  [margini laterali inferiori all’8%; lievi variazioni rispetto all’originale.]
+21 pagina 2 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 68s -> stampa\21_2721\pagine\_07_prova.png  [margini laterali inferiori all’8%.]
+21 pagina 7 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 60s -> stampa\21_2721\pagine\_11_prova.png  [margini laterali inferiori all’8%.]
+21 pagina 11 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 80s -> stampa\21_2721\pagine\_14_prova.png  [margini laterali inferiori all’8%.]
+21 pagina 14 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 191s -> stampa\21_2721\pagine\_17_prova.png  [margini laterali inferiori all’8%.]
+21 pagina 17 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 68s -> stampa\21_2721\pagine\_20_prova.png  [margini inferiori all’8%.]
+21 pagina 20 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 84s -> stampa\21_2721\pagine\_21_prova.png  [margini inferiori all’8%; alcuni dettagli modificati.]
+21 pagina 21 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 75s -> stampa\21_2721\pagine\_24_prova.png  [margini inferiori all’8% richiesto.]
+21 pagina 24 corretta (prova)

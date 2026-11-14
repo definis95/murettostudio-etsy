@@ -1338,5 +1338,27 @@
         "cost": 2434
       }
     ]
+  },
+  "2721:99": {
+    "blueprint": 2721,
+    "provider": 99,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "8.5'' x 11''",
+        "cost": 813
+      }
+    ]
+  },
+  "2721:28": {
+    "blueprint": 2721,
+    "provider": 28,
+    "posizione": "tutte",
+    "variants": [
+      {
+        "title": "8.5'' x 11''",
+        "cost": 816
+      }
+    ]
   }
 }

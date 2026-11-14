@@ -1,0 +1,544 @@
+[
+  {
+    "id": 2721,
+    "title": "Coloring Book",
+    "brand": "Generic brand",
+    "providers": [
+      {
+        "id": 28,
+        "title": "District Photo",
+        "location": {
+          "address1": "10501 Rhode Island Ave",
+          "city": "Beltsville",
+          "country": "US",
+          "region": "MD",
+          "zip": "20705"
+        },
+        "variants": [
+          {
+            "id": 148586,
+            "title": "8.5'' x 11''",
+            "options": {
+              "size": "8.5'' x 11''"
+            },
+            "placeholders": [
+              {
+                "position": "cover",
+                "decoration_method": "digital-printing",
+                "width": 5175,
+                "height": 3375
+              },
+              {
+                "position": "page_1",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_2",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_3",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_4",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_5",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_6",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_7",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_8",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_9",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_10",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_11",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_12",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_13",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_14",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_15",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_16",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_17",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_18",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_19",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_20",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_21",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_22",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_23",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_24",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              }
+            ],
+            "decoration_methods": [
+              "digital-printing"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 549,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 199,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            },
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 1459,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "REST_OF_THE_WORLD",
+                "NZ",
+                "CA",
+                "AU"
+              ]
+            },
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 1749,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "FI",
+                "DE",
+                "NL",
+                "FR",
+                "IE",
+                "IT",
+                "PL",
+                "LT",
+                "AT",
+                "CY",
+                "LV",
+                "HU",
+                "EE",
+                "BG",
+                "RO",
+                "BE",
+                "CZ",
+                "SK",
+                "HR",
+                "SE",
+                "LU",
+                "MT",
+                "PT",
+                "ES",
+                "DK",
+                "SI",
+                "GR"
+              ]
+            },
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 240,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 99,
+        "title": "Printify Choice",
+        "location": {
+          "address1": "16085 NW 52ND Avenue",
+          "city": "Miami",
+          "country": "US",
+          "region": "FL",
+          "zip": "33014"
+        },
+        "variants": [
+          {
+            "id": 148586,
+            "title": "8.5'' x 11''",
+            "options": {
+              "size": "8.5'' x 11''"
+            },
+            "placeholders": [
+              {
+                "position": "cover",
+                "decoration_method": "digital-printing",
+                "width": 5175,
+                "height": 3375
+              },
+              {
+                "position": "page_1",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_2",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_3",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_4",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_5",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_6",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_7",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_8",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_9",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_10",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_11",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_12",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_13",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_14",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_15",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_16",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_17",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_18",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_19",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_20",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_21",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_22",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_23",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              },
+              {
+                "position": "page_24",
+                "decoration_method": "digital-printing",
+                "width": 2625,
+                "height": 3375
+              }
+            ],
+            "decoration_methods": [
+              "digital-printing"
+            ]
+          }
+        ],
+        "shipping": {
+          "handling_time": {
+            "value": 10,
+            "unit": "day"
+          },
+          "profiles": [
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 1459,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "NZ",
+                "AU",
+                "REST_OF_THE_WORLD",
+                "CA"
+              ]
+            },
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 1749,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 399,
+                "currency": "USD"
+              },
+              "countries": [
+                "LT",
+                "FR",
+                "CY",
+                "BE",
+                "HU",
+                "MT",
+                "AT",
+                "ES",
+                "DE",
+                "SK",
+                "FI",
+                "BG",
+                "PL",
+                "LV",
+                "NL",
+                "SI",
+                "PT",
+                "IE",
+                "IT",
+                "HR",
+                "CZ",
+                "GR",
+                "RO",
+                "DK",
+                "SE",
+                "EE"
+              ]
+            },
+            {
+              "variant_ids": [
+                148586
+              ],
+              "first_item": {
+                "cost": 619,
+                "currency": "USD"
+              },
+              "additional_items": {
+                "cost": 240,
+                "currency": "USD"
+              },
+              "countries": [
+                "US"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

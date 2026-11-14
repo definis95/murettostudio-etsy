@@ -54,3 +54,79 @@ Immagine generata da ChatGPT (gpt-6-astra) in 69s -> stampa\21c_2721\pagine\20_c
 21c pagina 20 fatta
 Immagine generata da ChatGPT (gpt-6-astra) in 63s -> stampa\21c_2721\pagine\23_chatgpt.png  [margins under 8%; extra grass.]
 21c pagina 23 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 73s -> stampa\21c_2721\pagine\23_chatgpt.png  [margins too narrow; tail club has three lobes.]
+21c pagina 23 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 70s -> stampa\21c_2721\pagine\11_chatgpt.png  [side margins below 8%; artwork height below 85%.]
+21c pagina 11 fatta
+21c pagina 11: corretta da ChatGPT sul riferimento della versione approvata (solo collina e zampe)
+Immagine generata da ChatGPT (gpt-6-astra) in 65s -> stampa\21c_2721\pagine\_05_prova.png  [Restano linee interrotte e margini laterali inferiori all’8%.]
+21c pagina 5 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 57s -> stampa\21c_2721\pagine\_10_prova.png  [margini inferiori all’8%; linee del terreno ancora aperte ai lati.]
+21c pagina 10 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 62s -> stampa\21c_2721\pagine\_11_prova.png  [Bottom-left bush still below ground; side margins under 8%.]
+21c pagina 11 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 82s -> stampa\21c_2721\pagine\_12_prova.png  [Restano solo tre cespugli; margini laterali inferiori all’8%.]
+21c pagina 12 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 76s -> stampa\21c_2721\pagine\_13_prova.png  [side margins remain below 8%.]
+21c pagina 13 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 61s -> stampa\21c_2721\pagine\_17_prova.png  [margini laterali inferiori all’8%.]
+21c pagina 17 corretta (prova)
+pagina 21:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-13T18:51:58.409964Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+pagina 23:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-13T18:52:02.754109Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 21:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-13T19:22:10.282457Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+Immagine generata da ChatGPT (gpt-6-astra) in 57s -> stampa\21c_2721\pagine\_05_prova.png  [margini laterali inferiori all’8%.]
+21c pagina 5 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 57s -> stampa\21c_2721\pagine\_11_prova.png  [side margins remain below 8%.]
+21c pagina 11 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 52s -> stampa\21c_2721\pagine\_12_prova.png  [margins remain below 8%.]
+21c pagina 12 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 66s -> stampa\21c_2721\pagine\_18_prova.png  [margini inferiori all’8%.]
+21c pagina 18 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 77s -> stampa\21c_2721\pagine\_21_prova.png  [side margins remain below 8%.]
+21c pagina 21 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\21c_2721\pagine\_23_prova.png  [Restano due livelli di terreno e margini inferiori all’8%.]
+21c pagina 23 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 65s -> stampa\21c_2721\pagine\_23_prova.png  [side margins remain below 8%.]
+21c pagina 23 corretta (prova)
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T11:00:35.418625Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T11:30:41.719830Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T12:00:48.259876Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T12:30:55.233127Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T13:01:01.312126Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T13:31:08.061133Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T14:01:14.812045Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 3:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-14T14:31:20.719657Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+Immagine generata da ChatGPT (gpt-6-astra) in 62s -> stampa\21c_2721\pagine\_03_prova.png  [margini inferiori all’8% richiesto.]
+21c pagina 3 corretta (prova)

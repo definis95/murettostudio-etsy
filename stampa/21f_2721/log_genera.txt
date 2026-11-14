@@ -1,0 +1,88 @@
+Immagine generata da ChatGPT (gpt-6-astra) in 481s -> stampa\21f_2721\pagine\01_chatgpt.png  [margins below 8%; lettering outlines touch.]
+21f pagina 1 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 62s -> stampa\21f_2721\pagine\02_chatgpt.png  [margins below 8%; extra bushes and path.]
+21f pagina 2 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 71s -> stampa\21f_2721\pagine\03_chatgpt.png  [margins below 8%.]
+21f pagina 3 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 74s -> stampa\21f_2721\pagine\04_chatgpt.png  [margins below 8%.]
+21f pagina 4 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 386s -> stampa\21f_2721\pagine\05_chatgpt.png  [margins below 8%; some outlines touch.]
+21f pagina 5 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 63s -> stampa\21f_2721\pagine\06_chatgpt.png  [margins below 8%.]
+21f pagina 6 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 76s -> stampa\21f_2721\pagine\07_chatgpt.png  [margins below 8%.]
+21f pagina 7 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 462s -> stampa\21f_2721\pagine\08_chatgpt.png  [margins below 8%.]
+21f pagina 8 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 65s -> stampa\21f_2721\pagine\09_chatgpt.png  [margins below 8%; outlines too thick; black fill in mouth.]
+21f pagina 9 fatta
+pagina 10:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-05T16:46:00.186228Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 10:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-05T17:16:06.106802Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+pagina 10:  worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+2026-11-05T17:46:13.950995Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("error decoding response body")))
+
+quota ChatGPT finita: riprendere piu' tardi con lo stesso comando
+Immagine generata da ChatGPT (gpt-6-astra) in 71s -> stampa\21f_2721\pagine\10_chatgpt.png  [Horses have horns; margins below 8%.]
+21f pagina 10 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 62s -> stampa\21f_2721\pagine\11_chatgpt.png  [margins below 8%.]
+21f pagina 11 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 70s -> stampa\21f_2721\pagine\12_chatgpt.png  [margins below the requested 8%.]
+21f pagina 12 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 75s -> stampa\21f_2721\pagine\13_chatgpt.png  [Four characters; margins below 8%; some objects touch.]
+21f pagina 13 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 66s -> stampa\21f_2721\pagine\14_chatgpt.png  [margins below 8%; some objects overlap.]
+21f pagina 14 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 77s -> stampa\21f_2721\pagine\15_chatgpt.png  [unreviewed as requested.]
+21f pagina 15 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 60s -> stampa\21f_2721\pagine\16_chatgpt.png  [side margins below 8%.]
+21f pagina 16 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 65s -> stampa\21f_2721\pagine\17_chatgpt.png  [side margins below 8%.]
+21f pagina 17 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\21f_2721\pagine\18_chatgpt.png  [margins below 8%; outlines thicker than requested.]
+21f pagina 18 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 82s -> stampa\21f_2721\pagine\19_chatgpt.png  [unreviewed as requested.]
+21f pagina 19 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 72s -> stampa\21f_2721\pagine\20_chatgpt.png  [margins below 8%.]
+21f pagina 20 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 61s -> stampa\21f_2721\pagine\21_chatgpt.png  [margins below 8%; some open lines.]
+21f pagina 21 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 77s -> stampa\21f_2721\pagine\22_chatgpt.png  [margins below 8%; some outlines overlap.]
+21f pagina 22 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 68s -> stampa\21f_2721\pagine\23_chatgpt.png  [margins below 8%; some outlines unclosed.]
+21f pagina 23 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 120s -> stampa\21f_2721\pagine\24_chatgpt.png  [margins below 8%; some outlines overlap.]
+21f pagina 24 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 64s -> stampa\21f_2721\pagine\10_chatgpt.png  [Defects: horses overlap; side margins below 8%.]
+21f pagina 10 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 63s -> stampa\21f_2721\pagine\24_chatgpt.png  [margins below 8% in places.]
+21f pagina 24 fatta
+Immagine generata da ChatGPT (gpt-6-astra) in 73s -> stampa\21f_2721\pagine\_14_prova.png  [remaining defect: margins are below 8%.]
+21f pagina 14 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 85s -> stampa\21f_2721\pagine\_15_prova.png  [margini inferiori all’8%.]
+21f pagina 15 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 58s -> stampa\21f_2721\pagine\_19_prova.png  [margini laterali inferiori all’8%.]
+21f pagina 19 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 71s -> stampa\21f_2721\pagine\_22_prova.png  [margini inferiori all’8%.]
+21f pagina 22 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 71s -> stampa\21f_2721\pagine\_24_prova.png  [margini inferiori all’8%.]
+21f pagina 24 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 75s -> stampa\21f_2721\pagine\_14_prova.png  [margini inferiori all’8%.]
+21f pagina 14 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 73s -> stampa\21f_2721\pagine\_15_prova.png  [margini inferiori all’8%.]
+21f pagina 15 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 59s -> stampa\21f_2721\pagine\_06_prova.png  [margini inferiori all’8%.]
+21f pagina 6 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 79s -> stampa\21f_2721\pagine\_12_prova.png  [Bridge disconnected from doorway; margins below 8%.]
+21f pagina 12 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 77s -> stampa\21f_2721\pagine\_14_prova.png  [margins remain below 8%.]
+21f pagina 14 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 76s -> stampa\21f_2721\pagine\_15_prova.png  [margine dell’8% non rispettato sui lati.]
+21f pagina 15 corretta (prova)
+Immagine generata da ChatGPT (gpt-6-astra) in 78s -> stampa\21f_2721\pagine\_22_prova.png  [bordo extra nel sentiero; margini inferiori all’8%.]
+21f pagina 22 corretta (prova)
