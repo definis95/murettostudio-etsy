@@ -2,7 +2,7 @@
   "aggiornato": "15 novembre 2026",
   "novita": [
     "<b>Tutti e 6 i libri da colorare sono in vendita su Etsy</b> (oggi dinosauri, spazio, mare e fiabe), 19,90 € con spedizione USA gratis, date di Natale nella descrizione.",
-    "<b>PDF stampabili (22)</b>: 7 bozze su Etsy, un PDF per libro e la raccolta dei 6, in vendita in tutto il mondo (anche Europa). Aspettano il tuo ok sul prezzo.",
+    "<b>PDF stampabili (22) in vendita</b> in tutto il mondo: un PDF per libro a 4,90 € e la raccolta dei 6 a 14,90 €, download immediato (Letter e A4).",
     "Pulizia: tolte le 83 pagine vecchie sostituite (105 MB), il log del ciclo di correzioni e i mockup scaricati per i video.",
     "<b>Pubblicati su Etsy i libri da colorare di Natale (21) e dei pirati (21b)</b>: 19,90 € con spedizione USA gratis, stampati da District Photo (Maryland), date di Natale nella descrizione (ordini USA entro il 2 dicembre).",
     "Etichetta di tracciabilità CPSIA sul retro di tutte e 6 le copertine (MurettoStudio, stampatore, lotto, età 4-8), approvata dall'art director.",
@@ -25,8 +25,6 @@
     "Informazioni di sicurezza (GPSR): presenti su tutti i 29 prodotti Printify."
   ],
   "da_fare": [
-    "Dimmi se vanno bene i prezzi dei PDF (4,90 € un libro, 14,90 € la raccolta): poi li pubblico.",
-    "Guarda le copertine dei 6 libri nella pagina Inserzioni di Etsy (l'API non le mostra).",
     "Manda a Printify il messaggio per il certificato dei body 27a/27b (te l'ho scritto in chat).",
     "Dimmi se vuoi in vendita anche i 4 prodotti <b>in attesa</b> (08, 09, 10, 16)."
   ],
@@ -66,7 +64,8 @@
         "21c",
         "21d",
         "21e",
-        "21f"
+        "21f",
+        "22"
       ],
       "sotto": "Nelle schede doppie (USA + Europa) ogni versione dice se è in vendita."
     },
@@ -74,9 +73,7 @@
       "id": "pronti",
       "titolo": "Bozze pronte: da approvare",
       "tag": "wait",
-      "prodotti": [
-        "22"
-      ]
+      "prodotti": []
     },
     {
       "id": "dafare",

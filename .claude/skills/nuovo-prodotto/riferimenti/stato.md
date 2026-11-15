@@ -2,9 +2,9 @@
 
 Ultimo aggiornamento: 2026-11-15.
 
-## Online su Etsy (35 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
+## Online su Etsy (42 inserzioni, id in `inserzioni/*.json` → `etsy_listing_id`)
 - 14-15/11: libri da colorare 21-21f (Natale, pirati, dinosauri, spazio, mare, fiabe), USA, 19,90 € con
-  spedizione USA gratis.
+  spedizione USA gratis. 15/11: 7 PDF stampabili (22), tutto il mondo.
 - Prima release 01/11: 04 e 05 magliette (toddler + youth, USA), 06 e 07 body (EU), 12 e 13 tazze (EU),
   14 e 15 tote (EU).
 - Serie 2 (04/11): 17a/17c/17d berretti ricamati (USA+EU), 18a-d berretti cotone (USA), 19b-e sciarpe (USA),
@@ -66,8 +66,8 @@ Ultimo aggiornamento: 2026-11-15.
   - 22 PDF stampabili (tutto il mondo, Dario: "anche per l'America"): `libro_colorare.py pdf tutti ...` -> PDF Letter
     e A4 per libro (`stampa/<id>_2721/pdf/`) e raccolta dei 6 (`stampa/22_pdf/`); `pubblica_pdf.py` -> 7 bozze
     Etsy digitali (`inserzioni/22_<id>_pdf.json`, `22_tutti_pdf.json`), sezione "Printable Coloring Pages", foto
-    composte + schede `scheda_libro_pdf` / `scheda_libri_pdf`, art director PASS. Prezzi proposti 4,90 € e 14,90 €:
-    **attendono l'ok di Dario**, poi `python pubblica_pdf.py attiva 22_21 ... 22_tutti`.
+    composte + schede `scheda_libro_pdf` / `scheda_libri_pdf`, art director PASS. **Pubblicati il 15/11** con l'ok
+    di Dario: 4,90 € per libro, 14,90 € la raccolta (id in `inserzioni/22_*_pdf.json`).
   - 15/11 pulizia (ok di Dario): tolte pagine/_vecchie (83 file, 105 MB), stampa/libri_ciclo_log.txt, mockup per
     i video in foto_etsy.
   - Da decidere con Dario: sfondo castello+collina ripetuto in 21f (p02, 05, 13, 22, 24); stesso pesce in 21e
