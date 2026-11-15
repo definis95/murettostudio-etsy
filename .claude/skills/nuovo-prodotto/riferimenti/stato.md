@@ -67,7 +67,7 @@ Ultimo aggiornamento: 2026-11-15.
     e A4 per libro (`stampa/<id>_2721/pdf/`) e raccolta dei 6 (`stampa/22_pdf/`); `pubblica_pdf.py` -> 7 bozze
     Etsy digitali (`inserzioni/22_<id>_pdf.json`, `22_tutti_pdf.json`), sezione "Printable Coloring Pages", foto
     composte + schede `scheda_libro_pdf` / `scheda_libri_pdf`, art director PASS. **Pubblicati il 15/11** con l'ok
-    di Dario: 4,90 € per libro, 14,90 € la raccolta (id in `inserzioni/22_*_pdf.json`).
+    di Dario: 4,90 € per libro, 19,90 € la raccolta (prima 14,90, cambiato da Dario) (id in `inserzioni/22_*_pdf.json`).
   - 15/11 pulizia (ok di Dario): tolte pagine/_vecchie (83 file, 105 MB), stampa/libri_ciclo_log.txt, mockup per
     i video in foto_etsy.
   - Da decidere con Dario: sfondo castello+collina ripetuto in 21f (p02, 05, 13, 22, 24); stesso pesce in 21e

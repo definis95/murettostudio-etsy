@@ -144,7 +144,13 @@ def bozza(nome, shop_id, sezioni):
     lid = ins.get("etsy_listing_id")
     if lid:
         etsy.request("PATCH", f"/application/shops/{shop_id}/listings/{lid}",
-                     data=[(k, v) for k, v in dati.items() if k not in ("quantity", "type")] + tag)
+                     data=[(k, v) for k, v in dati.items() if k not in ("quantity", "type", "price")] + tag)
+        # su un'inserzione esistente il prezzo si cambia solo dall'inventario (il PATCH lo ignora)
+        inv = etsy.get(f"/application/listings/{lid}/inventory")
+        prodotti = [{"sku": p.get("sku") or "", "property_values": p.get("property_values", []),
+                     "offerings": [{"price": ins["prezzo"], "quantity": o["quantity"], "is_enabled": o["is_enabled"]}
+                                   for o in p["offerings"]]} for p in inv["products"]]
+        etsy.request("PUT", f"/application/listings/{lid}/inventory", json={"products": prodotti})
     else:
         r = etsy.request("POST", f"/application/shops/{shop_id}/listings", data=list(dati.items()) + tag)
         lid = ins["etsy_listing_id"] = r["listing_id"]
